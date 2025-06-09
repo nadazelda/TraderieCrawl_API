@@ -3,6 +3,7 @@ version: '3.8'
 services:
   fastapi:
     build: ./TraderieApi
+    image: traderie_api_img   # ✅ 이미지 이름 설정
     container_name: traderie_api_app
     ports:
       - "8000:8000"
@@ -10,9 +11,15 @@ services:
       - app-network
     volumes:
       - ./CrawlResult:/app/CrawlResult  # 공유 폴더
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   crawler:
     build: ./TraderieCrawler
+    image: traderie_crawler_img   # ✅ 이미지 이름 설정
     container_name: traderie_crawler_app
     ports:
       - "8001:8000"
@@ -22,7 +29,7 @@ services:
       - ./CrawlResult:/app/CrawlResult  # 공유 폴더
 
   cloudflared:
-    image: cloudflare/cloudflared:latest
+    image: cloudflare_img
     container_name: traderie_cloudflare
     restart: unless-stopped
     command: tunnel --url http://traderie_api_app:8000

@@ -1,4 +1,5 @@
-import uvicorn
+# run.py
+from app.main import run_all_crawlers
 
 if __name__ == "__main__":
-    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
+    run_all_crawlers()
