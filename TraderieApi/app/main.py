@@ -1,5 +1,5 @@
-from fastapi import APIRouter,HTTPException
-from fastapi.responses import JSONResponse,FastAPI
+from fastapi import APIRouter,HTTPException,FastAPI
+from fastapi.responses import JSONResponse
 from fastapi import Query  # 상단에 추가 필요
 import asyncio,logging,shutil,random
 
@@ -13,6 +13,7 @@ from youtube.CrawlYoutube import CrawlYoutube
 # ✅ FastAPI 앱 인스턴스 생성
 app = FastAPI()
 router = APIRouter()
+
 # 필터 정의
 class IgnorePingFilter(logging.Filter):
     def filter(self, record):
@@ -240,3 +241,5 @@ async def item_list(req: ItemListRequest):
             
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"파일 로드 실패: {e}")
+
+app.include_router(router)
