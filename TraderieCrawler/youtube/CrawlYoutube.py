@@ -51,6 +51,6 @@ class CrawlYoutube:
         print("총 영상 수:", len(videos))
         print("예시:", videos[:2])  # 일부 출력 확인
 
-        with open("routes/youtube_videos.json", "w", encoding="utf-8") as f:
+        with open("crawlResult/youtube_videos.json", "w", encoding="utf-8") as f:
             json.dump(videos, f, ensure_ascii=False, indent=2)
 

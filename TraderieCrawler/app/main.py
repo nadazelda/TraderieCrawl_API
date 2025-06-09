@@ -8,7 +8,7 @@ from crawler.CrawlResult import CrawlerResult
 from crawler.TraRunWordsCrawl import TraRunWordsCrawl
 from crawler.ItemNameRunWords import ItemNameRunWords
 from crawler.CrawlResultRunWords import CrawlResultRunWords
-
+from youtube.CrawlYoutube import CrawlYoutube
 import shutil, os
 
 def finalize_crawl_result():
@@ -43,6 +43,8 @@ def run_all_crawlers():
         TraRunWordsCrawl()
         ItemNameRunWords()
         CrawlResultRunWords()
+         print("▶ 유투브 관련 수집")
+        CrawlYoutube()
 
         finalize_crawl_result()
     except Exception as e:

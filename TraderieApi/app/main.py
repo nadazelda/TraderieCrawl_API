@@ -157,9 +157,8 @@ async def select_categories(
 
 @router.get("/ItemKinds")
 async def item_kinds():
-    # ✅ 첫 로딩시 유투브 데이터 확인 
-    CrawlYoutube()
-    with open("routes/youtube_videos.json", "r", encoding="utf-8") as f:
+
+    with open("CrawlResult/youtube_videos.json", "r", encoding="utf-8") as f:
         videos = json.load(f)
 
     if videos:
