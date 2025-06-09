@@ -17,7 +17,7 @@ class ItemNameRunWords:
 
         # unique_dia와 tra_kor_df 병합 (id와 korName 연결된 컬럼명 확인 필요)
         # tra_kor_df에 'id' 컬럼이 없으면 매칭 키를 맞춰서 수정하세요.
-        merged_df = pd.merge(unique_dia, tra_kor_df[['traderieCode', 'korName']],
+        merged_df = pd.merge(unique_dia, tra_kor_df[['traderieCode', 'korName','min-max-filter']],
                              left_on='id', right_on='traderieCode', how='left')
 
 

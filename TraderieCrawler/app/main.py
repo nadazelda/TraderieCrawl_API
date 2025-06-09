@@ -20,27 +20,30 @@ def finalize_crawl_result():
     print("✅ 크롤링 결과가 공유 폴더로 복사되었습니다.")
 
 def run_all_crawlers():
-    print("▶ 옵션 크롤 시작")
-    TraOptionCrawl("", "")
+    try:
+        print("▶ 옵션 크롤 시작")
+        TraOptionCrawl("", "")
 
-    print("▶ 유니크 아이템 크롤 시작")
-    TraUniqueCrawl("", "")
+        print("▶ 유니크 아이템 크롤 시작")
+        TraUniqueCrawl("", "")
 
-    print("▶ 일반 아이템 크롤 시작")
-    TraBaseItemCrawl("", "")
+        print("▶ 일반 아이템 크롤 시작")
+        TraBaseItemCrawl("", "")
 
-    print("▶ 아이템 이름 매핑")
-    ItemName()
+        print("▶ 아이템 이름 매핑")
+        ItemName()
 
-    print("▶ 옵션 한글 매핑")
-    ItemOption()
+        print("▶ 옵션 한글 매핑")
+        ItemOption()
 
-    print("▶ 유니크 옵션 ID/한글 매핑")
-    CrawlerResult()
+        print("▶ 유니크 옵션 ID/한글 매핑")
+        CrawlerResult()
 
-    print("▶ 룬워드 관련 수집")
-    TraRunWordsCrawl()
-    ItemNameRunWords()
-    CrawlResultRunWords()
+        print("▶ 룬워드 관련 수집")
+        TraRunWordsCrawl()
+        ItemNameRunWords()
+        CrawlResultRunWords()
 
-    finalize_crawl_result()
+        finalize_crawl_result()
+    except Exception as e:
+        print(f"❌ 크롤러 오류: {e}") 
