@@ -29,7 +29,7 @@ services:
       - ./CrawlResult:/app/CrawlResult  # 공유 폴더
 
   cloudflared:
-    image: cloudflare_img
+    image: cloudflare/cloudflared:latest
     container_name: traderie_cloudflare
     restart: unless-stopped
     command: tunnel --url http://traderie_api_app:8000
