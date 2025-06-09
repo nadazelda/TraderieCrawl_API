@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build: ./TraderieApi
+    container_name: traderie_api_app
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+    volumes:
+      - ./CrawlResult:/app/CrawlResult  # 공유 폴더
+
+  crawler:
+    build: ./TraderieCrawler
+    container_name: traderie_crawler_app
+    ports:
+      - "8001:8000"
+    networks:
+      - app-network
+    volumes:
+      - ./CrawlResult:/app/CrawlResult  # 공유 폴더
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: traderie_cloudflare
+    restart: unless-stopped
+    command: tunnel --url http://traderie_api_app:8000
+    depends_on:
+      fastapi:
+        condition: service_healthy
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge

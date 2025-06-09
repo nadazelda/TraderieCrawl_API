@@ -1,0 +1,66 @@
+[
+  {
+    "enUS":"Ethereal",
+    "koKR":"에테리얼"
+  },
+  {
+    "enUS":"Mode",
+    "koKR":"하코/소코"
+  },
+  {
+    "enUS":"Ladder",
+    "koKR":"스탠/래더"
+  },{
+    "enUS":"Sorceress Only",
+    "koKR":"소서리스전용"
+  },{
+    "enUS":"Assassin Only",
+    "koKR":"어쌔신전용"
+  },{
+    "enUS":"Druid Only",
+    "koKR":"드루이드전용"
+  },{
+    "enUS":"Barbarian Only",
+    "koKR":"바바리안전용"
+  },{
+    "enUS":"Amazon Only",
+    "koKR":"아마존전용"
+  },{
+    "enUS":"Paladin Only",
+    "koKR":"성기사전용"
+  },{
+    "enUS":"Necromancer Only",
+    "koKR":"네크로맨서전용"
+  },{
+    "enUS":"Socketed",
+    "koKR":"소켓수"
+  },{
+    "enUS":"Sockeds",
+    "koKR":"소켓작업된"
+  },{
+    "enUS":"Sorceress",
+    "koKR":"소서리스"
+  },{
+    "enUS":"Assassin",
+    "koKR":"암살자"
+  },{
+    "enUS":"Druid",
+    "koKR":"드루이드"
+  },{
+    "enUS":"Barbarian",
+    "koKR":"바바리안"
+  },{
+    "enUS":"Amazon",
+    "koKR":"아마존"
+  },{
+    "enUS":"Paladin",
+    "koKR":"성기사"
+  },{
+    "enUS":"Necromancer",
+    "koKR":"네크로맨서"
+  }
+
+
+
+  
+]

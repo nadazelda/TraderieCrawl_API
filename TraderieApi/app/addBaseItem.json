@@ -1,0 +1,19 @@
+[
+  {
+    "id": "2390453209",
+    "ctg": "ring",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/ring/ring1.png",
+    "name": "Ring",
+    "korName": "반지",
+    "max_sockets":"0"
+  },{
+  
+    "id": "3209126938",
+    "ctg": "amulet",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/amulet/amulet1.png",
+    "name": "amulet",
+    "korName": "목걸이",
+    "max_sockets":"0"
+  
+  }
+]

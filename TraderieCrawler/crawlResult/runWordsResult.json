@@ -1,0 +1,2861 @@
+[
+  {
+    "id": 3908837840,
+    "name": "Ancients' Pledge",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/ancients_pledge.png",
+    "type": [
+      {
+        "kor": "쉴드",
+        "group": "etc",
+        "eng": "Shield"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "고대인의서약",
+    "description_filtered": []
+  },
+  {
+    "id": 3385933447,
+    "name": "Chains of Honor",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/chains_of_honor.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": null,
+    "korName": "명예의굴레(명굴)",
+    "description_filtered": []
+  },
+  {
+    "id": 3368308630,
+    "name": "Delirium",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/delerium.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "착란",
+    "description_filtered": []
+  },
+  {
+    "id": 2218687720,
+    "name": "Enlightenment",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/enlightenment.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "깨우침",
+    "description_filtered": []
+  },
+  {
+    "id": 3490200463,
+    "name": "Fury",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/fury.png",
+    "type": [
+      {
+        "kor": "Melee",
+        "group": "Melee",
+        "eng": "Melee"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "분노",
+    "description_filtered": []
+  },
+  {
+    "id": 2979471591,
+    "name": "Honor",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/honor.png",
+    "type": [
+      {
+        "kor": "Melee",
+        "group": "Melee",
+        "eng": "Melee"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "명예",
+    "description_filtered": []
+  },
+  {
+    "id": 3912241053,
+    "name": "Hustle (Armor)",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/hustle.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "투지(갑옷)",
+    "description_filtered": []
+  },
+  {
+    "id": 2455717479,
+    "name": "Lionheart",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/lionheart.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "용맹",
+    "description_filtered": []
+  },
+  {
+    "id": 2209115565,
+    "name": "Lore",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/lore.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "전승",
+    "description_filtered": []
+  },
+  {
+    "id": 4074840200,
+    "name": "Malice",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/malice.png",
+    "type": [
+      {
+        "kor": "Melee",
+        "group": "Melee",
+        "eng": "Melee"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "악의",
+    "description_filtered": []
+  },
+  {
+    "id": 4075954085,
+    "name": "Melody",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/melody.png",
+    "type": [
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      },
+      {
+        "kor": "Crossbow",
+        "group": "Crossbow",
+        "eng": "Crossbow"
+      },
+      {
+        "kor": "Ranged",
+        "group": "Ranged",
+        "eng": "Ranged"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "선율",
+    "description_filtered": []
+  },
+  {
+    "id": 3824179300,
+    "name": "Memory",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/memory.png",
+    "type": [
+      {
+        "kor": "Stave",
+        "group": "Stave",
+        "eng": "Stave"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "기억",
+    "description_filtered": []
+  },
+  {
+    "id": 3449189353,
+    "name": "Myth",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/myth.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "신화",
+    "description_filtered": []
+  },
+  {
+    "id": 3516094811,
+    "name": "Nadir",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/nadir.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "구렁텅이",
+    "description_filtered": []
+  },
+  {
+    "id": 2771325093,
+    "name": "Obsession",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/obsession.png",
+    "type": [
+      {
+        "kor": "Stave",
+        "group": "Stave",
+        "eng": "Stave"
+      }
+    ],
+    "sockets": 6.0,
+    "korName": "집착",
+    "description_filtered": [
+      {
+        "min": 15,
+        "max": 25,
+        "property": "(Varies)",
+        "property_id": null,
+        "property_kor": null
+      },
+      {
+        "min": 60,
+        "max": 70,
+        "property": "(Varies)",
+        "property_id": null,
+        "property_kor": null
+      }
+    ]
+  },
+  {
+    "id": 4238703010,
+    "name": "Peace",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/peace.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "평화",
+    "description_filtered": []
+  },
+  {
+    "id": 3250339330,
+    "name": "Radiance",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/radiance.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "광휘",
+    "description_filtered": []
+  },
+  {
+    "id": 3104530004,
+    "name": "Rhyme",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/rhyme.png",
+    "type": [
+      {
+        "kor": "쉴드",
+        "group": "etc",
+        "eng": "Shield"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "각운",
+    "description_filtered": []
+  },
+  {
+    "id": 2590924062,
+    "name": "Silence",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/silence.png",
+    "type": [
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": 6.0,
+    "korName": "침묵",
+    "description_filtered": []
+  },
+  {
+    "id": 3229615258,
+    "name": "Smoke",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/smoke.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "연기",
+    "description_filtered": []
+  },
+  {
+    "id": 2379502105,
+    "name": "Stealth",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/stealth.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "잠행",
+    "description_filtered": []
+  },
+  {
+    "id": 3110603193,
+    "name": "Steel",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/steel.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "메이스",
+        "group": "etc",
+        "eng": "Mace"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "강철",
+    "description_filtered": []
+  },
+  {
+    "id": 4066132501,
+    "name": "Strength",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/strength.png",
+    "type": [
+      {
+        "kor": "Melee",
+        "group": "Melee",
+        "eng": "Melee"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "강함",
+    "description_filtered": []
+  },
+  {
+    "id": 3765770868,
+    "name": "Treachery",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/treachery.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "배신",
+    "description_filtered": []
+  },
+  {
+    "id": 4059063280,
+    "name": "Venom",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/venom.png",
+    "type": [
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "맹독",
+    "description_filtered": []
+  },
+  {
+    "id": 3209908061,
+    "name": "Wealth",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/wealth.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "부",
+    "description_filtered": []
+  },
+  {
+    "id": 2941072295,
+    "name": "White",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/white.png",
+    "type": [
+      {
+        "kor": "원드",
+        "group": "etc",
+        "eng": "Wand"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "순백",
+    "description_filtered": []
+  },
+  {
+    "id": 3819728147,
+    "name": "Black",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/black.png",
+    "type": [
+      {
+        "kor": "클럽",
+        "group": "etc",
+        "eng": "Club"
+      },
+      {
+        "kor": "메이스",
+        "group": "etc",
+        "eng": "Mace"
+      },
+      {
+        "kor": "마울",
+        "group": "weapon",
+        "eng": "Hammer"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "어둠",
+    "description_filtered": [
+      {
+        "min": 3,
+        "max": 14,
+        "property": "Cold Damage for 3 seconds",
+        "property_id": 518,
+        "property_kor": "+독피해에걸쳐초"
+      }
+    ]
+  },
+  {
+    "id": 3193580456,
+    "name": "Wisdom",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/wisdom.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "지혜",
+    "description_filtered": [
+      {
+        "min": 15,
+        "max": 25,
+        "property": "Bonus to Attack Rating (Varies)",
+        "property_id": 424,
+        "property_kor": "Bonusto명중률"
+      },
+      {
+        "min": 4,
+        "max": 8,
+        "property": "Mana Stolen Per Hit (Varies)",
+        "property_id": 463,
+        "property_kor": "적중당마나훔침"
+      }
+    ]
+  },
+  {
+    "id": 2435457251,
+    "name": "Fortitude",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/fortitude.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      },
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "인내",
+    "description_filtered": [
+      {
+        "min": 25,
+        "max": 30,
+        "property": "All Resistances",
+        "property_id": 441,
+        "property_kor": "toAll저항ances"
+      }
+    ]
+  },
+  {
+    "id": 2722520352,
+    "name": "Heart of the Oak",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/heart_of_the_oak.png",
+    "type": [
+      {
+        "kor": "메이스",
+        "group": "etc",
+        "eng": "Mace"
+      },
+      {
+        "kor": "Stave",
+        "group": "Stave",
+        "eng": "Stave"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "참나무의심장(오심)",
+    "description_filtered": [
+      {
+        "min": 30,
+        "max": 40,
+        "property": "All Resistances",
+        "property_id": 441,
+        "property_kor": "toAll저항ances"
+      }
+    ]
+  },
+  {
+    "id": 2773029390,
+    "name": "Principle",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/principle.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "원칙",
+    "description_filtered": [
+      {
+        "min": 100,
+        "max": 150,
+        "property": "To Life",
+        "property_id": 418,
+        "property_kor": "to생명력"
+      }
+    ]
+  },
+  {
+    "id": 2364875817,
+    "name": "Beast",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/beast.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "셉터",
+        "group": "weapon",
+        "eng": "Scepter"
+      },
+      {
+        "kor": "마울",
+        "group": "weapon",
+        "eng": "Hammer"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "야수",
+    "description_filtered": [
+      {
+        "min": 240,
+        "max": 270,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 25,
+        "max": 40,
+        "property": "To Strength",
+        "property_id": 437,
+        "property_kor": "힘"
+      }
+    ]
+  },
+  {
+    "id": 3016236627,
+    "name": "Brand",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/brand.png",
+    "type": [
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      },
+      {
+        "kor": "Crossbow",
+        "group": "Crossbow",
+        "eng": "Crossbow"
+      },
+      {
+        "kor": "Ranged",
+        "group": "Ranged",
+        "eng": "Ranged"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "낙인",
+    "description_filtered": [
+      {
+        "min": 260,
+        "max": 340,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 280,
+        "max": 330,
+        "property": "Damage To Demons",
+        "property_id": 513,
+        "property_kor": "공격력toDemons"
+      }
+    ]
+  },
+  {
+    "id": 2448974169,
+    "name": "Breath of the Dying",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/breath_of_the_dying.png",
+    "type": [
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": null,
+    "korName": "죽어가는자의숨결(죽숨)",
+    "description_filtered": [
+      {
+        "min": 350,
+        "max": 400,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 12,
+        "max": 15,
+        "property": "Life Stolen per Hit",
+        "property_id": 462,
+        "property_kor": "적중당마나훔침"
+      }
+    ]
+  },
+  {
+    "id": 2323188615,
+    "name": "Call to Arms",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/call_to_arms.png",
+    "type": [
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "소집",
+    "description_filtered": [
+      {
+        "min": 250,
+        "max": 290,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 5,
+        "max": 30,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 2,
+        "max": 6,
+        "property": "To Battle Command",
+        "property_id": 1201,
+        "property_kor": "to전투명령(AnyClass)"
+      },
+      {
+        "min": 1,
+        "max": 6,
+        "property": "To Battle Orders",
+        "property_id": 1203,
+        "property_kor": "to전투지시(AnyClass)"
+      },
+      {
+        "min": 1,
+        "max": 4,
+        "property": "To Battle Cry",
+        "property_id": 1202,
+        "property_kor": "to전투의함성(AnyClass)"
+      }
+    ]
+  },
+  {
+    "id": 4012582858,
+    "name": "Chaos",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/chaos.png",
+    "type": [
+      {
+        "kor": "Assassin Claw",
+        "group": "Assassin Claw",
+        "eng": "Assassin Claw"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "혼돈",
+    "description_filtered": [
+      {
+        "min": 290,
+        "max": 340,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 216,
+        "max": 471,
+        "property": "Magic Damage",
+        "property_id": 654,
+        "property_kor": "마법피해"
+      }
+    ]
+  },
+  {
+    "id": 954013925,
+    "name": "Crescent Moon",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/crescent_moon.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      },
+      {
+        "kor": "싸이드",
+        "group": "etc",
+        "eng": "Polearm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "초승달",
+    "description_filtered": [
+      {
+        "min": 180,
+        "max": 220,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 9,
+        "max": 11,
+        "property": "Magic Absorb",
+        "property_id": 818,
+        "property_kor": "마법흡수"
+      }
+    ]
+  },
+  {
+    "id": 3840874018,
+    "name": "Death",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/death.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "죽음",
+    "description_filtered": [
+      {
+        "min": 300,
+        "max": 385,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 1,
+        "max": 50,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      }
+    ]
+  },
+  {
+    "id": 4194200311,
+    "name": "Doom",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/doom.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "마울",
+        "group": "weapon",
+        "eng": "Hammer"
+      },
+      {
+        "kor": "싸이드",
+        "group": "etc",
+        "eng": "Polearm"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "파멸",
+    "description_filtered": [
+      {
+        "min": 330,
+        "max": 370,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 40,
+        "max": 60,
+        "property": "To Enemy Cold Resist",
+        "property_id": 609,
+        "property_kor": "적의냉기저항-"
+      }
+    ]
+  },
+  {
+    "id": 2281267183,
+    "name": "Duress",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/duress.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": null,
+    "korName": "협박",
+    "description_filtered": [
+      {
+        "min": 10,
+        "max": 20,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 150,
+        "max": 200,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      }
+    ]
+  },
+  {
+    "id": 4205149908,
+    "name": "Eternity",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/eternity.png",
+    "type": [
+      {
+        "kor": "Melee",
+        "group": "Melee",
+        "eng": "Melee"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "영원",
+    "description_filtered": [
+      {
+        "min": 260,
+        "max": 310,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      }
+    ]
+  },
+  {
+    "id": 3070973153,
+    "name": "Famine",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/famine.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "마울",
+        "group": "weapon",
+        "eng": "Hammer"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "기근",
+    "description_filtered": [
+      {
+        "min": 320,
+        "max": 370,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 180,
+        "max": 200,
+        "property": "Magic Damage",
+        "property_id": 654,
+        "property_kor": "마법피해"
+      },
+      {
+        "min": 50,
+        "max": 200,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 51,
+        "max": 250,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      },
+      {
+        "min": 50,
+        "max": 200,
+        "property": "Cold Damage",
+        "property_id": 548,
+        "property_kor": "냉기피해"
+      }
+    ]
+  },
+  {
+    "id": 4017881382,
+    "name": "Hand of Justice",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/hand_of_justice.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      },
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "",
+    "description_filtered": [
+      {
+        "min": 280,
+        "max": 330,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      }
+    ]
+  },
+  {
+    "id": 2814586303,
+    "name": "Harmony",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/harmony.png",
+    "type": [
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      },
+      {
+        "kor": "Crossbow",
+        "group": "Crossbow",
+        "eng": "Crossbow"
+      },
+      {
+        "kor": "Ranged",
+        "group": "Ranged",
+        "eng": "Ranged"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "조화",
+    "description_filtered": [
+      {
+        "min": 200,
+        "max": 275,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 55,
+        "max": 160,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      },
+      {
+        "min": 55,
+        "max": 160,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 55,
+        "max": 160,
+        "property": "Cold Damage",
+        "property_id": 548,
+        "property_kor": "냉기피해"
+      },
+      {
+        "min": 2,
+        "max": 6,
+        "property": "To Valkyrie",
+        "property_id": null,
+        "property_kor": null
+      }
+    ]
+  },
+  {
+    "id": 3062130051,
+    "name": "Hustle (Weapon)",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/hustle.png",
+    "type": [
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "투지(무기)",
+    "description_filtered": [
+      {
+        "min": 180,
+        "max": 200,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      }
+    ]
+  },
+  {
+    "id": 2490200098,
+    "name": "Ice",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/ice.png",
+    "type": [
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      },
+      {
+        "kor": "Crossbow",
+        "group": "Crossbow",
+        "eng": "Crossbow"
+      },
+      {
+        "kor": "Ranged",
+        "group": "Ranged",
+        "eng": "Ranged"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "얼음",
+    "description_filtered": [
+      {
+        "min": 140,
+        "max": 210,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "property": "To Cold Skill Damage",
+        "property_id": 747,
+        "property_kor": "냉기기술"
+      }
+    ]
+  },
+  {
+    "id": 4155198360,
+    "name": "Infinity",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/infinity.png",
+    "type": [
+      {
+        "kor": "스피어",
+        "group": "weapon",
+        "eng": "Spear"
+      },
+      {
+        "kor": "싸이드",
+        "group": "etc",
+        "eng": "Polearm"
+      },
+      {
+        "kor": "Amazon Spear",
+        "group": "Amazon Spear",
+        "eng": "Amazon Spear"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "무한",
+    "description_filtered": [
+      {
+        "min": 255,
+        "max": 325,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 45,
+        "max": 55,
+        "property": "To Enemy Lightning Resist",
+        "property_id": 736,
+        "property_kor": "toEnemy번개저항ance"
+      }
+    ]
+  },
+  {
+    "id": 3753597518,
+    "name": "Kingslayer",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/kingslayer.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "왕시해자",
+    "description_filtered": [
+      {
+        "min": 230,
+        "max": 270,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      }
+    ]
+  },
+  {
+    "id": 3400546348,
+    "name": "Last Wish",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/last_wish.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "마울",
+        "group": "weapon",
+        "eng": "Hammer"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 6.0,
+    "korName": "마지막소원(마소)",
+    "description_filtered": [
+      {
+        "min": 330,
+        "max": 375,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 60,
+        "max": 70,
+        "property": "Chance of Crushing Blow",
+        "property_id": 567,
+        "property_kor": "Chanceof강한타격"
+      }
+    ]
+  },
+  {
+    "id": 3813699743,
+    "name": "Mosaic",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/mosaic.png",
+    "type": [
+      {
+        "kor": "Claw",
+        "group": "Claw",
+        "eng": "Claw"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "모자이크",
+    "description_filtered": [
+      {
+        "min": 200,
+        "max": 250,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 8,
+        "max": 15,
+        "property": "to Fire Skill Damage",
+        "property_id": 750,
+        "property_kor": "화염기술"
+      },
+      {
+        "min": 8,
+        "max": 15,
+        "property": "to Cold Skill Damage",
+        "property_id": 747,
+        "property_kor": "냉기기술"
+      },
+      {
+        "min": 8,
+        "max": 15,
+        "property": "to Lightning Skill Damage",
+        "property_id": 743,
+        "property_kor": "to번개Skill공격력"
+      }
+    ]
+  },
+  {
+    "id": 3343671684,
+    "name": "Oath",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/oath.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "메이스",
+        "group": "etc",
+        "eng": "Mace"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "서약",
+    "description_filtered": [
+      {
+        "min": 210,
+        "max": 340,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 10,
+        "max": 15,
+        "property": "Magic Absorb",
+        "property_id": 818,
+        "property_kor": "마법흡수"
+      }
+    ]
+  },
+  {
+    "id": 3436543478,
+    "name": "Passion",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/passion.png",
+    "type": [
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "열정",
+    "description_filtered": [
+      {
+        "min": 160,
+        "max": 210,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 50,
+        "max": 80,
+        "property": "Bonus To Attack Rating",
+        "property_id": 424,
+        "property_kor": "Bonusto명중률"
+      },
+      {
+        "min": 1,
+        "max": 50,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      }
+    ]
+  },
+  {
+    "id": 4086849218,
+    "name": "Pattern",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/pattern.png",
+    "type": [
+      {
+        "kor": "Assassin Claw",
+        "group": "Assassin Claw",
+        "eng": "Assassin Claw"
+      }
+    ],
+    "sockets": null,
+    "korName": "귀감",
+    "description_filtered": [
+      {
+        "min": 40,
+        "max": 80,
+        "property": "Enhanced Damage (Varies)",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 17,
+        "max": 62,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 1,
+        "max": 50,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      },
+      {
+        "min": 3,
+        "max": 14,
+        "property": "Cold Damage",
+        "property_id": 548,
+        "property_kor": "냉기피해"
+      }
+    ]
+  },
+  {
+    "id": 2197492014,
+    "name": "Wind",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/wind.png",
+    "type": [
+      {
+        "kor": "Melee",
+        "group": "Melee",
+        "eng": "Melee"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "바람",
+    "description_filtered": [
+      {
+        "min": 120,
+        "max": 160,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      }
+    ]
+  },
+  {
+    "id": 3276298517,
+    "name": "Cure",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/cure.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "치료",
+    "description_filtered": [
+      {
+        "min": 75,
+        "max": 100,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      },
+      {
+        "min": 40,
+        "max": 60,
+        "property": "Poison Resist",
+        "property_id": 401,
+        "property_kor": "Poison저항"
+      }
+    ]
+  },
+  {
+    "id": 4285012121,
+    "name": "Gloom",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/gloom.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "어스름",
+    "description_filtered": [
+      {
+        "min": 200,
+        "max": 260,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      }
+    ]
+  },
+  {
+    "id": 3782113433,
+    "name": "Ground",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/ground.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "접지",
+    "description_filtered": [
+      {
+        "min": 75,
+        "max": 100,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      },
+      {
+        "min": 40,
+        "max": 60,
+        "property": "Lightning Resist",
+        "property_id": 428,
+        "property_kor": "번개저항"
+      },
+      {
+        "min": 10,
+        "max": 15,
+        "property": "Lightning Absorb",
+        "property_id": 689,
+        "property_kor": "번개Absorb"
+      }
+    ]
+  },
+  {
+    "id": 2461085789,
+    "name": "Hearth",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/hearth.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "화로",
+    "description_filtered": [
+      {
+        "min": 75,
+        "max": 100,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      },
+      {
+        "min": 40,
+        "max": 60,
+        "property": "Cold Resist",
+        "property_id": 426,
+        "property_kor": "Col저항"
+      },
+      {
+        "min": 10,
+        "max": 15,
+        "property": "Cold Absorb",
+        "property_id": 702,
+        "property_kor": "냉기흡수"
+      }
+    ]
+  },
+  {
+    "id": 3829221492,
+    "name": "Metamorphosis",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/metamorphosis.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "탈태",
+    "description_filtered": [
+      {
+        "min": 50,
+        "max": 80,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      }
+    ]
+  },
+  {
+    "id": 3178447042,
+    "name": "Prudence",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/prudence.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": null,
+    "korName": "신중",
+    "description_filtered": [
+      {
+        "min": 140,
+        "max": 170,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      },
+      {
+        "min": 25,
+        "max": 35,
+        "property": "All Resistances",
+        "property_id": 441,
+        "property_kor": "toAll저항ances"
+      }
+    ]
+  },
+  {
+    "id": 2856481773,
+    "name": "Sanctuary",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/sanctuary.png",
+    "type": [
+      {
+        "kor": "쉴드",
+        "group": "etc",
+        "eng": "Shield"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "성역",
+    "description_filtered": [
+      {
+        "min": 130,
+        "max": 160,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      },
+      {
+        "min": 50,
+        "max": 70,
+        "property": "All Resistances",
+        "property_id": 441,
+        "property_kor": "toAll저항ances"
+      }
+    ]
+  },
+  {
+    "id": 3550826842,
+    "name": "Splendor",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/splendor.png",
+    "type": [
+      {
+        "kor": "쉴드",
+        "group": "etc",
+        "eng": "Shield"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "광채",
+    "description_filtered": [
+      {
+        "min": 60,
+        "max": 100,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      }
+    ]
+  },
+  {
+    "id": 2781950288,
+    "name": "Stone",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/stone.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "돌",
+    "description_filtered": [
+      {
+        "min": 250,
+        "max": 290,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      }
+    ]
+  },
+  {
+    "id": 2495623478,
+    "name": "Temper",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/temper.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "담금질",
+    "description_filtered": [
+      {
+        "min": 75,
+        "max": 100,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      },
+      {
+        "min": 40,
+        "max": 60,
+        "property": "Fire Resist",
+        "property_id": 427,
+        "property_kor": "Fire저항"
+      },
+      {
+        "min": 10,
+        "max": 15,
+        "property": "Fire Absorb",
+        "property_id": 659,
+        "property_kor": "화염흡수"
+      }
+    ]
+  },
+  {
+    "id": 3733854279,
+    "name": "Edge",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/edge.png",
+    "type": [
+      {
+        "kor": "Ranged",
+        "group": "Ranged",
+        "eng": "Ranged"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "모서리",
+    "description_filtered": [
+      {
+        "min": 320,
+        "max": 380,
+        "property": "Damage To Demons",
+        "property_id": 513,
+        "property_kor": "공격력toDemons"
+      },
+      {
+        "min": 5,
+        "max": 10,
+        "property": "To All Attributes",
+        "property_id": 727,
+        "property_kor": "모든능력치"
+      }
+    ]
+  },
+  {
+    "id": 3352234063,
+    "name": "Voice of Reason",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/voice_of_reason.png",
+    "type": [
+      {
+        "kor": "메이스",
+        "group": "etc",
+        "eng": "Mace"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "목소리의이유",
+    "description_filtered": [
+      {
+        "min": 220,
+        "max": 350,
+        "property": "Damage To Demons",
+        "property_id": 513,
+        "property_kor": "공격력toDemons"
+      },
+      {
+        "min": 355,
+        "max": 375,
+        "property": "Damage To Undead",
+        "property_id": 538,
+        "property_kor": "언데드에게주는피해"
+      },
+      {
+        "min": 100,
+        "max": 220,
+        "property": "Cold Damage",
+        "property_id": 548,
+        "property_kor": "냉기피해"
+      }
+    ]
+  },
+  {
+    "id": 3767021069,
+    "name": "Bramble",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/bramble.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "찔레",
+    "description_filtered": [
+      {
+        "min": 15,
+        "max": 21,
+        "property": "Thorns Aura When Equipped",
+        "property_id": 810,
+        "property_kor": "레벨_가시오라장착시"
+      },
+      {
+        "min": 25,
+        "max": 50,
+        "property": "To Poison Skill Damage",
+        "property_id": 783,
+        "property_kor": "독기술피해"
+      }
+    ]
+  },
+  {
+    "id": 3001704624,
+    "name": "Faith",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/faith.png",
+    "type": [
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      },
+      {
+        "kor": "Crossbow",
+        "group": "Crossbow",
+        "eng": "Crossbow"
+      },
+      {
+        "kor": "Ranged",
+        "group": "Ranged",
+        "eng": "Ranged"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "신념",
+    "description_filtered": [
+      {
+        "min": 12,
+        "max": 15,
+        "property": "Fanaticism Aura When Equipped",
+        "property_id": 803,
+        "property_kor": "레벨_광신오라장착시"
+      },
+      {
+        "min": 1,
+        "max": 2,
+        "property": "To All Skills",
+        "property_id": 587,
+        "property_kor": "모든기술"
+      }
+    ]
+  },
+  {
+    "id": 2542550690,
+    "name": "Insight",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/insight.png",
+    "type": [
+      {
+        "kor": "싸이드",
+        "group": "etc",
+        "eng": "Polearm"
+      },
+      {
+        "kor": "Stave",
+        "group": "Stave",
+        "eng": "Stave"
+      },
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "통찰",
+    "description_filtered": [
+      {
+        "min": 12,
+        "max": 17,
+        "property": "Meditation Aura When Equipped",
+        "property_id": 859,
+        "property_kor": "레벨_명상오라장착시"
+      },
+      {
+        "min": 200,
+        "max": 260,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 180,
+        "max": 250,
+        "property": "Bonus to Attack Rating",
+        "property_id": 424,
+        "property_kor": "Bonusto명중률"
+      },
+      {
+        "min": 5,
+        "max": 30,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 1,
+        "max": 6,
+        "property": "To Critical Strike",
+        "property_id": 1210,
+        "property_kor": "to치명타(AnyClass)"
+      }
+    ]
+  },
+  {
+    "id": 3927927332,
+    "name": "Lawbringer",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/lawbringer.png",
+    "type": [
+      {
+        "kor": "셉터",
+        "group": "weapon",
+        "eng": "Scepter"
+      },
+      {
+        "kor": "마울",
+        "group": "weapon",
+        "eng": "Hammer"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "집행자",
+    "description_filtered": [
+      {
+        "min": 16,
+        "max": 18,
+        "property": "Sanctuary Aura When Equipped",
+        "property_id": 726,
+        "property_kor": "레벨_성역오라장착시"
+      },
+      {
+        "min": 150,
+        "max": 210,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 130,
+        "max": 180,
+        "property": "Cold Damage",
+        "property_id": 548,
+        "property_kor": "냉기피해"
+      },
+      {
+        "min": 200,
+        "max": 250,
+        "property": "Defense Vs. Missile",
+        "property_id": 612,
+        "property_kor": "방어력vs.Missile"
+      }
+    ]
+  },
+  {
+    "id": 4124397285,
+    "name": "Phoenix",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/phoenix.png",
+    "type": [
+      {
+        "kor": "쉴드",
+        "group": "etc",
+        "eng": "Shield"
+      },
+      {
+        "kor": "Weapon",
+        "group": "Weapon",
+        "eng": "Weapon"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "불사조",
+    "description_filtered": [
+      {
+        "min": 10,
+        "max": 15,
+        "property": "Redemption Aura When Equipped",
+        "property_id": 880,
+        "property_kor": "레벨_속죄오라장착시"
+      },
+      {
+        "min": 350,
+        "max": 400,
+        "property": "Enhanced Damage (Varies)",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 350,
+        "max": 400,
+        "property": "Defense Vs. Missile",
+        "property_id": 612,
+        "property_kor": "방어력vs.Missile"
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "property": "Fire Absorb (Varies)",
+        "property_id": 659,
+        "property_kor": "화염흡수"
+      }
+    ]
+  },
+  {
+    "id": 3259904432,
+    "name": "Flickering Flame",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/flickering_flame.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "꺼져가는불길(꺼불)",
+    "description_filtered": [
+      {
+        "min": 4,
+        "max": 8,
+        "property": "Resist Fire Aura When Equipped (Varies)",
+        "property_id": 831,
+        "property_kor": "레벨_신성한불꽃오라장착시"
+      },
+      {
+        "min": 10,
+        "max": 15,
+        "property": "To Enemy Fire Resistance (Varies)",
+        "property_id": 735,
+        "property_kor": "적의화염저항-"
+      },
+      {
+        "min": 3,
+        "max": 14,
+        "property": "Cold Damage",
+        "property_id": 548,
+        "property_kor": "냉기피해"
+      },
+      {
+        "min": 50,
+        "max": 75,
+        "property": "To Mana (Varies)",
+        "property_id": null,
+        "property_kor": null
+      }
+    ]
+  },
+  {
+    "id": 3509804989,
+    "name": "Exile",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/exile.png",
+    "type": [
+      {
+        "kor": "Paladin Shield",
+        "group": "Paladin Shield",
+        "eng": "Paladin Shield"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "추방",
+    "description_filtered": [
+      {
+        "min": 13,
+        "max": 16,
+        "property": "Defiance Aura When Equipped",
+        "property_id": 839,
+        "property_kor": "레벨_인내오라장착시"
+      },
+      {
+        "min": 220,
+        "max": 260,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      }
+    ]
+  },
+  {
+    "id": 2213836276,
+    "name": "Plague",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/plague.png",
+    "type": [
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      },
+      {
+        "kor": "Assassin Claw",
+        "group": "Assassin Claw",
+        "eng": "Assassin Claw"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "역병",
+    "description_filtered": [
+      {
+        "min": 13,
+        "max": 17,
+        "property": "Cleansing Aura when Equipped (Varies)",
+        "property_id": 1260,
+        "property_kor": "레벨_정화오라장착시"
+      },
+      {
+        "min": 1,
+        "max": 2,
+        "property": "To All Skills",
+        "property_id": 587,
+        "property_kor": "모든기술"
+      },
+      {
+        "min": 220,
+        "max": 320,
+        "property": "Enhanced Damage (Varies)",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      }
+    ]
+  },
+  {
+    "id": 2501313411,
+    "name": "Mist",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/mist.png",
+    "type": [
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      },
+      {
+        "kor": "Crossbow",
+        "group": "Crossbow",
+        "eng": "Crossbow"
+      },
+      {
+        "kor": "Ranged",
+        "group": "Ranged",
+        "eng": "Ranged"
+      }
+    ],
+    "sockets": null,
+    "korName": "안개",
+    "description_filtered": [
+      {
+        "min": 8,
+        "max": 12,
+        "property": "Concentration Aura When Equipped (Varies)",
+        "property_id": 881,
+        "property_kor": "레벨_집중오라장착시"
+      },
+      {
+        "min": 325,
+        "max": 375,
+        "property": "Enhanced Damage (Varies)",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 3,
+        "max": 14,
+        "property": "Cold Damage",
+        "property_id": 548,
+        "property_kor": "냉기피해"
+      }
+    ]
+  },
+  {
+    "id": 3854262021,
+    "name": "Pride",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/pride.png",
+    "type": [
+      {
+        "kor": "스피어",
+        "group": "weapon",
+        "eng": "Spear"
+      },
+      {
+        "kor": "싸이드",
+        "group": "etc",
+        "eng": "Polearm"
+      },
+      {
+        "kor": "Amazon Spear",
+        "group": "Amazon Spear",
+        "eng": "Amazon Spear"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "긍지",
+    "description_filtered": [
+      {
+        "min": 16,
+        "max": 20,
+        "property": "Concentration Aura When Equipped",
+        "property_id": 881,
+        "property_kor": "레벨_집중오라장착시"
+      },
+      {
+        "min": 260,
+        "max": 300,
+        "property": "Bonus To Attack Rating",
+        "property_id": 424,
+        "property_kor": "Bonusto명중률"
+      },
+      {
+        "min": 1,
+        "max": 99,
+        "property": "Damage To Demons (Based on Character Level)",
+        "property_id": null,
+        "property_kor": null
+      },
+      {
+        "min": 50,
+        "max": 280,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      }
+    ]
+  },
+  {
+    "id": 2513849782,
+    "name": "Bone",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/bone.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "뼈",
+    "description_filtered": [
+      {
+        "min": 100,
+        "max": 150,
+        "property": "To Mana",
+        "property_id": 400,
+        "property_kor": "마나"
+      }
+    ]
+  },
+  {
+    "id": 3558345749,
+    "name": "Rain",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/rain.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "비",
+    "description_filtered": [
+      {
+        "min": 100,
+        "max": 150,
+        "property": "To Mana",
+        "property_id": 400,
+        "property_kor": "마나"
+      }
+    ]
+  },
+  {
+    "id": 2499094534,
+    "name": "Destruction",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/destruction.png",
+    "type": [
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      },
+      {
+        "kor": "싸이드",
+        "group": "etc",
+        "eng": "Polearm"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "파괴",
+    "description_filtered": [
+      {
+        "min": 100,
+        "max": 180,
+        "property": "Magic Damage",
+        "property_id": 654,
+        "property_kor": "마법피해"
+      }
+    ]
+  },
+  {
+    "id": 3604494325,
+    "name": "Rift",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/rift.png",
+    "type": [
+      {
+        "kor": "셉터",
+        "group": "weapon",
+        "eng": "Scepter"
+      },
+      {
+        "kor": "싸이드",
+        "group": "etc",
+        "eng": "Polearm"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "균열",
+    "description_filtered": [
+      {
+        "min": 160,
+        "max": 250,
+        "property": "Magic Damage",
+        "property_id": 654,
+        "property_kor": "마법피해"
+      },
+      {
+        "min": 60,
+        "max": 180,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 5,
+        "max": 10,
+        "property": "To All Stats",
+        "property_id": 587,
+        "property_kor": "모든기술"
+      }
+    ]
+  },
+  {
+    "id": 3342294954,
+    "name": "Dragon",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/dragon.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      },
+      {
+        "kor": "쉴드",
+        "group": "etc",
+        "eng": "Shield"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "용",
+    "description_filtered": [
+      {
+        "min": 3,
+        "max": 5,
+        "property": "To All Attributes",
+        "property_id": 727,
+        "property_kor": "모든능력치"
+      }
+    ]
+  },
+  {
+    "id": 3673698610,
+    "name": "Enigma",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/enigma.png",
+    "type": [
+      {
+        "kor": "Body Armor",
+        "group": "Body Armor",
+        "eng": "Body Armor"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "수수께끼",
+    "description_filtered": [
+      {
+        "min": 750,
+        "max": 775,
+        "property": "Defense",
+        "property_id": 399,
+        "property_kor": "방어력"
+      }
+    ]
+  },
+  {
+    "id": 2241024865,
+    "name": "Obedience",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/obedience.png",
+    "type": [
+      {
+        "kor": "스피어",
+        "group": "weapon",
+        "eng": "Spear"
+      },
+      {
+        "kor": "싸이드",
+        "group": "etc",
+        "eng": "Polearm"
+      },
+      {
+        "kor": "Amazon Spear",
+        "group": "Amazon Spear",
+        "eng": "Amazon Spear"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "순종",
+    "description_filtered": [
+      {
+        "min": 200,
+        "max": 300,
+        "property": "Defense",
+        "property_id": 399,
+        "property_kor": "방어력"
+      },
+      {
+        "min": 20,
+        "max": 30,
+        "property": "All Resistances",
+        "property_id": 441,
+        "property_kor": "toAll저항ances"
+      }
+    ]
+  },
+  {
+    "id": 2680357188,
+    "name": "Zephyr",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/zephyr.png",
+    "type": [
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      },
+      {
+        "kor": "Crossbow",
+        "group": "Crossbow",
+        "eng": "Crossbow"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "서풍",
+    "description_filtered": [
+      {
+        "min": 1,
+        "max": 50,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      }
+    ]
+  },
+  {
+    "id": 3588456322,
+    "name": "Spirit",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/spirit.png",
+    "type": [
+      {
+        "kor": "쉴드",
+        "group": "etc",
+        "eng": "Shield"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "영혼",
+    "description_filtered": [
+      {
+        "min": 25,
+        "max": 35,
+        "property": "Faster Cast Rate (varies)",
+        "property_id": 520,
+        "property_kor": "빠른시전속도"
+      },
+      {
+        "min": 89,
+        "max": 112,
+        "property": "To Mana (varies)",
+        "property_id": null,
+        "property_kor": null
+      },
+      {
+        "min": 3,
+        "max": 8,
+        "property": "Magic Absorb (varies)",
+        "property_id": 818,
+        "property_kor": "마법흡수"
+      },
+      {
+        "min": 3,
+        "max": 14,
+        "property": "Cold Damage 3 Second",
+        "property_id": 548,
+        "property_kor": "냉기피해"
+      },
+      {
+        "min": 1,
+        "max": 50,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      }
+    ]
+  },
+  {
+    "id": 4098185100,
+    "name": "Dream",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/dream.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      },
+      {
+        "kor": "쉴드",
+        "group": "etc",
+        "eng": "Shield"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "꿈",
+    "description_filtered": [
+      {
+        "min": 20,
+        "max": 30,
+        "property": "Faster Hit Recovery",
+        "property_id": 430,
+        "property_kor": "빠른타격회복속도"
+      },
+      {
+        "min": 150,
+        "max": 220,
+        "property": "Defense",
+        "property_id": 399,
+        "property_kor": "방어력"
+      },
+      {
+        "min": 5,
+        "max": 20,
+        "property": "All Resistances",
+        "property_id": 441,
+        "property_kor": "toAll저항ances"
+      },
+      {
+        "min": 12,
+        "max": 25,
+        "property": "Better Chance of Getting Magic Items",
+        "property_id": 461,
+        "property_kor": "마법아이템발견확률증가"
+      }
+    ]
+  },
+  {
+    "id": 2788445821,
+    "name": "Wrath",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/wrath.png",
+    "type": [
+      {
+        "kor": "보우",
+        "group": "weapon",
+        "eng": "Bow"
+      },
+      {
+        "kor": "Crossbow",
+        "group": "Crossbow",
+        "eng": "Crossbow"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "진노",
+    "description_filtered": [
+      {
+        "min": 250,
+        "max": 300,
+        "property": "Damage To Undead",
+        "property_id": 538,
+        "property_kor": "언데드에게주는피해"
+      },
+      {
+        "min": 85,
+        "max": 120,
+        "property": "Magic Damage",
+        "property_id": 654,
+        "property_kor": "마법피해"
+      },
+      {
+        "min": 41,
+        "max": 240,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      }
+    ]
+  },
+  {
+    "id": 2438922385,
+    "name": "Bulwark",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/bulwark.png",
+    "type": [
+      {
+        "kor": "Helm",
+        "group": "Helm",
+        "eng": "Helm"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "방책",
+    "description_filtered": [
+      {
+        "min": 4,
+        "max": 6,
+        "property": "Life stolen per hit",
+        "property_id": 462,
+        "property_kor": "적중당마나훔침"
+      },
+      {
+        "min": 75,
+        "max": 100,
+        "property": "Enhanced Defense",
+        "property_id": 425,
+        "property_kor": "강화된방어력"
+      },
+      {
+        "min": 10,
+        "max": 15,
+        "property": "Physical Damage Received Reduced by",
+        "property_id": 414,
+        "property_kor": "마법피해Reuceby"
+      }
+    ]
+  },
+  {
+    "id": 3067108730,
+    "name": "Grief",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/grief.png",
+    "type": [
+      {
+        "kor": "액스",
+        "group": "weapon",
+        "eng": "Axe"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 5.0,
+    "korName": "슬픔",
+    "description_filtered": [
+      {
+        "min": 30,
+        "max": 40,
+        "property": "Increased Attack Speed",
+        "property_id": 457,
+        "property_kor": "증가공격속도"
+      },
+      {
+        "min": 340,
+        "max": 400,
+        "property": "Damage",
+        "property_id": 439,
+        "property_kor": "공격력"
+      },
+      {
+        "min": 5,
+        "max": 30,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 20,
+        "max": 25,
+        "property": "To Enemy Poison Resist",
+        "property_id": 723,
+        "property_kor": "적의독저항-"
+      },
+      {
+        "min": 10,
+        "max": 15,
+        "property": "Life After Each Kill",
+        "property_id": 721,
+        "property_kor": "적처치시생명력"
+      }
+    ]
+  },
+  {
+    "id": 3530636421,
+    "name": "Unbending Will",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/unbending_will.png",
+    "type": [
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 6.0,
+    "korName": "불굴의의지",
+    "description_filtered": [
+      {
+        "min": 20,
+        "max": 30,
+        "property": "Increased Attack Speed (Varies)",
+        "property_id": 457,
+        "property_kor": "증가공격속도"
+      },
+      {
+        "min": 300,
+        "max": 350,
+        "property": "Enhanced Damage",
+        "property_id": 510,
+        "property_kor": "강화된공격력"
+      },
+      {
+        "min": 8,
+        "max": 10,
+        "property": "Life Stolen Per Hit (Varies)",
+        "property_id": 462,
+        "property_kor": "적중당마나훔침"
+      }
+    ]
+  },
+  {
+    "id": 3239662578,
+    "name": "Holy Thunder",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/holy_thunder.png",
+    "type": [
+      {
+        "kor": "셉터",
+        "group": "weapon",
+        "eng": "Scepter"
+      }
+    ],
+    "sockets": 4.0,
+    "korName": "신성한천둥",
+    "description_filtered": [
+      {
+        "min": 5,
+        "max": 30,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      },
+      {
+        "min": 21,
+        "max": 110,
+        "property": "Lightning Damage",
+        "property_id": 550,
+        "property_kor": "번개피해"
+      }
+    ]
+  },
+  {
+    "id": 2713453202,
+    "name": "King's Grace",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/kings_grace.png",
+    "type": [
+      {
+        "kor": "셉터",
+        "group": "weapon",
+        "eng": "Scepter"
+      },
+      {
+        "kor": "소드",
+        "group": "weapon",
+        "eng": "Sword"
+      }
+    ],
+    "sockets": 3.0,
+    "korName": "왕의은총",
+    "description_filtered": [
+      {
+        "min": 5,
+        "max": 30,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      }
+    ]
+  },
+  {
+    "id": 2214159910,
+    "name": "Leaf",
+    "img": "https://cdn.nookazon.com/diablo2resurrected/runeword/leaf.png",
+    "type": [
+      {
+        "kor": "Stave",
+        "group": "Stave",
+        "eng": "Stave"
+      }
+    ],
+    "sockets": 2.0,
+    "korName": "잎새",
+    "description_filtered": [
+      {
+        "min": 5,
+        "max": 30,
+        "property": "Fire Damage",
+        "property_id": 549,
+        "property_kor": "화염피해"
+      }
+    ]
+  }
+]

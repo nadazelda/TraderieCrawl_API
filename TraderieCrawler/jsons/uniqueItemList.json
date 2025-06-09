@@ -1,0 +1,7371 @@
+[
+  {
+    "id":21102838,
+    "name":"The Cold Rupture",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/uniques\/5c7527ac8a685ca181f6a321bbb300a7The Cold Rupture.jpeg",
+    "korName":"",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":90,
+        "property":"Cold Resist"
+      }
+    ]
+  },
+  {
+    "id":2470315921,
+    "name":"Rainbow Facet: Poison Death",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond4.png",
+    "korName":"(독다주얼)RainbowFacet:PoisonDeath",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":5,
+        "property":"To Poison Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Poison Resistance"
+      }
+    ]
+  },
+  {
+    "id":2188191106,
+    "name":"Rainbow Facet: Poison Level-up",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond4.png",
+    "korName":"(독업주얼)RainbowFacet:PoisonLevel-Up",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":5,
+        "property":"To Poison Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Poison Resistance"
+      }
+    ]
+  },
+  {
+    "id":2188191106,
+    "name":"Rainbow Facet: Poison Level-up",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond4.png",
+    "korName":"(독업주얼)RainbowFacet:PoisonLevel-Up",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":5,
+        "property":"To Poison Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Poison Resistance"
+      }
+    ]
+  },
+  {
+    "id":1283013862,
+    "name":"The Rotting Fissure",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/uniques\/a6052df889aa5e62ab9fa071d0f04e26The Rotting Fissure.jpeg",
+    "korName":"(독파참)부패의분열",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":90,
+        "property":"Poison Resist"
+      }
+    ]
+  },
+  {
+    "id":2368934470,
+    "name":"Rainbow Facet: Lightning Death",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond6.png",
+    "korName":"(라다주얼)RainbowFacet:LightningDeath",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":74,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Lightning Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Lightning Resistance"
+      }
+    ]
+  },
+  {
+    "id":3699123392,
+    "name":"Rainbow Facet: Lightning Level-up",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond6.png",
+    "korName":"(라업주얼)RainbowFacet:LightningLevel-Up",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":74,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Lightning Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Lightning Resistance"
+      }
+    ]
+  },
+  {
+    "id":1731212580,
+    "name":"The Black Cleft",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/uniques\/4affece17b1058361821184378971a17The Black Cleft.jpeg",
+    "korName":"(마범파괴참)칠흑의천공",
+    "description_filtered":[
+      {
+        "min":45,
+        "max":65,
+        "property":"Magic Resist"
+      }
+    ]
+  },
+  {
+    "id":374110750,
+    "name":"The Bone Break",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/uniques\/fd15463b8bb70f2798241f63c21405d2The Bone Break.jpeg",
+    "korName":"(물파참)뼈의분쇄",
+    "description_filtered":[
+      {
+        "min":10,
+        "max":30,
+        "property":"Damage Increased by"
+      }
+    ]
+  },
+  {
+    "id":849307965,
+    "name":"The Crack of the Heavens",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/uniques\/841db0701d60a037ea2639acdc7c0a6bThe Crack of the Heavens.jpeg",
+    "korName":"(번파참)천상의틈",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":90,
+        "property":"Lightning Resist"
+      }
+    ]
+  },
+  {
+    "id":3308865831,
+    "name":"Rainbow Facet: Cold Death",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond2.png",
+    "korName":"(콜다주얼)RainbowFacet:ColdDeath",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":5,
+        "property":"To Cold Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Cold Resistance"
+      }
+    ]
+  },
+  {
+    "id":3807838496,
+    "name":"Rainbow Facet: Cold Level-up",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond2.png",
+    "korName":"(콜업주얼)RainbowFacet:ColdLevel-Up",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":5,
+        "property":"To Cold Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Cold Resistance"
+      }
+    ]
+  },
+  {
+    "id":2991746251,
+    "name":"Rainbow Facet: Fire Death",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond5.png",
+    "korName":"(화다주얼)RainbowFacet:FireDeath",
+    "description_filtered":[
+      {
+        "min":17,
+        "max":45,
+        "property":"Fire Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Fire Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Fire Resistance"
+      }
+    ]
+  },
+  {
+    "id":2722722130,
+    "name":"Rainbow Facet: Fire Level-up",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/gem\/perfect_diamond5.png",
+    "korName":"(화업주얼)RainbowFacet:FireLevel-Up",
+    "description_filtered":[
+      {
+        "min":17,
+        "max":45,
+        "property":"Fire Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Fire Skill Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Enemy Fire Resistance"
+      }
+    ]
+  },
+  {
+    "id":1363635173,
+    "name":"The Flame Rift",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/uniques\/dada86be273c80986e1cf53da02b7603The Flame Rift.jpeg",
+    "korName":"(화파참)불길의균열",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":90,
+        "property":"Fire Resist"
+      }
+    ]
+  },
+  {
+    "id":2934440304,
+    "name":"Gargoyle's Bite",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/javelin\/throwing_spear.png",
+    "korName":"가고일의이빨",
+    "description_filtered":[
+      {
+        "min":30,
+        "max":254,
+        "property":"Throw damage"
+      },
+      {
+        "min":180,
+        "max":230,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":9,
+        "max":15,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3243183671,
+    "name":"Lidless Wall",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/lidless_wall.png",
+    "korName":"각성의벽",
+    "description_filtered":[
+      {
+        "min":271,
+        "max":347,
+        "property":"Defense"
+      },
+      {
+        "min":14,
+        "max":20,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":80,
+        "max":130,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Mana After Each Kill"
+      }
+    ]
+  },
+  {
+    "id":3078769971,
+    "name":"Rakescar",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/war_axe.png",
+    "korName":"갈퀴흉터",
+    "description_filtered":[
+      {
+        "min":75,
+        "max":150,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3699263375,
+    "name":"The Gnasher",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/the_gnasher.png",
+    "korName":"갉아먹는자",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":70,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2275089562,
+    "name":"Steel Carapace",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/full_plate_mail.png",
+    "korName":"강철갑피",
+    "description_filtered":[
+      {
+        "min":1618,
+        "max":1785,
+        "property":"Defense"
+      },
+      {
+        "min":190,
+        "max":220,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Regenerate Mana"
+      },
+      {
+        "min":40,
+        "max":60,
+        "property":"Cold Resist"
+      },
+      {
+        "min":9,
+        "max":14,
+        "property":"Damage Reduced by"
+      }
+    ]
+  },
+  {
+    "id":3033936763,
+    "name":"Steelclash",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/steelclash.png",
+    "korName":"강철격돌",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":58,
+        "property":"Defense"
+      },
+      {
+        "min":2,
+        "max":5,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":60,
+        "max":100,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3834725226,
+    "name":"Steel Shade",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/coif_of_glory.png",
+    "korName":"강철그늘",
+    "description_filtered":[
+      {
+        "min":300,
+        "max":345,
+        "property":"Defense"
+      },
+      {
+        "min":100,
+        "max":130,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":10,
+        "max":18,
+        "property":"Replenish Life"
+      },
+      {
+        "min":4,
+        "max":8,
+        "property":"Mana Stolen Per Hit"
+      },
+      {
+        "min":5,
+        "max":11,
+        "property":"Fire Absorb"
+      }
+    ]
+  },
+  {
+    "id":3561178573,
+    "name":"Steel Pillar",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/pike.png",
+    "korName":"강철기둥",
+    "description_filtered":[
+      {
+        "min":210,
+        "max":260,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":50,
+        "max":80,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3976398112,
+    "name":"Toothrow",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/field_plate.png",
+    "korName":"강철니",
+    "description_filtered":[
+      {
+        "min":713,
+        "max":888,
+        "property":"Defense"
+      },
+      {
+        "min":160,
+        "max":220,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":40,
+        "max":60,
+        "property":"Defense"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"Attacker Takes Damage of"
+      }
+    ]
+  },
+  {
+    "id":2812245776,
+    "name":"Steelgoad",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/voulge.png",
+    "korName":"강철몰이막대",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":90,
+        "property":"Durability"
+      },
+      {
+        "min":60,
+        "max":80,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2537649486,
+    "name":"Steeldriver",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/great_maul.png",
+    "korName":"강철박이",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":250,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3103539244,
+    "name":"Veil of Steel",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/great_helm.png",
+    "korName":"강철의베일",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":4141308968,
+    "name":"Steelrend",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/gaunlets_h.png",
+    "korName":"강철찢개",
+    "description_filtered":[
+      {
+        "min":232,
+        "max":281,
+        "property":"Defense"
+      },
+      {
+        "min":170,
+        "max":210,
+        "property":"Defense"
+      },
+      {
+        "min":30,
+        "max":60,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"To Strength"
+      }
+    ]
+  },
+  {
+    "id":3531495745,
+    "name":"Leviathan",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/field_plate.png",
+    "korName":"거대괴수",
+    "description_filtered":[
+      {
+        "min":1514,
+        "max":1722,
+        "property":"Defense"
+      },
+      {
+        "min":170,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":100,
+        "max":150,
+        "property":"Defense"
+      },
+      {
+        "min":40,
+        "max":50,
+        "property":"To Strength"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":3299486901,
+    "name":"Giant Skull",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/bone_helm.png",
+    "korName":"거인두개골",
+    "description_filtered":[
+      {
+        "min":350,
+        "max":477,
+        "property":"Defense"
+      },
+      {
+        "min":250,
+        "max":320,
+        "property":"Defense"
+      },
+      {
+        "min":25,
+        "max":35,
+        "property":"to Strength"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"Socketed"
+      }
+    ]
+  },
+  {
+    "id":4075435713,
+    "name":"Titan's Revenge",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/javelin\/maiden_javelin.png",
+    "korName":"거인의복수",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":212,
+        "property":"Throw damage"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":25,
+        "max":50,
+        "property":"Damage"
+      },
+      {
+        "min":5,
+        "max":9,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3777456241,
+    "name":"Swordback Hold",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/swordback_hold.png",
+    "korName":"검등잡이",
+    "description_filtered":[
+      {
+        "min":43,
+        "max":51,
+        "property":"Defense"
+      },
+      {
+        "min":5,
+        "max":9,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":30,
+        "max":60,
+        "property":"Enhance Defense"
+      }
+    ]
+  },
+  {
+    "id":4056679845,
+    "name":"Swordguard",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/the_patriarch.png",
+    "korName":"검막이",
+    "description_filtered":[
+      {
+        "min":170,
+        "max":180,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":5,
+        "max":495,
+        "property":"Defense (Based on Character Level)"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":3392605898,
+    "name":"Blackleach Blade",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/voulge.png",
+    "korName":"검은거머리칼날",
+    "description_filtered":[
+      {
+        "min":100,
+        "max":140,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3012560158,
+    "name":"Blackoak Shield",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/umbral_disk.png",
+    "korName":"검은참나무방패",
+    "description_filtered":[
+      {
+        "min":322,
+        "max":372,
+        "property":"Defense"
+      },
+      {
+        "min":17,
+        "max":29,
+        "property":"Pal Smite Dmg"
+      },
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2728491818,
+    "name":"Blacktongue",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/blacktongue.png",
+    "korName":"검은혀",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":60,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3415550931,
+    "name":"The Gladiator's Bane",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/studded_leather.png",
+    "korName":"검투사의재앙",
+    "description_filtered":[
+      {
+        "min":1255,
+        "max":1496,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"Damage Reduced By"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":3959969637,
+    "name":"Gerke's Sanctuary",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/bverrit_keep.png",
+    "korName":"게르케의성역",
+    "description_filtered":[
+      {
+        "min":221,
+        "max":268,
+        "property":"Defense"
+      },
+      {
+        "min":10,
+        "max":1,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":180,
+        "max":240,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"All Resistances"
+      },
+      {
+        "min":11,
+        "max":16,
+        "property":"Damage Reduced By"
+      },
+      {
+        "min":14,
+        "max":18,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":3573227165,
+    "name":"The Meat Scraper",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/bardiche.png",
+    "korName":"고기긁개",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4241507746,
+    "name":"Pus Spitter",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/pus_spiter.png",
+    "korName":"고름쏘개",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":220,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3056425789,
+    "name":"Goblin Toe",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/light_plate_boots.png",
+    "korName":"고블린발가락",
+    "description_filtered":[
+      {
+        "min":33,
+        "max":34,
+        "property":"Defense"
+      },
+      {
+        "min":8,
+        "max":16,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":50,
+        "max":60,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3116778147,
+    "name":"The Cat's Eye",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet2.png",
+    "korName":"고양이눈",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2381540608,
+    "name":"The Gavel of Pain",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/the_gavel_of_pain.png",
+    "korName":"고통의망치",
+    "description_filtered":[
+      {
+        "min":130,
+        "max":160,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":12,
+        "max":30,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2624409644,
+    "name":"Marrowwalk",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/chain_boots.png",
+    "korName":"골수걸음",
+    "description_filtered":[
+      {
+        "min":183,
+        "max":204,
+        "property":"Defense"
+      },
+      {
+        "min":69,
+        "max":118,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":170,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Skeleton Mastery (Necromancer Only)"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"To Strength"
+      }
+    ]
+  },
+  {
+    "id":2718249738,
+    "name":"Hone Sundan",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/spetum.png",
+    "korName":"골토막",
+    "description_filtered":[
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":3156291666,
+    "name":"Crainte Vomir",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/shadowfang.png",
+    "korName":"공포구토자",
+    "description_filtered":[
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3892265104,
+    "name":"Widowmaker",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hellclap.png",
+    "korName":"과부제조기",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Guided Arrow"
+      }
+    ]
+  },
+  {
+    "id":4148584655,
+    "name":"Serpent Lord",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/long_staff.png",
+    "korName":"구렁이군주",
+    "description_filtered":[
+      {
+        "min":30,
+        "max":40,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3286502552,
+    "name":"Cloudcrack",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/blacktongue.png",
+    "korName":"구름가르개",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":240,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":4243350977,
+    "name":"Ghoulhide",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/bracers_m.png",
+    "korName":"구울가죽",
+    "description_filtered":[
+      {
+        "min":112,
+        "max":130,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":190,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":4,
+        "max":5,
+        "property":"Mana Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3861195603,
+    "name":"The Redeemer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/scepter\/scepter.png",
+    "korName":"구원자",
+    "description_filtered":[
+      {
+        "min":250,
+        "max":300,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":60,
+        "max":120,
+        "property":"Damage"
+      },
+      {
+        "min":200,
+        "max":250,
+        "property":"Damage To Demons"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"To Redemption (Paladin Only)"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"To Holy Bolt (Paladin Only)"
+      }
+    ]
+  },
+  {
+    "id":2964735377,
+    "name":"Warlord's Trust",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/large_axe.png",
+    "korName":"군장의신뢰",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3069590688,
+    "name":"Stoutnail",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/club\/stoutnail.png",
+    "korName":"굵은못",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":10,
+        "property":"Attacker Takes Damage of"
+      }
+    ]
+  },
+  {
+    "id":3285412353,
+    "name":"Doombringer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/blacktongue.png",
+    "korName":"궤멸자",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":250,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":30,
+        "max":100,
+        "property":"Damage"
+      },
+      {
+        "min":5,
+        "max":7,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3442172287,
+    "name":"String of Ears",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/sash_l.png",
+    "korName":"귀꿰미",
+    "description_filtered":[
+      {
+        "min":102,
+        "max":113,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":180,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":6,
+        "max":8,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Damage Reduced By"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Magic Damage Reduced"
+      }
+    ]
+  },
+  {
+    "id":2937998795,
+    "name":"Griswold's Edge",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/griswolds_edge.png",
+    "korName":"그리스월드의날",
+    "description_filtered":[
+      {
+        "min":80,
+        "max":120,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":10,
+        "max":12,
+        "property":"to (15-25) Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":4227886104,
+    "name":"Griffon's Eye",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/circlet\/diadem.png",
+    "korName":"그리폰의눈",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":260,
+        "property":"Defense"
+      },
+      {
+        "min":100,
+        "max":200,
+        "property":"Defense"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"To Enemy Lightning Resistance"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Lightning Skill Damage"
+      }
+    ]
+  },
+  {
+    "id":3235734670,
+    "name":"Shadowfang",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/shadowfang.png",
+    "korName":"그림자송곳니",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3448462779,
+    "name":"Umbral Disk",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/umbral_disk.png",
+    "korName":"그림자원반",
+    "description_filtered":[
+      {
+        "min":45,
+        "max":46,
+        "property":"Defense"
+      },
+      {
+        "min":2,
+        "max":3,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":40,
+        "max":50,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Durability"
+      }
+    ]
+  },
+  {
+    "id":3339132915,
+    "name":"Shadow Dancer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/plate_boots.png",
+    "korName":"그림자춤꾼",
+    "description_filtered":[
+      {
+        "min":122,
+        "max":144,
+        "property":"Defense"
+      },
+      {
+        "min":83,
+        "max":149,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":70,
+        "max":100,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Shadow Disciplines (Assassin Only)"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"To Dexterity"
+      }
+    ]
+  },
+  {
+    "id":4014800968,
+    "name":"Goldwrap",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/heavy_belt.png",
+    "korName":"금박허리띠",
+    "description_filtered":[
+      {
+        "min":34,
+        "max":36,
+        "property":"Defense"
+      },
+      {
+        "min":40,
+        "max":60,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":50,
+        "max":80,
+        "property":"Extra Gold From Monsters"
+      }
+    ]
+  },
+  {
+    "id":2804889799,
+    "name":"Metalgrid",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet2.png",
+    "korName":"금속격자",
+    "description_filtered":[
+      {
+        "min":400,
+        "max":450,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":25,
+        "max":35,
+        "property":"All Resistances"
+      },
+      {
+        "min":300,
+        "max":350,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":3792129580,
+    "name":"Gheed's Fortune",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/charm\/charm_large.png",
+    "korName":"기드의행운",
+    "description_filtered":[
+      {
+        "min":80,
+        "max":160,
+        "property":"Extra Gold From Monsters"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Reduces All Vendor Prices"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":2260623796,
+    "name":"Lance Guard",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/lance_guard.png",
+    "korName":"기병창보호구",
+    "description_filtered":[
+      {
+        "min":134,
+        "max":173,
+        "property":"Defense"
+      },
+      {
+        "min":18,
+        "max":35,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":70,
+        "max":120,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3553317344,
+    "name":"Templar's Might",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/victors_silk.png",
+    "korName":"기사단의위세",
+    "description_filtered":[
+      {
+        "min":1622,
+        "max":1923,
+        "property":"Defense"
+      },
+      {
+        "min":170,
+        "max":220,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":250,
+        "max":300,
+        "property":"Defense vs. Missile"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Strength"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Vitality"
+      },
+      {
+        "min":40,
+        "max":50,
+        "property":"Maximum Stamina"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Offensive Auras (Paladin Only)"
+      }
+    ]
+  },
+  {
+    "id":3111283726,
+    "name":"Flamebellow",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/kinemils_awl.png",
+    "korName":"기염검",
+    "description_filtered":[
+      {
+        "min":170,
+        "max":240,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":233,
+        "max":482,
+        "property":"Fire Damage"
+      },
+      {
+        "min":12,
+        "max":18,
+        "property":"To Inferno"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"To Strength"
+      },
+      {
+        "min":5,
+        "max":10,
+        "property":"To Vitality"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Fire Absorb"
+      }
+    ]
+  },
+  {
+    "id":2807462328,
+    "name":"Ginther's Rift",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/ginthers_rift.png",
+    "korName":"긴터의균열",
+    "description_filtered":[
+      {
+        "min":100,
+        "max":150,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":50,
+        "max":120,
+        "property":"Magic Damage"
+      },
+      {
+        "min":7,
+        "max":12,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":4197335986,
+    "name":"Crow Caw",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/scale_mail.png",
+    "korName":"까마귀울음",
+    "description_filtered":[
+      {
+        "min":477,
+        "max":534,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":180,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3289012292,
+    "name":"Ravenlore",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/pelt\/falcon_mask.png",
+    "korName":"까마귀전승",
+    "description_filtered":[
+      {
+        "min":343,
+        "max":390,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"To Energy"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"To Enemy Fire Resistance"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":2545033082,
+    "name":"The Impaler",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/spear.png",
+    "korName":"꿰뚫는자",
+    "description_filtered":[
+      {
+        "min":140,
+        "max":170,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4007099470,
+    "name":"Endlesshail",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/piercerib.png",
+    "korName":"끝없는우박",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":220,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Strafe (Amazon Only)"
+      }
+    ]
+  },
+  {
+    "id":2271706164,
+    "name":"Nagelring",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring4.png",
+    "korName":"나겔링반지",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":75,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":15,
+        "max":30,
+        "property":"Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":2783777693,
+    "name":"Lacerator",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/balanced_axe.png",
+    "korName":"난도질도끼",
+    "description_filtered":[
+      {
+        "min":17,
+        "max":186,
+        "property":"Throw damage"
+      },
+      {
+        "min":150,
+        "max":210,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2222094251,
+    "name":"Leadcrow",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/leadcrow.png",
+    "korName":"납까마귀",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":4049422028,
+    "name":"Gut Siphon",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/doomspittle.png",
+    "korName":"내장흡수",
+    "description_filtered":[
+      {
+        "min":160,
+        "max":220,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":12,
+        "max":18,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2207518779,
+    "name":"Nord's Tenderizer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/club\/felloak.png",
+    "korName":"노르드의고기방망이",
+    "description_filtered":[
+      {
+        "min":270,
+        "max":330,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"Freezes Target"
+      },
+      {
+        "min":5,
+        "max":15,
+        "property":"Cold Absorb"
+      },
+      {
+        "min":150,
+        "max":180,
+        "property":"Bonus To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":3914234893,
+    "name":"Nosferatu's Coil",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/light_belt.png",
+    "korName":"노스페라투의고리",
+    "description_filtered":[
+      {
+        "min":56,
+        "max":63,
+        "property":"Defense"
+      },
+      {
+        "min":5,
+        "max":7,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2741722291,
+    "name":"Nokozan Relic",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet1.png",
+    "korName":"노코잔유물",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":6,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3129541467,
+    "name":"Rusthandle",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/scepter\/grand_scepter.png",
+    "korName":"녹슨손잡이",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":60,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":3,
+        "max":7,
+        "property":"damage"
+      },
+      {
+        "min":100,
+        "max":110,
+        "property":"Damage To Undead"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Vengeance (Paladin Only)"
+      }
+    ]
+  },
+  {
+    "id":3577497958,
+    "name":"Brainhew",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/brainhew.png",
+    "korName":"뇌절단기",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":80,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":15,
+        "max":35,
+        "property":"Fire Damage"
+      },
+      {
+        "min":10,
+        "max":13,
+        "property":"Mana Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2805011702,
+    "name":"Buriza-Do Kyanon",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hellcast.png",
+    "korName":"눈보라포",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":75,
+        "max":150,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":2502123879,
+    "name":"Pluckeye",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/short_bow.png",
+    "korName":"눈살",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2362726423,
+    "name":"Snowclash",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/heavy_belt.png",
+    "korName":"눈싸움",
+    "description_filtered":[
+      {
+        "min":98,
+        "max":116,
+        "property":"Defense"
+      },
+      {
+        "min":130,
+        "max":170,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":7,
+        "max":19,
+        "property":"Blizzard When Struck"
+      }
+    ]
+  },
+  {
+    "id":3797820822,
+    "name":"Wall of the Eyeless",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/wall_of_the_eyeless.png",
+    "korName":"눈없는자의벽",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":53,
+        "property":"Defense"
+      },
+      {
+        "min":3,
+        "max":6,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":30,
+        "max":40,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2548632429,
+    "name":"Ribcracker",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/long_staff.png",
+    "korName":"늑골분쇄기",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":300,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":30,
+        "max":65,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2302821337,
+    "name":"Hotspur",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/leather_boots.png",
+    "korName":"다혈질",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":8,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":3,
+        "max":6,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3315285208,
+    "name":"Moonfall",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/mace\/bloodrise.png",
+    "korName":"달내림",
+    "description_filtered":[
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Damage"
+      },
+      {
+        "min":55,
+        "max":115,
+        "property":"Fire Damage"
+      },
+      {
+        "min":9,
+        "max":12,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":2987344322,
+    "name":"Highlord's Wrath",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet3.png",
+    "korName":"대군주의진노",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":30,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":2978183347,
+    "name":"Earth Shifter",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/great_maul.png",
+    "korName":"대지변형자",
+    "description_filtered":[
+      {
+        "min":250,
+        "max":300,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4289093306,
+    "name":"Earthshaker",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/war_hammer.png",
+    "korName":"대지진의망치",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2859420250,
+    "name":"Crown of Thieves",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/crown_of_thieves.png",
+    "korName":"도둑의왕관",
+    "description_filtered":[
+      {
+        "min":296,
+        "max":342,
+        "property":"Defense"
+      },
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":9,
+        "max":12,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":80,
+        "max":100,
+        "property":"Extra Gold From Monsters"
+      }
+    ]
+  },
+  {
+    "id":2267294399,
+    "name":"Butcher's Pupil",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/deathspade.png",
+    "korName":"도살자의제자",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2480103707,
+    "name":"Rogue's Bow",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/piercerib.png",
+    "korName":"도적의활",
+    "description_filtered":[
+      {
+        "min":40,
+        "max":60,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2180987142,
+    "name":"Skin of the Vipermagi",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/leather_armor.png",
+    "korName":"독사마술사의가죽",
+    "description_filtered":[
+      {
+        "min":9,
+        "max":13,
+        "property":"Magic Damage Reduced By"
+      },
+      {
+        "min":20,
+        "max":35,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":3614575174,
+    "name":"Stoneraven",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/maiden_spear.png",
+    "korName":"돌까마귀",
+    "description_filtered":[
+      {
+        "min":230,
+        "max":280,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":101,
+        "max":187,
+        "property":"Magic Damage"
+      },
+      {
+        "min":400,
+        "max":600,
+        "property":"Defense"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"All Resistances"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Javelin and Spear Skills (Amazon Only)"
+      }
+    ]
+  },
+  {
+    "id":2280076268,
+    "name":"Stone Crusher",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/war_hammer.png",
+    "korName":"돌분쇄자",
+    "description_filtered":[
+      {
+        "min":280,
+        "max":320,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":10,
+        "max":30,
+        "property":"Damage"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"To Strength"
+      }
+    ]
+  },
+  {
+    "id":2643009138,
+    "name":"Stealskull",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/coif_of_glory.png",
+    "korName":"두개골도둑",
+    "description_filtered":[
+      {
+        "min":219,
+        "max":248,
+        "property":"Defense"
+      },
+      {
+        "min":200,
+        "max":240,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":3736931300,
+    "name":"The Cranium Basher",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/great_maul.png",
+    "korName":"두개골분쇄망치",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":240,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3933031452,
+    "name":"Skull Collector",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/skullcollector.png",
+    "korName":"두개골수집가",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3106291644,
+    "name":"Skull Splitter",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/mindrend.png",
+    "korName":"두개골절단기",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":100,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":12,
+        "max":15,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":50,
+        "max":100,
+        "property":"To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":2291415608,
+    "name":"Duriel's Shell",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/breast_plate.png",
+    "korName":"두리엘의껍질",
+    "description_filtered":[
+      {
+        "min":528,
+        "max":732,
+        "property":"Defense"
+      },
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3366872541,
+    "name":"Tearhaunch",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/plate_boots.png",
+    "korName":"둔부찢개",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":63,
+        "property":"Defense"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":60,
+        "max":80,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2505836782,
+    "name":"Twitchthroe",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/studded_leather.png",
+    "korName":"뒤틀린단말마",
+    "description_filtered":[
+      {
+        "min":57,
+        "max":60,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":2445291090,
+    "name":"Dracul's Grasp",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/heavy_gloves.png",
+    "korName":"드라쿨의손아귀",
+    "description_filtered":[
+      {
+        "min":125,
+        "max":145,
+        "property":"Defense"
+      },
+      {
+        "min":90,
+        "max":120,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Strength"
+      },
+      {
+        "min":5,
+        "max":10,
+        "property":"Life After Each Kill"
+      },
+      {
+        "min":7,
+        "max":10,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3958520086,
+    "name":"The Diggler",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/dirk.png",
+    "korName":"디글러",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":4099739880,
+    "name":"Dimoak's Hew",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/bardiche.png",
+    "korName":"디모악의절단",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":4149702914,
+    "name":"The Rising Sun",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet3.png",
+    "korName":"떠오르는태양",
+    "description_filtered":[
+      {
+        "min":13,
+        "max":19,
+        "property":"Meteor When Struck"
+      },
+      {
+        "min":24,
+        "max":48,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":2809813581,
+    "name":"Radament's Sphere",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/the_ward.png",
+    "korName":"라다먼트의명주",
+    "description_filtered":[
+      {
+        "min":244,
+        "max":282,
+        "property":"Defense"
+      },
+      {
+        "min":12,
+        "max":16,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3040216680,
+    "name":"Lycander's Aim",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/reflex_bow.png",
+    "korName":"라이칸더의조준",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":25,
+        "max":50,
+        "property":"Damage"
+      },
+      {
+        "min":5,
+        "max":8,
+        "property":"Mana Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2758156313,
+    "name":"Lycander's Flank",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/maiden_pike.png",
+    "korName":"라이칸더의측방",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":25,
+        "max":50,
+        "property":"Damage"
+      },
+      {
+        "min":5,
+        "max":9,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":4106369036,
+    "name":"Lightsabre",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/lightsabre.png",
+    "korName":"라이트세이버",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":10,
+        "max":30,
+        "property":"Damage"
+      },
+      {
+        "min":60,
+        "max":120,
+        "property":"Magic Damage"
+      },
+      {
+        "min":1,
+        "max":200,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":5,
+        "max":7,
+        "property":"Mana Stolen Per Hit"
+      },
+      {
+        "min":14,
+        "max":20,
+        "property":"Chain Lightning On Attack"
+      }
+    ]
+  },
+  {
+    "id":2658350187,
+    "name":"Spire of Lazarus",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/lazarus_spire.png",
+    "korName":"라자루스의첨탑",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":28,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":2750038129,
+    "name":"Langer Briser",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/langer_briser.png",
+    "korName":"랑거브리저",
+    "description_filtered":[
+      {
+        "min":170,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":10,
+        "max":30,
+        "property":"To Maximum Damage"
+      },
+      {
+        "min":1,
+        "max":212,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":30,
+        "max":60,
+        "property":"Better Chance Of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":3777381062,
+    "name":"Lenymo",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/sash_l.png",
+    "korName":"레니모",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2845468834,
+    "name":"Rune Master",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/double_axe.png",
+    "korName":"룬지배자",
+    "description_filtered":[
+      {
+        "min":220,
+        "max":270,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"Socketed"
+      }
+    ]
+  },
+  {
+    "id":3343524373,
+    "name":"Rixot's Keen",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/short_sword.png",
+    "korName":"릭소트의날카로움",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":4185999811,
+    "name":"Manald Heal",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring5.png",
+    "korName":"마날드치유반지",
+    "description_filtered":[
+      {
+        "min":4,
+        "max":7,
+        "property":"Mana Stolen Per Hit"
+      },
+      {
+        "min":5,
+        "max":8,
+        "property":"Replenish Life"
+      }
+    ]
+  },
+  {
+    "id":3909033828,
+    "name":"Witchwild String",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/whichwild_string.png",
+    "korName":"마녀림의시위",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":170,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3797106309,
+    "name":"Mara's Kaleidoscope",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet1.png",
+    "korName":"마라의만화경",
+    "description_filtered":[
+      {
+        "min":20,
+        "max":30,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":3543038588,
+    "name":"Witherstring",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hunters_bow.png",
+    "korName":"마른시위",
+    "description_filtered":[
+      {
+        "min":40,
+        "max":50,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2674530656,
+    "name":"Wizardspike",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/dagger.png",
+    "korName":"마법사의쐐기검",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2224974063,
+    "name":"Magefist",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/light_gauntlets.png",
+    "korName":"마수",
+    "description_filtered":[
+      {
+        "min":24,
+        "max":25,
+        "property":"Defense"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":6,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":4068083253,
+    "name":"Magewrath",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hellclap.png",
+    "korName":"마술사의진노",
+    "description_filtered":[
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":25,
+        "max":50,
+        "property":"Damage"
+      },
+      {
+        "min":200,
+        "max":250,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":9,
+        "max":13,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":3288940678,
+    "name":"The Mahim-Oak Curio",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet3.png",
+    "korName":"마힘오크수집품",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":4031404550,
+    "name":"Wraith Flight",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/javelin\/glaive.png",
+    "korName":"망령의비행",
+    "description_filtered":[
+      {
+        "min":112,
+        "max":368,
+        "property":"Throw damage"
+      },
+      {
+        "min":150,
+        "max":190,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":9,
+        "max":13,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2865500935,
+    "name":"Mang Song's Lesson",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/skullcollector.png",
+    "korName":"망송의가르침",
+    "description_filtered":[
+      {
+        "min":7,
+        "max":15,
+        "property":"To Enemy Lightning Resistances"
+      },
+      {
+        "min":7,
+        "max":15,
+        "property":"To Enemy Cold Resistances"
+      },
+      {
+        "min":7,
+        "max":15,
+        "property":"To Enemy Fire Resistances"
+      }
+    ]
+  },
+  {
+    "id":2181188084,
+    "name":"The Oculus",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/orb\/dragon_stone.png",
+    "korName":"망울",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2235115024,
+    "name":"Corpsemourn",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/corpsemourn.png",
+    "korName":"망자의애도",
+    "description_filtered":[
+      {
+        "min":1127,
+        "max":1262,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":180,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":12,
+        "max":36,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":2220585990,
+    "name":"Hawkmail",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/scale_mail.png",
+    "korName":"매사슬갑옷",
+    "description_filtered":[
+      {
+        "min":109,
+        "max":122,
+        "property":"Defense"
+      },
+      {
+        "min":80,
+        "max":100,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3490588786,
+    "name":"Viperfork",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/brandistock.png",
+    "korName":"맹독갈퀴",
+    "description_filtered":[
+      {
+        "min":190,
+        "max":240,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":200,
+        "max":250,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"Poison Resist"
+      }
+    ]
+  },
+  {
+    "id":2649383667,
+    "name":"Venom Grip",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/gloves_l.png",
+    "korName":"맹독손아귀",
+    "description_filtered":[
+      {
+        "min":97,
+        "max":118,
+        "property":"Defense"
+      },
+      {
+        "min":130,
+        "max":160,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":2904250911,
+    "name":"Venom Ward",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/breast_plate.png",
+    "korName":"맹독호신부",
+    "description_filtered":[
+      {
+        "min":110,
+        "max":138,
+        "property":"Defense"
+      },
+      {
+        "min":60,
+        "max":100,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3788707371,
+    "name":"Headstriker",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/broad_sword.png",
+    "korName":"머리분쇄기",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":99,
+        "property":"To Maximum Damage (Based on Character Level)"
+      },
+      {
+        "min":1,
+        "max":148,
+        "property":"Deadly Strike (Based on Character Level)"
+      }
+    ]
+  },
+  {
+    "id":3027384979,
+    "name":"Head Hunter's Glory",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/wall_of_the_eyeless.png",
+    "korName":"머리사냥꾼의영예",
+    "description_filtered":[
+      {
+        "min":478,
+        "max":593,
+        "property":"Defense"
+      },
+      {
+        "min":24,
+        "max":38,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":320,
+        "max":420,
+        "property":"Defense"
+      },
+      {
+        "min":300,
+        "max":350,
+        "property":"Defense vs. Missile"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Fire Resist"
+      },
+      {
+        "min":30,
+        "max":40,
+        "property":"Poison Resist"
+      },
+      {
+        "min":5,
+        "max":7,
+        "property":"Life After Each Kill"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"Socketed"
+      }
+    ]
+  },
+  {
+    "id":4131465925,
+    "name":"Medusa's Gaze",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/bverrit_keep.png",
+    "korName":"메두사의눈길",
+    "description_filtered":[
+      {
+        "min":405,
+        "max":453,
+        "property":"Defense"
+      },
+      {
+        "min":18,
+        "max":28,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":150,
+        "max":180,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":5,
+        "max":9,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":40,
+        "max":80,
+        "property":"Cold Resist"
+      }
+    ]
+  },
+  {
+    "id":3862378514,
+    "name":"Messerschmidt's Reaver",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/brainhew.png",
+    "korName":"메서슈미트의도끼",
+    "description_filtered":[
+      {
+        "min":20,
+        "max":240,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":2757965891,
+    "name":"Doomslinger",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/doomspittle.png",
+    "korName":"멸궁",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":100,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3157032236,
+    "name":"Spire of Honor",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/pike.png",
+    "korName":"명예의첨탑",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2302901501,
+    "name":"Sandstorm Trek",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/heavy_boots.png",
+    "korName":"모래폭풍여로",
+    "description_filtered":[
+      {
+        "min":158,
+        "max":178,
+        "property":"Defense"
+      },
+      {
+        "min":60,
+        "max":110,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":140,
+        "max":170,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Strength"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Vitality"
+      },
+      {
+        "min":40,
+        "max":70,
+        "property":"Poison Resist"
+      }
+    ]
+  },
+  {
+    "id":4246283532,
+    "name":"Moser's Blessed Circle",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/mosers_blessed_circle.png",
+    "korName":"모저의축복받은고리",
+    "description_filtered":[
+      {
+        "min":156,
+        "max":179,
+        "property":"Defense"
+      },
+      {
+        "min":7,
+        "max":14,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":180,
+        "max":220,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3723580861,
+    "name":"Tomb Reaver",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/poleaxe.png",
+    "korName":"무덤강탈자",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":280,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":150,
+        "max":230,
+        "property":"Damage To Undead"
+      },
+      {
+        "min":250,
+        "max":350,
+        "property":"To Attack Rating Against Undead"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"All Resistances"
+      },
+      {
+        "min":10,
+        "max":14,
+        "property":"Life After Each Kill"
+      },
+      {
+        "min":50,
+        "max":80,
+        "property":"Better Chance of Getting Magic Items"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"Socketed"
+      }
+    ]
+  },
+  {
+    "id":3556669054,
+    "name":"Gravepalm",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/heavy_gloves.png",
+    "korName":"무덤손바닥",
+    "description_filtered":[
+      {
+        "min":96,
+        "max":112,
+        "property":"Defense"
+      },
+      {
+        "min":140,
+        "max":180,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":100,
+        "max":200,
+        "property":"Damage To Undead"
+      },
+      {
+        "min":100,
+        "max":200,
+        "property":"To Attack Rating Against Undead"
+      }
+    ]
+  },
+  {
+    "id":2741321473,
+    "name":"The Scalper",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/throwing_axe.png",
+    "korName":"무두도끼",
+    "description_filtered":[
+      {
+        "min":45,
+        "max":99,
+        "property":"Throw damage"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":4,
+        "max":6,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2675528305,
+    "name":"Ironstone",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/war_hammer.png",
+    "korName":"무쇠돌",
+    "description_filtered":[
+      {
+        "min":100,
+        "max":150,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":10,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":100,
+        "max":150,
+        "property":"To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":3875108214,
+    "name":"The Iron Jang Bong",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/war_staff.png",
+    "korName":"무쇠장봉",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2416646858,
+    "name":"Iron Pelt",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/ironpelt.png",
+    "korName":"무쇠털가죽",
+    "description_filtered":[
+      {
+        "min":234,
+        "max":605,
+        "property":"Defense"
+      },
+      {
+        "min":50,
+        "max":100,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"Damage Reduced by"
+      },
+      {
+        "min":10,
+        "max":16,
+        "property":"Magic Damage Reduced by"
+      }
+    ]
+  },
+  {
+    "id":2935638020,
+    "name":"Rainbow Facet",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/uniques\/0caf8a48a84d7e8f549e15d7cf3eaad3Rainbow Facet.jpeg",
+    "korName":"무지개자락거래불가아이템",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3876799842,
+    "name":"Humongous",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/giant_axe.png",
+    "korName":"무지막지",
+    "description_filtered":[
+      {
+        "min":80,
+        "max":120,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"Damage"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"to Strength"
+      }
+    ]
+  },
+  {
+    "id":3468448167,
+    "name":"Ethereal Edge",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/broad_axe.png",
+    "korName":"무형의날붙이",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":180,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Damage To Demons"
+      },
+      {
+        "min":270,
+        "max":350,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":10,
+        "max":12,
+        "property":"Fire Absorb"
+      },
+      {
+        "min":5,
+        "max":10,
+        "property":"Life After Each Demon Kill"
+      }
+    ]
+  },
+  {
+    "id":3062063902,
+    "name":"Waterwalk",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/heavy_boots.png",
+    "korName":"물나그네",
+    "description_filtered":[
+      {
+        "min":112,
+        "max":124,
+        "property":"Defense"
+      },
+      {
+        "min":28,
+        "max":50,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":180,
+        "max":210,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":45,
+        "max":65,
+        "property":"To Life"
+      }
+    ]
+  },
+  {
+    "id":3042401936,
+    "name":"The Minotaur",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/the_minataur.png",
+    "korName":"미노타우루스",
+    "description_filtered":[
+      {
+        "min":140,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Damage"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"To Strength"
+      }
+    ]
+  },
+  {
+    "id":3376959133,
+    "name":"Windhammer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/maul.png",
+    "korName":"바람망치",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":230,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4176291231,
+    "name":"Windforce",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/long_war_bow.png",
+    "korName":"바람살",
+    "description_filtered":[
+      {
+        "min":6,
+        "max":8,
+        "property":"Mana Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3001900081,
+    "name":"Rockstopper",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/rockstopper.png",
+    "korName":"바위막이",
+    "description_filtered":[
+      {
+        "min":163,
+        "max":201,
+        "property":"Defense"
+      },
+      {
+        "min":160,
+        "max":220,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"Cold Resist"
+      },
+      {
+        "min":20,
+        "max":50,
+        "property":"Fire Resist"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"Lightning Resist"
+      }
+    ]
+  },
+  {
+    "id":3615102099,
+    "name":"Rockfleece",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/field_plate.png",
+    "korName":"바위털가죽",
+    "description_filtered":[
+      {
+        "min":212,
+        "max":243,
+        "property":"Defense"
+      },
+      {
+        "min":100,
+        "max":130,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3343401007,
+    "name":"Valkyrie Wing",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/great_helm.png",
+    "korName":"발키리날개",
+    "description_filtered":[
+      {
+        "min":247,
+        "max":297,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Amazon Skill Levels"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"To Mana After Each Kill"
+      }
+    ]
+  },
+  {
+    "id":4075888669,
+    "name":"Nightwing's Veil",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/great_helm.png",
+    "korName":"밤날개의너울",
+    "description_filtered":[
+      {
+        "min":304,
+        "max":352,
+        "property":"Defense"
+      },
+      {
+        "min":90,
+        "max":120,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":8,
+        "max":15,
+        "property":"To Cold Skill Damage"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"To Dexterity"
+      },
+      {
+        "min":5,
+        "max":9,
+        "property":"Cold Absorb"
+      }
+    ]
+  },
+  {
+    "id":3023601451,
+    "name":"Nightsmoke",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/belt_m.png",
+    "korName":"밤연기",
+    "description_filtered":[
+      {
+        "min":22,
+        "max":24,
+        "property":"Defense"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2342852256,
+    "name":"The Centurion",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/hard_leather_armor.png",
+    "korName":"백인대장",
+    "description_filtered":[
+      {
+        "min":51,
+        "max":54,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":4231729659,
+    "name":"Snakecord",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/light_belt.png",
+    "korName":"뱀노끈",
+    "description_filtered":[
+      {
+        "min":14,
+        "max":15,
+        "property":"Defense"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":4286251665,
+    "name":"Wormskull",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/wormskull.png",
+    "korName":"벌레두개골",
+    "description_filtered":[
+      {
+        "min":33,
+        "max":36,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":4148498799,
+    "name":"Skin of the Flayed One",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/hard_leather_armor.png",
+    "korName":"벗겨진자의가죽",
+    "description_filtered":[
+      {
+        "min":342,
+        "max":397,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":190,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":5,
+        "max":7,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"Replenish Life"
+      }
+    ]
+  },
+  {
+    "id":3742441250,
+    "name":"Verdungo's Hearty Cord",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/belt_m.png",
+    "korName":"베르둔고의튼튼한노끈",
+    "description_filtered":[
+      {
+        "min":125,
+        "max":158,
+        "property":"Defense"
+      },
+      {
+        "min":90,
+        "max":140,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":30,
+        "max":40,
+        "property":"To Vitality"
+      },
+      {
+        "min":10,
+        "max":13,
+        "property":"Replenish Life"
+      },
+      {
+        "min":100,
+        "max":120,
+        "property":"Maximum Stamina"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":2488234496,
+    "name":"Cliffkiller",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/long_battle_bow.png",
+    "korName":"벼랑몰이",
+    "description_filtered":[
+      {
+        "min":190,
+        "max":230,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":3716563122,
+    "name":"Carrion Wind",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring1.png",
+    "korName":"부패의바람",
+    "description_filtered":[
+      {
+        "min":6,
+        "max":9,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":100,
+        "max":160,
+        "property":"Defense Vs. Missile"
+      }
+    ]
+  },
+  {
+    "id":3667476416,
+    "name":"Crushflange",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/mace\/mace.png",
+    "korName":"분쇄테",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":60,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3253687341,
+    "name":"Sparking Mail",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/chain_mail.png",
+    "korName":"불꽃튀는사슬갑옷",
+    "description_filtered":[
+      {
+        "min":133,
+        "max":140,
+        "property":"Defense"
+      },
+      {
+        "min":75,
+        "max":85,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":10,
+        "max":14,
+        "property":"Attacker Takes Lightning Damage of"
+      },
+      {
+        "min":1,
+        "max":20,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":2474580966,
+    "name":"The Salamander",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/battle_staff.png",
+    "korName":"불도마뱀",
+    "description_filtered":[
+      {
+        "min":15,
+        "max":32,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":2309105433,
+    "name":"Firelizard's Talons",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/h2h\/claws.png",
+    "korName":"불도마뱀의발톱",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":270,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":236,
+        "max":480,
+        "property":"Fire Damage"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Martial Arts (Assassin Only)"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Wake of Inferno (Assassin Only)"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Wake of Fire (Assassin Only)"
+      },
+      {
+        "min":40,
+        "max":70,
+        "property":"Fire Resist"
+      }
+    ]
+  },
+  {
+    "id":3290708412,
+    "name":"Bul-Kathos' Wedding Band",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring4.png",
+    "korName":"불카토스의결혼반지",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":5,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2388993561,
+    "name":"The Hand of Broc",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/gloves_l.png",
+    "korName":"브록의손",
+    "description_filtered":[
+      {
+        "min":10,
+        "max":20,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":4110877405,
+    "name":"Bverrit Keep",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/bverrit_keep.png",
+    "korName":"브베리트성채",
+    "description_filtered":[
+      {
+        "min":76,
+        "max":87,
+        "property":"Defense"
+      },
+      {
+        "min":1,
+        "max":5,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":80,
+        "max":120,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":2724599362,
+    "name":"Silkweave",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/chain_boots.png",
+    "korName":"비단매듭",
+    "description_filtered":[
+      {
+        "min":112,
+        "max":130,
+        "property":"Defense"
+      },
+      {
+        "min":23,
+        "max":52,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":150,
+        "max":190,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":4159311624,
+    "name":"The Jade Tan Do",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/the_jade_tan_do.png",
+    "korName":"비취단도",
+    "description_filtered":[
+      {
+        "min":100,
+        "max":150,
+        "property":"to Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":3827109109,
+    "name":"Jade Talon",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/h2h\/katar.png",
+    "korName":"비취발톱",
+    "description_filtered":[
+      {
+        "min":190,
+        "max":240,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Martial Arts (Assassin Only)"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To  Shadow Disciplines (Assassin Only)"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Mana Stolen Per Hit"
+      },
+      {
+        "min":40,
+        "max":50,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":2267623035,
+    "name":"Boneshade",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/wand\/gravenspine.png",
+    "korName":"뼈그늘",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":2,
+        "property":"To Bone Spirit (Necromancer Only)"
+      },
+      {
+        "min":2,
+        "max":3,
+        "property":"To Bone Spear (Necromancer Only)"
+      },
+      {
+        "min":2,
+        "max":3,
+        "property":"To Bone Wall (Necromancer Only)"
+      },
+      {
+        "min":4,
+        "max":5,
+        "property":"To Bone Armor (Necromancer Only)"
+      },
+      {
+        "min":4,
+        "max":5,
+        "property":"To Teeth (Necromancer Only)"
+      }
+    ]
+  },
+  {
+    "id":2968873618,
+    "name":"Boneflame",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/voodoo_head\/gargoyle_head.png",
+    "korName":"뼈불길",
+    "description_filtered":[
+      {
+        "min":323,
+        "max":367,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":2,
+        "max":3,
+        "property":"To Necromancer Skill Levels"
+      }
+    ]
+  },
+  {
+    "id":2810984629,
+    "name":"Boneflesh",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/plate_mail.png",
+    "korName":"뼈살점",
+    "description_filtered":[
+      {
+        "min":234,
+        "max":257,
+        "property":"Defense"
+      },
+      {
+        "min":100,
+        "max":120,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2534149580,
+    "name":"Bonehew",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/bardiche.png",
+    "korName":"뼈자르개",
+    "description_filtered":[
+      {
+        "min":270,
+        "max":320,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3854321473,
+    "name":"Bonesnap",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/bonesob.png",
+    "korName":"뼈절단기",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":300,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4119339192,
+    "name":"Boneslayer Blade",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/brainhew.png",
+    "korName":"뼈학살자칼날",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":220,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":12,
+        "max":20,
+        "property":"Holy Bolt When Struck"
+      }
+    ]
+  },
+  {
+    "id":2584551240,
+    "name":"Saracen's Chance",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet1.png",
+    "korName":"사라센의기회",
+    "description_filtered":[
+      {
+        "min":15,
+        "max":25,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":3746643238,
+    "name":"Hexfire",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/hexfire.png",
+    "korName":"사술불길",
+    "description_filtered":[
+      {
+        "min":140,
+        "max":160,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":35,
+        "max":40,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":3167422589,
+    "name":"The Grim Reaper",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/war_scythe.png",
+    "korName":"사신의낫",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3026597261,
+    "name":"Grim's Burning Dead",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/war_scythe.png",
+    "korName":"사신의불타는망자",
+    "description_filtered":[
+      {
+        "min":140,
+        "max":180,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":131,
+        "max":232,
+        "property":"Fire Damage"
+      },
+      {
+        "min":200,
+        "max":250,
+        "property":"To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":2548896490,
+    "name":"The Reaper's Toll",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/scythe.png",
+    "korName":"사신의종소리",
+    "description_filtered":[
+      {
+        "min":190,
+        "max":240,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":11,
+        "max":15,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2532009473,
+    "name":"Fleshripper",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/the_jade_tan_do.png",
+    "korName":"살점갈퀴",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":300,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3885710235,
+    "name":"Fleshrender",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/club\/stoutnail.png",
+    "korName":"살점분쇄봉",
+    "description_filtered":[
+      {
+        "min":130,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":35,
+        "max":50,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":3166380259,
+    "name":"Gravenspine",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/wand\/gravenspine.png",
+    "korName":"새김등뼈",
+    "description_filtered":[
+      {
+        "min":25,
+        "max":50,
+        "property":"Mana"
+      }
+    ]
+  },
+  {
+    "id":3882749877,
+    "name":"Schaefer's Hammer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/war_hammer.png",
+    "korName":"섀퍼의망치",
+    "description_filtered":[
+      {
+        "min":100,
+        "max":130,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":50,
+        "max":200,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":3602799630,
+    "name":"Gleamscythe",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/gleamscythe.png",
+    "korName":"서광칼낫",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":100,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3218635771,
+    "name":"Frostwind",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/hellplague.png",
+    "korName":"서리바람",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":230,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":7,
+        "max":14,
+        "property":"To Arctic Blast"
+      },
+      {
+        "min":7,
+        "max":15,
+        "property":"Cold Absorb"
+      }
+    ]
+  },
+  {
+    "id":3345881570,
+    "name":"Frostburn",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/gaunlets_h.png",
+    "korName":"서리불꽃",
+    "description_filtered":[
+      {
+        "min":47,
+        "max":49,
+        "property":"Defense"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2264359652,
+    "name":"Razortine",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/razortine.png",
+    "korName":"서슬가지",
+    "description_filtered":[
+      {
+        "min":30,
+        "max":50,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3075029251,
+    "name":"Razortail",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/light_belt.png",
+    "korName":"서슬꼬리",
+    "description_filtered":[
+      {
+        "min":96,
+        "max":107,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2294552212,
+    "name":"Razorswitch",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/short_staff.png",
+    "korName":"서슬돌기",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3573417815,
+    "name":"Razor's Edge",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/the_gnasher.png",
+    "korName":"서슬푸른날붙이",
+    "description_filtered":[
+      {
+        "min":175,
+        "max":225,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2489457928,
+    "name":"Gore Rider",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/plate_boots.png",
+    "korName":"선혈기수",
+    "description_filtered":[
+      {
+        "min":140,
+        "max":162,
+        "property":"Defense"
+      },
+      {
+        "min":39,
+        "max":80,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3516934341,
+    "name":"The Face of Horror",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/mask.png",
+    "korName":"섬뜩한얼굴",
+    "description_filtered":[
+      {
+        "min":34,
+        "max":52,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":3437182343,
+    "name":"Islestrike",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/double_axe.png",
+    "korName":"섬습격자",
+    "description_filtered":[
+      {
+        "min":170,
+        "max":190,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2269347144,
+    "name":"Rattlecage",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/gothic_plate.png",
+    "korName":"성가신철창",
+    "description_filtered":[
+      {
+        "min":328,
+        "max":335,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":3052418720,
+    "name":"Cerebus' Bite",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/pelt\/wolf_head.png",
+    "korName":"세레부스의이빨",
+    "description_filtered":[
+      {
+        "min":335,
+        "max":350,
+        "property":"Defense"
+      },
+      {
+        "min":130,
+        "max":140,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":60,
+        "max":120,
+        "property":"Bonus to Attack Rating"
+      },
+      {
+        "min":7,
+        "max":10,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"To Shape Shifting Skills (Druid Only)"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Feral Rage (Druid Only)"
+      }
+    ]
+  },
+  {
+    "id":2493873508,
+    "name":"Maelstrom",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/wand\/yew_wand.png",
+    "korName":"소용돌이",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":9,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"to Iron Maiden"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"to Amplify Damage"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"to Terror"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"to Corpse Explosion"
+      }
+    ]
+  },
+  {
+    "id":4040239066,
+    "name":"Gull",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/dagger.png",
+    "korName":"속임수",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":15,
+        "property":"damage"
+      }
+    ]
+  },
+  {
+    "id":2174497285,
+    "name":"Eaglehorn",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/long_battle_bow.png",
+    "korName":"수리뿔",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3262006448,
+    "name":"Guardian Naga",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/war_axe.png",
+    "korName":"수호자나가",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":180,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2448237852,
+    "name":"Guardian Angel",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/plate_mail.png",
+    "korName":"수호천사",
+    "description_filtered":[
+      {
+        "min":770,
+        "max":825,
+        "property":"Defense"
+      },
+      {
+        "min":180,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3392229469,
+    "name":"Skullder's Ire",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/splint_mail.png",
+    "korName":"스쿨더의분노",
+    "description_filtered":[
+      {
+        "min":634,
+        "max":732,
+        "property":"Defense"
+      },
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2734041570,
+    "name":"Wizendraw",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/long_battle_bow.png",
+    "korName":"슬기매김",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":80,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":50,
+        "max":100,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":20,
+        "max":35,
+        "property":"To Enemy Cold Resistance"
+      }
+    ]
+  },
+  {
+    "id":3177338477,
+    "name":"Silks of the Victor",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/victors_silk.png",
+    "korName":"승자의비단",
+    "description_filtered":[
+      {
+        "min":468,
+        "max":514,
+        "property":"Defense"
+      },
+      {
+        "min":100,
+        "max":120,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2817656000,
+    "name":"Crown of Ages",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/crown.png",
+    "korName":"시대의왕관",
+    "description_filtered":[
+      {
+        "min":349,
+        "max":399,
+        "property":"Defense"
+      },
+      {
+        "min":100,
+        "max":150,
+        "property":"Defense"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Damage Reduced By"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"All Resistances"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"Socketed"
+      }
+    ]
+  },
+  {
+    "id":3790015480,
+    "name":"Djinn Slayer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/blood_crescent.png",
+    "korName":"신령학살자",
+    "description_filtered":[
+      {
+        "min":190,
+        "max":240,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":100,
+        "max":150,
+        "property":"Damage To Demons"
+      },
+      {
+        "min":250,
+        "max":500,
+        "property":"Fire Damage"
+      },
+      {
+        "min":3,
+        "max":6,
+        "property":"Mana Stolen Per Hit"
+      },
+      {
+        "min":3,
+        "max":7,
+        "property":"Lightning Absorb"
+      },
+      {
+        "min":200,
+        "max":300,
+        "property":"To Attack Rating Against Demons"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"Socketed"
+      }
+    ]
+  },
+  {
+    "id":3201641685,
+    "name":"Ichorsting",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/ichorsting.png",
+    "korName":"신혈쐐기",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2721473696,
+    "name":"Heart Carver",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/dirk.png",
+    "korName":"심장도리개",
+    "description_filtered":[
+      {
+        "min":190,
+        "max":240,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":15,
+        "max":35,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2716276846,
+    "name":"The Fetid Sprinkler",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/scepter\/grand_scepter.png",
+    "korName":"썩은뿌리개",
+    "description_filtered":[
+      {
+        "min":160,
+        "max":190,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"Damage"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":3686742019,
+    "name":"Spike Thorn",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/swordback_hold.png",
+    "korName":"쐐기가시",
+    "description_filtered":[
+      {
+        "min":360,
+        "max":410,
+        "property":"Defense"
+      },
+      {
+        "min":26,
+        "max":40,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":3515285818,
+    "name":"Felloak",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/club\/felloak.png",
+    "korName":"쓰러진참나무",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":80,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":6,
+        "max":8,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":4101380228,
+    "name":"Gimmershred",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/throwing_axe.png",
+    "korName":"아른날",
+    "description_filtered":[
+      {
+        "min":39,
+        "max":204,
+        "property":"Throw damage"
+      },
+      {
+        "min":160,
+        "max":210,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":218,
+        "max":483,
+        "property":"Fire Damage"
+      },
+      {
+        "min":29,
+        "max":501,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":3663613676,
+    "name":"The Atlantean",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/war_sword.png",
+    "korName":"아틀란티안",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":250,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2495965323,
+    "name":"Demonhorn's Edge",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/horned_helm.png",
+    "korName":"악마뿔의날",
+    "description_filtered":[
+      {
+        "min":345,
+        "max":408,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":160,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":3,
+        "max":6,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":55,
+        "max":77,
+        "property":"Attacker Takes Damage of"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Warcries (Barbarian Only)"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Masteries (Barbarian Only)"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Combat Skills (Barbarian Only)"
+      }
+    ]
+  },
+  {
+    "id":2791520758,
+    "name":"Demon Machine",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/doomspittle.png",
+    "korName":"악마의기계",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3062968304,
+    "name":"Demon Limb",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/club\/stoutnail.png",
+    "korName":"악마의사지",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":230,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":222,
+        "max":333,
+        "property":"Fire Damage"
+      },
+      {
+        "min":7,
+        "max":13,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"Fire Resist"
+      }
+    ]
+  },
+  {
+    "id":2211709632,
+    "name":"Demon's Arch",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/javelin\/short_spear.png",
+    "korName":"악마의호",
+    "description_filtered":[
+      {
+        "min":104,
+        "max":192,
+        "property":"Throw damage"
+      },
+      {
+        "min":160,
+        "max":210,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":232,
+        "max":323,
+        "property":"Fire Damage"
+      },
+      {
+        "min":23,
+        "max":333,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":6,
+        "max":12,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3536388840,
+    "name":"Blade of Ali Baba",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/falchion.png",
+    "korName":"알리바바의칼날",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":120,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":5,
+        "max":15,
+        "property":"To Dexterity"
+      }
+    ]
+  },
+  {
+    "id":2367771795,
+    "name":"Lance of Yaggai",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/spetum.png",
+    "korName":"야가이의기병창",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":60,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":2632213911,
+    "name":"Darksight Helm",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/duskdeep.png",
+    "korName":"어둑눈투구",
+    "description_filtered":[
+      {
+        "min":77,
+        "max":282,
+        "property":"Defense"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"Fire Resist"
+      }
+    ]
+  },
+  {
+    "id":3988009940,
+    "name":"Darkglow",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/ring_mail.png",
+    "korName":"어둠빛",
+    "description_filtered":[
+      {
+        "min":83,
+        "max":98,
+        "property":"Defense"
+      },
+      {
+        "min":70,
+        "max":100,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2402240789,
+    "name":"Dark Clan Crusher",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/club\/felloak.png",
+    "korName":"어둠의일족분쇄자",
+    "description_filtered":[
+      {
+        "min":20,
+        "max":25,
+        "property":"Bonus To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":3188737937,
+    "name":"Darkforce Spawn",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/voodoo_head\/demon_head.png",
+    "korName":"어둠의종자",
+    "description_filtered":[
+      {
+        "min":357,
+        "max":417,
+        "property":"Defense"
+      },
+      {
+        "min":140,
+        "max":180,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Summoning Skills (Necromancer Only)"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Poison And Bone Skills (Necromancer Only)"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Curses (Necromancer Only)"
+      }
+    ]
+  },
+  {
+    "id":2269009155,
+    "name":"Gloom's Trap",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/belt_m.png",
+    "korName":"어스름의덫",
+    "description_filtered":[
+      {
+        "min":90,
+        "max":102,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":4125520960,
+    "name":"Undead Crown",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/crown.png",
+    "korName":"언데드왕관",
+    "description_filtered":[
+      {
+        "min":99,
+        "max":113,
+        "property":"Defense"
+      },
+      {
+        "min":30,
+        "max":60,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":50,
+        "max":100,
+        "property":"Attack Rating Vs. Undead"
+      }
+    ]
+  },
+  {
+    "id":3528983145,
+    "name":"Coldsteel Eye",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/blood_crescent.png",
+    "korName":"얼음강철눈",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":250,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2955625515,
+    "name":"Iceblink",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/splint_mail.png",
+    "korName":"얼음빛",
+    "description_filtered":[
+      {
+        "min":163,
+        "max":172,
+        "property":"Defense"
+      },
+      {
+        "min":70,
+        "max":80,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3750572562,
+    "name":"Eschuta's Temper",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/orb\/sacred_globe.png",
+    "korName":"에슈타의성미",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":3,
+        "property":"To Sorceress Skill Levels"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"To Fire Skill Damage"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"To Lightning Skill Damage"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"To Energy"
+      }
+    ]
+  },
+  {
+    "id":3366610650,
+    "name":"The Eye of Etlich",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet2.png",
+    "korName":"에틀리크의눈",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":5,
+        "property":"To Light Radius"
+      },
+      {
+        "min":3,
+        "max":7,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"to (3-5) Cold Damage"
+      },
+      {
+        "min":10,
+        "max":40,
+        "property":"Defense vs. Missile"
+      }
+    ]
+  },
+  {
+    "id":2759467080,
+    "name":"Plague Bearer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/plague_bearer.png",
+    "korName":"역병유발자",
+    "description_filtered":[
+      {
+        "min":10,
+        "max":45,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":4076275172,
+    "name":"Coif of Glory",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/coif_of_glory.png",
+    "korName":"영예의두건모",
+    "description_filtered":[
+      {
+        "min":25,
+        "max":28,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":2973322436,
+    "name":"Soulflay",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/claymore.png",
+    "korName":"영혼난도",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":100,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":4,
+        "max":10,
+        "property":"Mana stolen per hit"
+      }
+    ]
+  },
+  {
+    "id":2809548551,
+    "name":"Spirit Keeper",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/pelt\/antlers.png",
+    "korName":"영혼수호자",
+    "description_filtered":[
+      {
+        "min":413,
+        "max":443,
+        "property":"Defense"
+      },
+      {
+        "min":170,
+        "max":190,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Druid Skill Levels"
+      },
+      {
+        "min":30,
+        "max":40,
+        "property":"Fire Resist"
+      },
+      {
+        "min":9,
+        "max":14,
+        "property":"Lightning Absorb"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"Cold Absorb"
+      }
+    ]
+  },
+  {
+    "id":2534032604,
+    "name":"Spirit Forge",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/ring_mail.png",
+    "korName":"영혼의용광로",
+    "description_filtered":[
+      {
+        "min":380,
+        "max":449,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":160,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":20,
+        "max":65,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3799466779,
+    "name":"Soulfeast Tine",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/soulfeast_tine.png",
+    "korName":"영혼포식뿔",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":190,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":150,
+        "max":250,
+        "property":"To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":3644456995,
+    "name":"Soul Drainer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/bracers_m.png",
+    "korName":"영혼흡수자",
+    "description_filtered":[
+      {
+        "min":129,
+        "max":149,
+        "property":"Defense"
+      },
+      {
+        "min":90,
+        "max":120,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":4,
+        "max":7,
+        "property":"Mana Stolen Per Hit"
+      },
+      {
+        "min":4,
+        "max":7,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3982688299,
+    "name":"Ormus' Robes",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/quilted_armor.png",
+    "korName":"오르무스의장포",
+    "description_filtered":[
+      {
+        "min":371,
+        "max":487,
+        "property":"Defense"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"Defense"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Cold Skill Damage"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Fire Skill Damage"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Lightning Skill Damage"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Regenerate Mana"
+      }
+    ]
+  },
+  {
+    "id":2451461580,
+    "name":"Ondal's Wisdom",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/lazarus_spire.png",
+    "korName":"온달의지혜",
+    "description_filtered":[
+      {
+        "min":2,
+        "max":4,
+        "property":"To All Skills"
+      },
+      {
+        "min":450,
+        "max":550,
+        "property":"Defense"
+      },
+      {
+        "min":40,
+        "max":50,
+        "property":"To Energy"
+      },
+      {
+        "min":5,
+        "max":8,
+        "property":"Magic Damage Reduced by"
+      }
+    ]
+  },
+  {
+    "id":2270172934,
+    "name":"Warpspear",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/battle_staff.png",
+    "korName":"왜곡창",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3258588974,
+    "name":"Dwarf Star",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring5.png",
+    "korName":"왜성",
+    "description_filtered":[
+      {
+        "min":12,
+        "max":15,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":2571204603,
+    "name":"Sureshrill Frost",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/mace\/mace.png",
+    "korName":"외마디서리",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":180,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":5,
+        "max":10,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":3471333300,
+    "name":"The Stone of Jordan",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring1.png",
+    "korName":"요르단의반지",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":12,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":3520206482,
+    "name":"Dragonscale",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/aerin_shield.png",
+    "korName":"용비늘",
+    "description_filtered":[
+      {
+        "min":523,
+        "max":582,
+        "property":"Defense"
+      },
+      {
+        "min":170,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":211,
+        "max":371,
+        "property":"Fire Damage"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"To Strength"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"Fire Absorb"
+      }
+    ]
+  },
+  {
+    "id":2490240482,
+    "name":"Lava Gout",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/light_gauntlets.png",
+    "korName":"용암불똥",
+    "description_filtered":[
+      {
+        "min":120,
+        "max":144,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":13,
+        "max":46,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":4240661255,
+    "name":"The Dragon Chang",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/spear.png",
+    "korName":"용창",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":6,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3856614218,
+    "name":"Ume's Lament",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/wand\/grim_wand.png",
+    "korName":"우메의탄식",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2432578696,
+    "name":"Wolfhowl",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/fanged_helm.png",
+    "korName":"울부짖는늑대",
+    "description_filtered":[
+      {
+        "min":332,
+        "max":377,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":2,
+        "max":3,
+        "property":"To Warcries (Barbarian Only)"
+      },
+      {
+        "min":3,
+        "max":6,
+        "property":"To Feral Rage"
+      },
+      {
+        "min":3,
+        "max":6,
+        "property":"To Lycanthropy"
+      },
+      {
+        "min":3,
+        "max":6,
+        "property":"To Werewolf"
+      },
+      {
+        "min":8,
+        "max":15,
+        "property":"To Strength"
+      },
+      {
+        "min":8,
+        "max":15,
+        "property":"To Dexterity"
+      },
+      {
+        "min":8,
+        "max":15,
+        "property":"To Vitality"
+      }
+    ]
+  },
+  {
+    "id":4163185480,
+    "name":"Howltusk",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/great_helm.png",
+    "korName":"울부짖는엄니",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":3269425307,
+    "name":"Wisp Projector",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring4.png",
+    "korName":"위습투사기",
+    "description_filtered":[
+      {
+        "min":10,
+        "max":20,
+        "property":"Lightning Absorb"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":2679985884,
+    "name":"Ghostflame",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/blade.png",
+    "korName":"유령불꽃",
+    "description_filtered":[
+      {
+        "min":190,
+        "max":240,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Mana Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":2305043391,
+    "name":"Bloodletter",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/short_sword.png",
+    "korName":"유혈자",
+    "description_filtered":[
+      {
+        "min":12,
+        "max":45,
+        "property":"Damage"
+      },
+      {
+        "min":1,
+        "max":3,
+        "property":"To Whirlwind (Barbarian Only)"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"To Sword Mastery (Barbarian Only)"
+      }
+    ]
+  },
+  {
+    "id":3183621030,
+    "name":"Torch of Iro",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/wand\/iros_torch.png",
+    "korName":"이로의횃불",
+    "description_filtered":[
+      {
+        "min":5,
+        "max":9,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3206633930,
+    "name":"Nature's Peace",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring5.png",
+    "korName":"자연의평화",
+    "description_filtered":[
+      {
+        "min":20,
+        "max":30,
+        "property":"Poison Resist"
+      },
+      {
+        "min":7,
+        "max":11,
+        "property":"Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":3271192692,
+    "name":"Zakarum's Hand",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/scepter\/scepter.png",
+    "korName":"자카룸의손",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":220,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4274325984,
+    "name":"Herald of Zakarum",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/aerin_shield.png",
+    "korName":"자카룸의전령",
+    "description_filtered":[
+      {
+        "min":422,
+        "max":507,
+        "property":"Defense"
+      },
+      {
+        "min":20,
+        "max":28,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3353828076,
+    "name":"Suicide Branch",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/wand\/wand.png",
+    "korName":"자해의가지",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2195852119,
+    "name":"Jalal's Mane",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/pelt\/spirit_mask.png",
+    "korName":"잘랄의갈기",
+    "description_filtered":[
+      {
+        "min":247,
+        "max":297,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2986174596,
+    "name":"The General's Tan Do Li Ga",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/mace\/flail.png",
+    "korName":"장군의단도리깨",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":60,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":20,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2843694540,
+    "name":"Shaftstop",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/chain_mail.png",
+    "korName":"장대막이",
+    "description_filtered":[
+      {
+        "min":599,
+        "max":684,
+        "property":"Defense"
+      },
+      {
+        "min":180,
+        "max":220,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2264038187,
+    "name":"The Patriarch",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/the_patriarch.png",
+    "korName":"장로",
+    "description_filtered":[
+      {
+        "min":100,
+        "max":120,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3011918461,
+    "name":"Woestave",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/halberd.png",
+    "korName":"재앙의지팡이",
+    "description_filtered":[
+      {
+        "min":20,
+        "max":40,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3217175827,
+    "name":"Visceratuant",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/pelta_lunata.png",
+    "korName":"적출자",
+    "description_filtered":[
+      {
+        "min":100,
+        "max":125,
+        "property":"Defense"
+      },
+      {
+        "min":8,
+        "max":12,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":100,
+        "max":150,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3159884683,
+    "name":"War Traveler",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/light_plate_boots.png",
+    "korName":"전쟁여행자",
+    "description_filtered":[
+      {
+        "min":120,
+        "max":139,
+        "property":"Defense"
+      },
+      {
+        "min":37,
+        "max":64,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":150,
+        "max":190,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":15,
+        "max":25,
+        "property":"Damage"
+      },
+      {
+        "min":5,
+        "max":10,
+        "property":"Attacker Takes Damage Of"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":2541492616,
+    "name":"Warshrike",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/warshrike.png",
+    "korName":"전쟁표창",
+    "description_filtered":[
+      {
+        "min":69,
+        "max":136,
+        "property":"Throw damage"
+      },
+      {
+        "min":200,
+        "max":250,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2828417383,
+    "name":"The Battlebranch",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/poleaxe.png",
+    "korName":"전투가지",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":70,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":50,
+        "max":100,
+        "property":"To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":2836469093,
+    "name":"Blinkbat's Form",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/leather_armor.png",
+    "korName":"점멸박쥐의형상",
+    "description_filtered":[
+      {
+        "min":39,
+        "max":42,
+        "property":"Defense"
+      },
+      {
+        "min":3,
+        "max":6,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":2622437901,
+    "name":"The Chieftain",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/the_chieftan.png",
+    "korName":"족장",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":40,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":3075897532,
+    "name":"Knell Striker",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/scepter\/scepter.png",
+    "korName":"종을울리는자",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":80,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4091877745,
+    "name":"Spellsteel",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/broad_axe.png",
+    "korName":"주문강철",
+    "description_filtered":[
+      {
+        "min":12,
+        "max":15,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":2214530626,
+    "name":"Death Cleaver",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/war_axe.png",
+    "korName":"죽음가르개",
+    "description_filtered":[
+      {
+        "min":230,
+        "max":280,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":6,
+        "max":9,
+        "property":"Life After Each Kill"
+      }
+    ]
+  },
+  {
+    "id":2209971449,
+    "name":"Todesfaelle Flamme",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/todesfaelle_flamme.png",
+    "korName":"죽음나락불길",
+    "description_filtered":[
+      {
+        "min":120,
+        "max":160,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":50,
+        "max":200,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3594678829,
+    "name":"Death's Web",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/wand\/grim_wand.png",
+    "korName":"죽음의거미줄",
+    "description_filtered":[
+      {
+        "min":40,
+        "max":50,
+        "property":"To Enemy Poison Resistance"
+      },
+      {
+        "min":7,
+        "max":12,
+        "property":"To Mana After Each Kill"
+      },
+      {
+        "min":7,
+        "max":12,
+        "property":"Life After Each Kill"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Poison And Bone Skills (Necromancer Only)"
+      }
+    ]
+  },
+  {
+    "id":3620813899,
+    "name":"Shadow Killer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/h2h\/shadowkiller.png",
+    "korName":"죽음의그림자",
+    "description_filtered":[
+      {
+        "min":170,
+        "max":220,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"To Mana After Each Kill"
+      }
+    ]
+  },
+  {
+    "id":3811006898,
+    "name":"Death's Fathom",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/orb\/dragon_stone.png",
+    "korName":"죽음의깊이",
+    "description_filtered":[
+      {
+        "min":15,
+        "max":30,
+        "property":"To Cold Skill Damage"
+      },
+      {
+        "min":25,
+        "max":40,
+        "property":"Lightning Resist"
+      },
+      {
+        "min":25,
+        "max":40,
+        "property":"Fire Resist"
+      }
+    ]
+  },
+  {
+    "id":3324920437,
+    "name":"Deathspade",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/deathspade.png",
+    "korName":"죽음의날",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":70,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4097182482,
+    "name":"Deathbit",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/throwing_knife.png",
+    "korName":"죽음조각",
+    "description_filtered":[
+      {
+        "min":25,
+        "max":67,
+        "property":"Throw damage"
+      },
+      {
+        "min":130,
+        "max":180,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":200,
+        "max":450,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":7,
+        "max":9,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":4,
+        "max":6,
+        "property":"Mana Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3848430920,
+    "name":"The Vile Husk",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/kinemils_awl.png",
+    "korName":"지독한껍질",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2989181591,
+    "name":"Hellclap",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hellclap.png",
+    "korName":"지옥맞이",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":90,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"Fire Damage"
+      },
+      {
+        "min":50,
+        "max":75,
+        "property":"to Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":3377140868,
+    "name":"Hellcast",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hellcast.png",
+    "korName":"지옥발사기",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":80,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":15,
+        "max":35,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3317578952,
+    "name":"Infernostride",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/leather_boots.png",
+    "korName":"지옥불걸음",
+    "description_filtered":[
+      {
+        "min":94,
+        "max":105,
+        "property":"Defense"
+      },
+      {
+        "min":26,
+        "max":46,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":12,
+        "max":33,
+        "property":"Fire Damage"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":40,
+        "max":70,
+        "property":"Extra Gold From Monsters"
+      }
+    ]
+  },
+  {
+    "id":3475729354,
+    "name":"Hellfire Torch",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/torch\/torch.png",
+    "korName":"지옥불횃불",
+    "description_filtered":[
+      {
+        "min":10,
+        "max":20,
+        "property":"To All Attributes"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":2714390419,
+    "name":"Hellmouth",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/gaunlets_h.png",
+    "korName":"지옥어귀",
+    "description_filtered":[
+      {
+        "min":135,
+        "max":162,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":15,
+        "max":72,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":2450204727,
+    "name":"Hellplague",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/hellplague.png",
+    "korName":"지옥역병",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":80,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":25,
+        "max":75,
+        "property":"Fire Damage"
+      },
+      {
+        "min":28,
+        "max":56,
+        "property":"Poison Damage Over 6 Seconds"
+      }
+    ]
+  },
+  {
+    "id":2170106339,
+    "name":"Hellrack",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hellcast.png",
+    "korName":"지옥포",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":230,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":100,
+        "max":150,
+        "property":"Bonus To Attack Rating"
+      },
+      {
+        "min":63,
+        "max":324,
+        "property":"Fire Damage"
+      },
+      {
+        "min":63,
+        "max":324,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":63,
+        "max":324,
+        "property":"Cold Damage"
+      }
+    ]
+  },
+  {
+    "id":4029815557,
+    "name":"Hellslayer",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/the_chieftan.png",
+    "korName":"지옥학살자",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":250,
+        "property":"Fire Damage"
+      },
+      {
+        "min":16,
+        "max":20,
+        "property":"Fireball On Attack"
+      }
+    ]
+  },
+  {
+    "id":2589004026,
+    "name":"Horizon's Tornado",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/mace\/flail.png",
+    "korName":"지평선의회오리",
+    "description_filtered":[
+      {
+        "min":230,
+        "max":280,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2711439060,
+    "name":"Executioner's Justice",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/giant_axe.png",
+    "korName":"집행자의정의",
+    "description_filtered":[
+      {
+        "min":240,
+        "max":290,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2725608506,
+    "name":"Coldkill",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/the_gnasher.png",
+    "korName":"차가운죽음",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":190,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3850326979,
+    "name":"Chromatic Ire",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/staff\/lazarus_spire.png",
+    "korName":"찬란한분노",
+    "description_filtered":[
+      {
+        "min":20,
+        "max":25,
+        "property":"Increase Maximum Life"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":3965857623,
+    "name":"Spineripper",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/dagger.png",
+    "korName":"척추적출자",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":240,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":15,
+        "max":27,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2697426765,
+    "name":"Thundergod's Vigor",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/girdle_h.png",
+    "korName":"천둥신의박력",
+    "description_filtered":[
+      {
+        "min":137,
+        "max":159,
+        "property":"Defense"
+      },
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":50,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":3308603091,
+    "name":"Thunderstroke",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/javelin\/maiden_javelin.png",
+    "korName":"천둥일격",
+    "description_filtered":[
+      {
+        "min":87,
+        "max":198,
+        "property":"Throw damage"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":511,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"To Javelin and Spear Skills (Amazon Only)"
+      }
+    ]
+  },
+  {
+    "id":3594002155,
+    "name":"Seraph's Hymn",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet2.png",
+    "korName":"천사의찬송가",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":2,
+        "property":"To Defensive Auras (Paladin Only)"
+      },
+      {
+        "min":25,
+        "max":50,
+        "property":"Damage To Demons"
+      },
+      {
+        "min":150,
+        "max":250,
+        "property":"To Attack Rating Against Demons"
+      },
+      {
+        "min":25,
+        "max":50,
+        "property":"Damage To Undead"
+      },
+      {
+        "min":150,
+        "max":250,
+        "property":"To Attack Rating Against Undead"
+      }
+    ]
+  },
+  {
+    "id":3669515042,
+    "name":"Heaven's Light",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/scepter\/scepter.png",
+    "korName":"천상의빛",
+    "description_filtered":[
+      {
+        "min":250,
+        "max":300,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"Life After Each Demon Kill"
+      },
+      {
+        "min":2,
+        "max":3,
+        "property":"To Paladin Skill Levels"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"Socketed"
+      }
+    ]
+  },
+  {
+    "id":3916641365,
+    "name":"Heavenly Garb",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/light_plate.png",
+    "korName":"천상의의복",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2688507853,
+    "name":"Crescent Moon",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/amulet\/amulet3.png",
+    "korName":"초승달",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":6,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":11,
+        "max":15,
+        "property":"Mana Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3554216836,
+    "name":"Hand of Blessed Light",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/scepter\/war_scepter.png",
+    "korName":"축복받은빛의손",
+    "description_filtered":[
+      {
+        "min":130,
+        "max":160,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":20,
+        "max":45,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":4115033649,
+    "name":"Raven Frost",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/ring\/ring3.png",
+    "korName":"칠흑서리",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":250,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"To Dexterity"
+      }
+    ]
+  },
+  {
+    "id":2909932800,
+    "name":"Carin Shard",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/wand\/yew_wand.png",
+    "korName":"카린파편",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":4036170707,
+    "name":"Bladebone",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/double_axe.png",
+    "korName":"칼날뼈",
+    "description_filtered":[
+      {
+        "min":30,
+        "max":50,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":8,
+        "max":12,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3608957125,
+    "name":"Bladebuckle",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/belt\/girdle_h.png",
+    "korName":"칼날죔쇠",
+    "description_filtered":[
+      {
+        "min":51,
+        "max":54,
+        "property":"Defense"
+      },
+      {
+        "min":80,
+        "max":100,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2947826447,
+    "name":"Culwen's Point",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/war_sword.png",
+    "korName":"컬웬의날붙이",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":80,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3562956590,
+    "name":"Kelpie Snare",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/razortine.png",
+    "korName":"켈피올가미",
+    "description_filtered":[
+      {
+        "min":140,
+        "max":180,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":2932023556,
+    "name":"Que-Hegan's Wisdom",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/light_plate.png",
+    "korName":"쿠에히간의지혜",
+    "description_filtered":[
+      {
+        "min":628,
+        "max":681,
+        "property":"Defense"
+      },
+      {
+        "min":140,
+        "max":160,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":6,
+        "max":10,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":2544781234,
+    "name":"Kuko Shakaku",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/kuko_shakaku.png",
+    "korName":"쿠코샤카쿠",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":180,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":40,
+        "max":180,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":4058324491,
+    "name":"Skewer of Krintiz",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/krintizs_skewer.png",
+    "korName":"크린티즈의꼬챙이",
+    "description_filtered":[
+      {
+        "min":3,
+        "max":7,
+        "property":"Damage"
+      }
+    ]
+  },
+  {
+    "id":3465941213,
+    "name":"Treads of Cthon",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/chain_boots.png",
+    "korName":"크톤의발보호대",
+    "description_filtered":[
+      {
+        "min":25,
+        "max":26,
+        "property":"Defense"
+      },
+      {
+        "min":6,
+        "max":12,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":30,
+        "max":40,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":2550993332,
+    "name":"Raven Claw",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/long_bow.png",
+    "korName":"큰까마귀발톱",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":70,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3293139127,
+    "name":"Kinemil's Awl",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/kinemils_awl.png",
+    "korName":"키네밀의송곳",
+    "description_filtered":[
+      {
+        "min":80,
+        "max":100,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":100,
+        "max":150,
+        "property":"To Attack Rating"
+      },
+      {
+        "min":20,
+        "max":40,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3281925654,
+    "name":"Kira's Guardian",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/circlet\/tiara.png",
+    "korName":"키라의수호자",
+    "description_filtered":[
+      {
+        "min":90,
+        "max":170,
+        "property":"Defense"
+      },
+      {
+        "min":50,
+        "max":120,
+        "property":"Defense"
+      },
+      {
+        "min":50,
+        "max":70,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":2426353737,
+    "name":"Tarnhelm",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/skull_cap.png",
+    "korName":"타른헬름",
+    "description_filtered":[
+      {
+        "min":8,
+        "max":11,
+        "property":"Defense"
+      },
+      {
+        "min":25,
+        "max":50,
+        "property":"Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":3580853607,
+    "name":"The Tannr Gorerod",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/pike.png",
+    "korName":"탄르고어로드",
+    "description_filtered":[
+      {
+        "min":80,
+        "max":100,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":23,
+        "max":54,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":4153111520,
+    "name":"Ripsaw",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/flamberge.png",
+    "korName":"톱날검",
+    "description_filtered":[
+      {
+        "min":80,
+        "max":100,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3622718790,
+    "name":"Tyrael's Might",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/victors_silk.png",
+    "korName":"티리엘의권능",
+    "description_filtered":[
+      {
+        "min":1322,
+        "max":1502,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":50,
+        "max":100,
+        "property":"Damage To Demons"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"To Strength"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":2737647797,
+    "name":"Tiamat's Rebuke",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/steelclash.png",
+    "korName":"티아마트의질책",
+    "description_filtered":[
+      {
+        "min":163,
+        "max":204,
+        "property":"Defense"
+      },
+      {
+        "min":15,
+        "max":24,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":140,
+        "max":200,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":35,
+        "max":95,
+        "property":"Fire Damage"
+      },
+      {
+        "min":1,
+        "max":120,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":25,
+        "max":35,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":4002172813,
+    "name":"Riphook",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hunters_bow.png",
+    "korName":"파열갈고리",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":220,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":7,
+        "max":10,
+        "property":"Life Stolen Per Hit"
+      }
+    ]
+  },
+  {
+    "id":3243192670,
+    "name":"Pelta Lunata",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/pelta_lunata.png",
+    "korName":"펠타루나타",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":3,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":30,
+        "max":40,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":4069081070,
+    "name":"Peasant Crown",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/cap_hat.png",
+    "korName":"평민의왕관",
+    "description_filtered":[
+      {
+        "min":6,
+        "max":12,
+        "property":"Replenish Life"
+      }
+    ]
+  },
+  {
+    "id":3133162161,
+    "name":"Blastbark",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/long_war_bow.png",
+    "korName":"폭발껍질",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":130,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3884849701,
+    "name":"Stormstrike",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/pullspite.png",
+    "korName":"폭풍격",
+    "description_filtered":[
+      {
+        "min":70,
+        "max":90,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":30,
+        "property":"lightning damage"
+      }
+    ]
+  },
+  {
+    "id":2853901640,
+    "name":"Stormrider",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/stormrider.png",
+    "korName":"폭풍기수",
+    "description_filtered":[
+      {
+        "min":35,
+        "max":75,
+        "property":"Damage"
+      },
+      {
+        "min":1,
+        "max":200,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":13,
+        "max":20,
+        "property":"Charged Bolt On Striking"
+      }
+    ]
+  },
+  {
+    "id":3348246448,
+    "name":"Stormguild",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/stormguild.png",
+    "korName":"폭풍길드",
+    "description_filtered":[
+      {
+        "min":52,
+        "max":54,
+        "property":"Defense"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":50,
+        "max":60,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":6,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":3074567443,
+    "name":"Stormeye",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/scepter\/war_scepter.png",
+    "korName":"폭풍눈",
+    "description_filtered":[
+      {
+        "min":80,
+        "max":120,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":6,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":3,
+        "max":5,
+        "property":"To Resist Lightning"
+      }
+    ]
+  },
+  {
+    "id":4186333808,
+    "name":"Stormshield",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/steelclash.png",
+    "korName":"폭풍막이",
+    "description_filtered":[
+      {
+        "min":136,
+        "max":519,
+        "property":"Defense"
+      },
+      {
+        "min":12,
+        "max":34,
+        "property":"Paladin smite dmg"
+      }
+    ]
+  },
+  {
+    "id":2310734417,
+    "name":"Stormspike",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/stormspike.png",
+    "korName":"폭풍쐐기",
+    "description_filtered":[
+      {
+        "min":1,
+        "max":120,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":3576586504,
+    "name":"Stormlash",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/mace\/flail.png",
+    "korName":"폭풍채찍",
+    "description_filtered":[
+      {
+        "min":240,
+        "max":300,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":473,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":3,
+        "max":9,
+        "property":"Lightning Absorb"
+      }
+    ]
+  },
+  {
+    "id":3613265062,
+    "name":"Stormspire",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/war_scythe.png",
+    "korName":"폭풍첨탑",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":250,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":237,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":3875896244,
+    "name":"Stormchaser",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/stormchaser.png",
+    "korName":"폭풍추격자",
+    "description_filtered":[
+      {
+        "min":161,
+        "max":198,
+        "property":"Defense"
+      },
+      {
+        "min":11,
+        "max":15,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":160,
+        "max":220,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":1,
+        "max":60,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":3955298434,
+    "name":"Pompeii's Wrath",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/mindrend.png",
+    "korName":"폼페이의진노",
+    "description_filtered":[
+      {
+        "min":140,
+        "max":170,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":35,
+        "max":150,
+        "property":"Fire Damage"
+      }
+    ]
+  },
+  {
+    "id":3349703245,
+    "name":"Bloodtree Stump",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/hammer\/maul.png",
+    "korName":"피나무그루터기",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":220,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3614985042,
+    "name":"Bloodthief",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/spear\/brandistock.png",
+    "korName":"피도둑",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":70,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":8,
+        "max":12,
+        "property":"Life stolen per hit"
+      }
+    ]
+  },
+  {
+    "id":3529400062,
+    "name":"Pierre Tombale Couant",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/poleaxe.png",
+    "korName":"피에르통발쿠앙",
+    "description_filtered":[
+      {
+        "min":160,
+        "max":220,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":12,
+        "max":20,
+        "property":"Damage"
+      },
+      {
+        "min":100,
+        "max":200,
+        "property":"To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":3879284706,
+    "name":"Bloodrise",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/mace\/bloodrise.png",
+    "korName":"피오름",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":2590736234,
+    "name":"Blood Crescent",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/blood_crescent.png",
+    "korName":"피의초승달",
+    "description_filtered":[
+      {
+        "min":60,
+        "max":80,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2539459716,
+    "name":"Bloodfist",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/heavy_gloves.png",
+    "korName":"피주먹",
+    "description_filtered":[
+      {
+        "min":17,
+        "max":18,
+        "property":"Defense"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":4095347713,
+    "name":"Goreshovel",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/broad_axe.png",
+    "korName":"피투성이삽",
+    "description_filtered":[
+      {
+        "min":40,
+        "max":50,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":3290648494,
+    "name":"Gorefoot",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/boot\/heavy_boots.png",
+    "korName":"핏덩이발",
+    "description_filtered":[
+      {
+        "min":20,
+        "max":21,
+        "property":"Defense"
+      },
+      {
+        "min":4,
+        "max":10,
+        "property":"Assassin kick dmg"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":4144238004,
+    "name":"Bloodmoon",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/hexfire.png",
+    "korName":"핏빛달",
+    "description_filtered":[
+      {
+        "min":210,
+        "max":260,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":7,
+        "max":13,
+        "property":"Life After Each Kill"
+      }
+    ]
+  },
+  {
+    "id":3758571672,
+    "name":"Blood Raven's Charge",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/hellclap.png",
+    "korName":"핏빛큰까마귀의돌진",
+    "description_filtered":[
+      {
+        "min":180,
+        "max":230,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":200,
+        "max":300,
+        "property":"Bonus To Attack Rating"
+      },
+      {
+        "min":2,
+        "max":4,
+        "property":"To Bow And  Crossbow Skills (Amazon Only)"
+      }
+    ]
+  },
+  {
+    "id":2893879253,
+    "name":"Skystrike",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/short_bow.png",
+    "korName":"하늘일격",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":250,
+        "property":"Lightning Damage"
+      }
+    ]
+  },
+  {
+    "id":2622848796,
+    "name":"Cranebeak",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/axe\/mindrend.png",
+    "korName":"학부리",
+    "description_filtered":[
+      {
+        "min":240,
+        "max":300,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":1,
+        "max":305,
+        "property":"Lightning Damage"
+      },
+      {
+        "min":20,
+        "max":50,
+        "property":"Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":2881058307,
+    "name":"The Grandfather",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/sword\/the_patriarch.png",
+    "korName":"한아비",
+    "description_filtered":[
+      {
+        "min":150,
+        "max":250,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":2763391028,
+    "name":"Halaberd's Reign",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/assault_helmet.png",
+    "korName":"할라버드의통치",
+    "description_filtered":[
+      {
+        "min":384,
+        "max":432,
+        "property":"Defense"
+      },
+      {
+        "min":140,
+        "max":170,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":15,
+        "max":23,
+        "property":"Replenish Life"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Battle Command (Barbarian Only)"
+      },
+      {
+        "min":1,
+        "max":2,
+        "property":"To Battle Orders (Barbarian Only)"
+      }
+    ]
+  },
+  {
+    "id":2487112490,
+    "name":"Harlequin Crest",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/cap_hat.png",
+    "korName":"할리퀸관모",
+    "description_filtered":[
+      {
+        "min":98,
+        "max":141,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":2987524188,
+    "name":"Chance Guards",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/glove\/bracers_m.png",
+    "korName":"행운의장갑",
+    "description_filtered":[
+      {
+        "min":27,
+        "max":28,
+        "property":"Defense"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":25,
+        "max":40,
+        "property":"Better Chance of Getting Magic Items"
+      }
+    ]
+  },
+  {
+    "id":3826927830,
+    "name":"Homunculus",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/voodoo_head\/demon_head.png",
+    "korName":"호문쿨루스",
+    "description_filtered":[
+      {
+        "min":177,
+        "max":213,
+        "property":"Defense"
+      },
+      {
+        "min":150,
+        "max":200,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3038991630,
+    "name":"The Ward",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/the_ward.png",
+    "korName":"호신부",
+    "description_filtered":[
+      {
+        "min":2,
+        "max":6,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"All Resistances"
+      }
+    ]
+  },
+  {
+    "id":4154472224,
+    "name":"Soul Harvest",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/soul_harvest.png",
+    "korName":"혼령수확자",
+    "description_filtered":[
+      {
+        "min":50,
+        "max":90,
+        "property":"Enhanced Damage"
+      }
+    ]
+  },
+  {
+    "id":4074845824,
+    "name":"The Spirit Shroud",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/quilted_armor.png",
+    "korName":"혼령장막",
+    "description_filtered":[
+      {
+        "min":7,
+        "max":11,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  },
+  {
+    "id":2758152503,
+    "name":"Spectral Shard",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/knife\/blade.png",
+    "korName":"혼령파편",
+    "description_filtered":[
+
+    ]
+  },
+  {
+    "id":4136315203,
+    "name":"Spirit Ward",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/shield\/the_ward.png",
+    "korName":"혼령호신부",
+    "description_filtered":[
+      {
+        "min":393,
+        "max":478,
+        "property":"Defense"
+      },
+      {
+        "min":74,
+        "max":84,
+        "property":"Class block: Pal"
+      },
+      {
+        "min":69,
+        "max":79,
+        "property":"Ama\/Asn\/Bar"
+      },
+      {
+        "min":64,
+        "max":74,
+        "property":"Dru\/Nec\/Sor"
+      },
+      {
+        "min":11,
+        "max":35,
+        "property":"Paladin smite dmg"
+      },
+      {
+        "min":130,
+        "max":180,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":20,
+        "max":30,
+        "property":"Increased Chance of Blocking"
+      },
+      {
+        "min":30,
+        "max":40,
+        "property":"All Resistances"
+      },
+      {
+        "min":6,
+        "max":11,
+        "property":"Cold Absorb"
+      }
+    ]
+  },
+  {
+    "id":3047566837,
+    "name":"Goldskin",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/goldskin.png",
+    "korName":"황금가죽",
+    "description_filtered":[
+      {
+        "min":356,
+        "max":405,
+        "property":"Defense"
+      },
+      {
+        "min":120,
+        "max":150,
+        "property":"Enhanced Defense"
+      }
+    ]
+  },
+  {
+    "id":3837161781,
+    "name":"Goldstrike Arch",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/bow\/long_war_bow.png",
+    "korName":"황금일격활",
+    "description_filtered":[
+      {
+        "min":200,
+        "max":250,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":100,
+        "max":200,
+        "property":"Damage To Demons"
+      },
+      {
+        "min":100,
+        "max":200,
+        "property":"Damage To Undead"
+      },
+      {
+        "min":100,
+        "max":150,
+        "property":"Bonus To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":2247251220,
+    "name":"Duskdeep",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/duskdeep.png",
+    "korName":"황혼심연",
+    "description_filtered":[
+      {
+        "min":45,
+        "max":60,
+        "property":"Defense"
+      },
+      {
+        "min":30,
+        "max":50,
+        "property":"Enhanced Defense"
+      },
+      {
+        "min":10,
+        "max":20,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":2226285502,
+    "name":"Greyform",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/armor\/quilted_armor.png",
+    "korName":"회색형체",
+    "description_filtered":[
+      {
+        "min":28,
+        "max":31,
+        "property":"Defense"
+      }
+    ]
+  },
+  {
+    "id":3612483642,
+    "name":"Husoldal Evo",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/polearm\/halberd.png",
+    "korName":"후솔달에보",
+    "description_filtered":[
+      {
+        "min":160,
+        "max":200,
+        "property":"Enhanced Damage"
+      },
+      {
+        "min":20,
+        "max":32,
+        "property":"Damage"
+      },
+      {
+        "min":200,
+        "max":250,
+        "property":"To Attack Rating"
+      }
+    ]
+  },
+  {
+    "id":2815366576,
+    "name":"Vampire Gaze",
+    "img":"https:\/\/cdn.nookazon.com\/diablo2resurrected\/helmet\/wormskull.png",
+    "korName":"흡혈귀의눈길",
+    "description_filtered":[
+      {
+        "min":6,
+        "max":8,
+        "property":"Life Stolen Per Hit"
+      },
+      {
+        "min":6,
+        "max":8,
+        "property":"Mana Stolen Per Hit"
+      },
+      {
+        "min":15,
+        "max":20,
+        "property":"Damage Reduced By"
+      },
+      {
+        "min":10,
+        "max":15,
+        "property":"Magic Damage Reduced By"
+      }
+    ]
+  }
+]

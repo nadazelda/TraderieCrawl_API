@@ -1,0 +1,8 @@
+# # Dockerfile.localtunnel
+# FROM node:18-slim
+
+# # LocalTunnel CLI 설치
+# RUN npm install -g localtunnel
+
+# # LocalTunnel을 바로 실행 (서브도메인은 옵션)
+# CMD ["lt", "--port", "8000"]

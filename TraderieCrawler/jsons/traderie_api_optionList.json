@@ -1,0 +1,5015 @@
+[
+  {
+    "name": "5% Chance to cast level _ Chain Lightning on attack",
+    "id": 547,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Absorbs Cold Damage (Based on Character Level)",
+    "id": 711,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Absorbs Fire Damage (Based on Character Level)",
+    "id": 717,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Adds Damage",
+    "id": 1261,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Amn Rune",
+    "id": 897,
+    "format": null
+  },
+  {
+    "name": "Amount",
+    "id": 1258,
+    "format": {
+      "preferred": false
+    }
+  },
+  {
+    "name": "Attacker Takes Damage of",
+    "id": 415,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Attacker Takes Damage of (Based on Character Level)",
+    "id": 701,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Attacker Takes Lightning Damage of",
+    "id": 611,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Base Item (Auric) 4",
+    "id": 838,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Axe, Hammer) 4",
+    "id": 840,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Axe, Polearm, Hammer) 5",
+    "id": 826,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Axe, Scepter, Hammer) 5",
+    "id": 802,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Axe, Sword, Polearm) 3",
+    "id": 817,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Body Armor) 2",
+    "id": 883,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Body Armor) 3",
+    "id": 807,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Body Armor) 4",
+    "id": 809,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Body Armor, Shield) 3",
+    "id": 828,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Bow, Crossbow) 2",
+    "id": 895,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Bow, Crossbow) 3",
+    "id": 835,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Bow, Crossbow) 4",
+    "id": 811,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Bow, Crossbow) 5",
+    "id": 1127,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Bow, Crossbow) 5",
+    "id": 1164,
+    "format": {}
+  },
+  {
+    "name": "Base Item (Claw) 3",
+    "id": 816,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Claw, Dagger, Sword) 3",
+    "id": 1259,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Club, Hammer, Mace) 3",
+    "id": 806,
+    "format": null
+  },
+  {
+    "name": "Base Item (Helm) 2",
+    "id": 867,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Helm) 3",
+    "id": 822,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Helm, Shield) 3",
+    "id": 832,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Melee) 2",
+    "id": 892,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Melee) 3",
+    "id": 844,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Melee) 5",
+    "id": 837,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Polearm,Bows,Staves) 4",
+    "id": 1126,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Polearm, Ranged, Stave) 4",
+    "id": 1124,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Polearm, Scepter) 4",
+    "id": 886,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Polearm,Spear) 5",
+    "id": 873,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Polearm,Spears) 4",
+    "id": 853,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Polearm, Stave) 4",
+    "id": 857,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Polearm, Sword) 5",
+    "id": 823,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Scepter) 4",
+    "id": 851,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Shield) 2",
+    "id": 885,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Shield) 3",
+    "id": 801,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Stave) 2",
+    "id": 866,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Stave) 4",
+    "id": 868,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Stave) 6",
+    "id": 1160,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Stave, Mace) 4",
+    "id": 850,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword) 6",
+    "id": 1198,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Axe) 4",
+    "id": 861,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Axe) 5",
+    "id": 820,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Axe, Mace) 2",
+    "id": 890,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Axe, Mace) 4",
+    "id": 871,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Hammer, Axe) 6",
+    "id": 862,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Hammer, Scepter) 3",
+    "id": 865,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Mace) 4",
+    "id": 878,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Scepter) 3",
+    "id": 860,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Shield) 4",
+    "id": 1197,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Sword, Shield) 4",
+    "id": 889,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Wand) 2",
+    "id": 894,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Weapon) 3",
+    "id": 893,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Weapon) 4",
+    "id": 847,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Weapon) 5",
+    "id": 815,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Weapon) 6",
+    "id": 813,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Weapon, Body Armor) 4",
+    "id": 842,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Item (Weapon, Shield) 4",
+    "id": 879,
+    "format": {
+      "default": true
+    }
+  },
+  {
+    "name": "Base Tier",
+    "id": 930,
+    "format": {
+      "default": true,
+      "globalDefault": false
+    }
+  },
+  {
+    "name": "Ber Rune",
+    "id": 898,
+    "format": null
+  },
+  {
+    "name": "Better Chance of Getting Magic Items",
+    "id": 461,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Better Chance of Getting Magic Items (Based on Character Level)",
+    "id": 653,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Bonus to Attack Rating",
+    "id": 424,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Bonus to Attack Rating (Based on Character Level)",
+    "id": 411,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Cannot Be Frozen",
+    "id": 1225,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Cannot Be Frozen",
+    "id": 591,
+    "format": {
+      "globalDefault": false,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Cham Rune",
+    "id": 899,
+    "format": null
+  },
+  {
+    "name": "Chance of Crushing Blow",
+    "id": 567,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Chance of Deadly Strike",
+    "id": 595,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Chance of Open Wounds",
+    "id": 566,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Amplify Damage on striking",
+    "id": 543,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Amplify Damage when struck",
+    "id": 812,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Blaze when struck",
+    "id": 700,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Blaze when you Level-Up",
+    "id": 787,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Blizzard on striking",
+    "id": 638,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Blizzard when struck",
+    "id": 694,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Blizzard when you Die",
+    "id": 781,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Blizzard when you Level-Up",
+    "id": 852,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Bone Armor when struck",
+    "id": 808,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Bone Prison when struck",
+    "id": 634,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Bone Spear on striking",
+    "id": 778,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Bone Spirit on striking",
+    "id": 872,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Bone Spirit when struck",
+    "id": 633,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Chain Lightning on striking",
+    "id": 627,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Chain Lightning when struck",
+    "id": 716,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Chain Lightning when you Die",
+    "id": 780,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Chain Lightning when you Kill an Enemy",
+    "id": 855,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Charged Bolt on attack",
+    "id": 863,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Charged Bolt on striking",
+    "id": 628,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Charged Bolt when struck",
+    "id": 433,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Chilling Armor when struck",
+    "id": 843,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Confuse on striking",
+    "id": 641,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Confuse when struck",
+    "id": 833,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Cyclone Armor when struck",
+    "id": 884,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Decrepify on striking",
+    "id": 640,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Decrepify when you Kill an Enemy",
+    "id": 730,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Delirium when struck",
+    "id": 1214,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level DiabWall on striking",
+    "id": 789,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Dim Vision when struck",
+    "id": 687,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Enchant on striking",
+    "id": 698,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Enchant when struck",
+    "id": 791,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Enchant when you Kill an Enemy",
+    "id": 874,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Eruption on striking",
+    "id": 645,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Fade when struck",
+    "id": 763,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Fire Ball on attack",
+    "id": 660,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Fire Ball on striking",
+    "id": 836,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Fire Bolt on attack",
+    "id": 544,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Fire Bolt on striking",
+    "id": 541,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Firestorm on striking",
+    "id": 699,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Fire Wall when struck",
+    "id": 882,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Fist of the Heavens on striking",
+    "id": 643,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Fist of the Heavens when struck",
+    "id": 706,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Frost Nova on striking",
+    "id": 742,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Frost Nova when struck",
+    "id": 434,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Frost Nova when you Level-Up",
+    "id": 786,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Frozen Orb on attack",
+    "id": 887,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Frozen Orb on striking",
+    "id": 657,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Glacial Spike on attack",
+    "id": 821,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Glacial Spike when struck",
+    "id": 792,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Holy Bolt on striking",
+    "id": 793,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Holy Bolt when struck",
+    "id": 631,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Howl when struck",
+    "id": 870,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Hydra on striking",
+    "id": 829,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Hydra when struck",
+    "id": 696,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Ice Blast on striking",
+    "id": 620,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Ice Bolt on attack",
+    "id": 545,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Iron Maiden when struck",
+    "id": 647,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Life Tap on striking",
+    "id": 767,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Lightning on attack",
+    "id": 546,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Lightning on striking",
+    "id": 731,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Lower Resist on striking",
+    "id": 685,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Lower Resist when struck",
+    "id": 751,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Meteor on striking",
+    "id": 644,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Meteor when struck",
+    "id": 718,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Meteor when you Die",
+    "id": 782,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Mind Blast when struck",
+    "id": 1215,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Molten Boulder on striking",
+    "id": 824,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Nova on attack",
+    "id": 825,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Nova on striking",
+    "id": 542,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Nova when struck",
+    "id": 435,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Nova when you Die",
+    "id": 752,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Nova when you Level-Up",
+    "id": 785,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Poison Explosion on striking",
+    "id": 737,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Poison Nova on striking",
+    "id": 624,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Poison Nova when struck",
+    "id": 686,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Poison Nova when you Die",
+    "id": 784,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Poison Nova when you Kill an Enemy",
+    "id": 814,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Slow Missiles when struck",
+    "id": 877,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Static Field on striking",
+    "id": 715,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Static Field when struck",
+    "id": 794,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level %s when struck",
+    "id": 935,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Taunt on striking",
+    "id": 869,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Teleport when struck",
+    "id": 719,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Terror when struck",
+    "id": 746,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Tornado on striking",
+    "id": 728,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Tornado when struck",
+    "id": 695,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Twister on striking",
+    "id": 744,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Twister when struck",
+    "id": 896,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Valkyrie on striking",
+    "id": 876,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Venom on striking",
+    "id": 846,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Venom when struck",
+    "id": 830,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Venom when you Level-Up",
+    "id": 788,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Volcano on striking",
+    "id": 623,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Weaken on striking",
+    "id": 672,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "% Chance to cast level Weaken when struck",
+    "id": 712,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "*charged",
+    "id": 690,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Cold Absorb",
+    "id": 702,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Cold Damage",
+    "id": 548,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Cold Resist",
+    "id": 426,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Current Roles",
+    "id": 1120,
+    "format": null
+  },
+  {
+    "name": "Damage",
+    "id": 439,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Damage Increased",
+    "id": 1223,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Damage Reduced by",
+    "id": 413,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Damage Taken Goes To Mana",
+    "id": 440,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Damage to Demons",
+    "id": 513,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Damage to Demons (Based on Character Level)",
+    "id": 671,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Damage to Undead",
+    "id": 538,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Damage to Undead (Based on Character Level)",
+    "id": 630,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Deadly Strike (Any Class)",
+    "id": 1207,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Deadly Strike (Based on Character Level)",
+    "id": 655,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Defense",
+    "id": 399,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Defense (Based on Character Level)",
+    "id": 436,
+    "format": {
+      "decimal": true,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Defense vs. Melee",
+    "id": 615,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Defense vs. Missile",
+    "id": 612,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Difficulty",
+    "id": 938,
+    "format": {
+      "default": false,
+      "globalDefault": false
+    }
+  },
+  {
+    "name": "Dol Rune",
+    "id": 900,
+    "format": null
+  },
+  {
+    "name": "+%d poison damage over %d seconds",
+    "id": 518,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Eld Rune",
+    "id": 902,
+    "format": null
+  },
+  {
+    "name": "Elemental Damage",
+    "id": 739,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "El Rune",
+    "id": 901,
+    "format": null
+  },
+  {
+    "name": "Enhanced Damage",
+    "id": 510,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Enhanced Defense",
+    "id": 425,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "*enr",
+    "id": 585,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Ethereal",
+    "id": 738,
+    "format": {
+      "default": true,
+      "globalDefault": true,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Eth Rune",
+    "id": 903,
+    "format": null
+  },
+  {
+    "name": "Extra Gold from Monsters",
+    "id": 460,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Extra Gold from Monsters (Based on Character Level)",
+    "id": 652,
+    "format": {
+      "decimal": true,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Fal Rune",
+    "id": 904,
+    "format": null
+  },
+  {
+    "name": "Faster Block Rate",
+    "id": 449,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Faster Cast Rate",
+    "id": 520,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Faster Hit Recovery",
+    "id": 13,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Faster Hit Recovery",
+    "id": 430,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Faster Run/Walk",
+    "id": 480,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Fire Absorb",
+    "id": 659,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Fire Damage",
+    "id": 549,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Fire Resist",
+    "id": 427,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Fires Explosive Arrows or Bolts",
+    "id": 607,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Fires Magic Arrows",
+    "id": 606,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Freezes Target",
+    "id": 570,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "*gethit-skill",
+    "id": 681,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Gul Rune",
+    "id": 905,
+    "format": null
+  },
+  {
+    "name": "Half Freeze Duration",
+    "id": 447,
+    "format": {
+      "default": false,
+      "globalDefault": false,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Heal Stamina Plus",
+    "id": 477,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Heal Stamina Plus (Based on Character Level)",
+    "id": 790,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Hel Rune",
+    "id": 906,
+    "format": null
+  },
+  {
+    "name": "Hit Blinds Target",
+    "id": 568,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Hit Causes Monster to Flee",
+    "id": 534,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "*hit-skill",
+    "id": 680,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "*hp",
+    "id": 590,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Ignore Target's Defense",
+    "id": 553,
+    "format": {
+      "default": false,
+      "globalDefault": false,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Increased Attack Speed",
+    "id": 457,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Increased Chance of Blocking",
+    "id": 446,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Increased Stack Size",
+    "id": 562,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "% Increase Maximum Durability",
+    "id": 937,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Increase Maximum Life",
+    "id": 673,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Increase Maximum Mana",
+    "id": 617,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Indestructible",
+    "id": 1220,
+    "format": {
+      "default": false,
+      "globalDefault": false
+    }
+  },
+  {
+    "name": "Indestructible",
+    "id": 432,
+    "format": {
+      "globalDefault": false,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Indestructible",
+    "id": 1219,
+    "format": {
+      "default": false,
+      "globalDefault": false,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Io Rune",
+    "id": 1161,
+    "format": {}
+  },
+  {
+    "name": "Ist Rune",
+    "id": 907,
+    "format": null
+  },
+  {
+    "name": "Ith Rune",
+    "id": 908,
+    "format": null
+  },
+  {
+    "name": "Jah Rune",
+    "id": 909,
+    "format": {}
+  },
+  {
+    "name": "Knockback",
+    "id": 532,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Ko Rune",
+    "id": 910,
+    "format": null
+  },
+  {
+    "name": "Ladder",
+    "id": 800,
+    "format": {
+      "default": true,
+      "preferred": true,
+      "skipOffer": true,
+      "globalDefault": true
+    }
+  },
+  {
+    "name": "Lem Rune",
+    "id": 911,
+    "format": null
+  },
+  {
+    "name": "Level _ Amplify Damage (X/X Charges)",
+    "id": 648,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Attract (X/X Charges)",
+    "id": 507,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Bash (X/X Charges)",
+    "id": 489,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Blessed Hammer (X/X Charges)",
+    "id": 497,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Blizzard (X/X Charges)",
+    "id": 560,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ BloodGolem (X/X Charges)",
+    "id": 720,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Bone Prison (X/X Charges)",
+    "id": 772,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Bone Spear (X/X Charges)",
+    "id": 506,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Bone Spirit (X/X Charges)",
+    "id": 509,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Chain Lightning (X/X Charges)",
+    "id": 564,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Charged Bolt (X/X Charges)",
+    "id": 522,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Charged Strike (X/X Charges)",
+    "id": 471,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Clay Golem (X/X Charges)",
+    "id": 891,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level_Cleansing Aura When Equipped",
+    "id": 1260,
+    "format": {
+      "default": false,
+      "globalDefault": false,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Cloak of Shadows (X/X Charges)",
+    "id": 688,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Cold Arrow (X/X Charges)",
+    "id": 466,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Concentrate (X/X Charges)",
+    "id": 491,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Concentration Aura When Equipped",
+    "id": 881,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Confuse (X/X Charges)",
+    "id": 504,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Conviction Aura When Equipped",
+    "id": 854,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Corpse Explosion (X/X Charges)",
+    "id": 693,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Cyclone Armor (X/X Charges)",
+    "id": 856,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Decrepify (X/X Charges)",
+    "id": 626,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Defiance Aura When Equipped",
+    "id": 839,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Dim Vision (X/X Charges)",
+    "id": 503,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Enchant (X/X Charges)",
+    "id": 533,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Eruption (X/X Charges)",
+    "id": 556,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Exploding Arrow (X/X Charges)",
+    "id": 469,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Fanaticism Aura When Equipped",
+    "id": 803,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Fire Arrow (X/X Charges)",
+    "id": 464,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Fire Ball (X/X Charges)",
+    "id": 552,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Fire Bolt (X/X Charges)",
+    "id": 521,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Fire Resist Aura",
+    "id": 1221,
+    "format": {
+      "default": false,
+      "globalDefault": false,
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Level _ Fire Resist Aura",
+    "id": 1222,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Firestorm (X/X Charges)",
+    "id": 555,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Fire Wall (X/X Charges)",
+    "id": 661,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Freezing Arrow (X/X Charges)",
+    "id": 472,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Frost Nova (X/X Charges)",
+    "id": 524,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Frozen Orb (X/X Charges)",
+    "id": 561,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Glacial Spike (X/X Charges)",
+    "id": 559,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Grim Ward (X/X Charges)",
+    "id": 492,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Heart of Wolverine (X/X Charges)",
+    "id": 732,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Holy Bolt (X/X Charges)",
+    "id": 494,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Holy Fire Aura When Equipped",
+    "id": 831,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Holy Freeze Aura When Equipped",
+    "id": 827,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Holy Shock Aura When Equipped",
+    "id": 834,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Hydra (X/X Charges)",
+    "id": 651,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Ice Arrow (X/X Charges)",
+    "id": 470,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Ice Blast (X/X Charges)",
+    "id": 525,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Ice Bolt (X/X Charges)",
+    "id": 558,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Immolation Arrow (X/X Charges)",
+    "id": 740,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Inner Sight (X/X Charges)",
+    "id": 465,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Iron Golem (X/X Charges)",
+    "id": 773,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Iron Maiden (X/X Charges)",
+    "id": 774,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Life Tap (X/X Charges)",
+    "id": 505,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Lightning Strike (X/X Charges)",
+    "id": 473,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Lightning (X/X Charges)",
+    "id": 529,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Lower Resist (X/X Charges)",
+    "id": 508,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Magic Arrow (X/X Charges)",
+    "id": 565,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Meditation Aura When Equipped",
+    "id": 859,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Meteor (X/X Charges)",
+    "id": 554,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Might Aura When Equipped",
+    "id": 864,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Multiple Shot (X/X Charges)",
+    "id": 467,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Nova (X/X Charges)",
+    "id": 450,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Oak Sage (X/X Charges)",
+    "id": 725,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Plague Javelin (X/X Charges)",
+    "id": 734,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Plague Poppy (X/X Charges)",
+    "id": 775,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Poison Dagger (X/X Charges)",
+    "id": 475,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Poison Explosion (X/X Charges)",
+    "id": 697,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Poison Nova (X/X Charges)",
+    "id": 476,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Power Strike (X/X Charges)",
+    "id": 468,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Raven (X/X Charges)",
+    "id": 777,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Redemption Aura When Equipped",
+    "id": 880,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level Required",
+    "id": 796,
+    "format": {
+      "default": true,
+      "skipOffer": true,
+      "globalDefault": true,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Revive (X/X Charges)",
+    "id": 741,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Sacrifice (X/X Charges)",
+    "id": 493,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Sanctuary Aura When Equipped",
+    "id": 726,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Slow Missiles (X/X Charges)",
+    "id": 888,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Spirit of Barbs (X/X Charges)",
+    "id": 733,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Stun (X/X Charges)",
+    "id": 490,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Summon Dire Wolf (X/X Charges)",
+    "id": 761,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Summon Grizzly (X/X Charges)",
+    "id": 804,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Summon Spirit Wolf (X/X Charges)",
+    "id": 819,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Teeth (X/X Charges)",
+    "id": 502,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Telekinesis (X/X Charges)",
+    "id": 523,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Teleport (X/X Charges)",
+    "id": 526,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Terror (X/X Charges)",
+    "id": 451,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Thorns Aura When Equipped",
+    "id": 810,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Tornado (X/X Charges)",
+    "id": 528,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Twister (X/X Charges)",
+    "id": 527,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Vengeance (X/X Charges)",
+    "id": 496,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Venom (X/X Charges)",
+    "id": 748,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Vigor Aura When Equipped",
+    "id": 848,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Volcano (X/X Charges)",
+    "id": 557,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Weaken (X/X Charges)",
+    "id": 474,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Level _ Zeal (X/X Charges)",
+    "id": 495,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Life after each Demon Kill",
+    "id": 637,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Life after each Kill",
+    "id": 721,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Life stolen per hit",
+    "id": 462,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Light",
+    "id": 795,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Lightning Absorb",
+    "id": 689,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Lightning Damage",
+    "id": 550,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Lightning Resist",
+    "id": 428,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Lightning Resist (Based on Character Level)",
+    "id": 668,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Lo Rune",
+    "id": 912,
+    "format": null
+  },
+  {
+    "name": "Lum Rune",
+    "id": 913,
+    "format": null
+  },
+  {
+    "name": "Magic Absorb",
+    "id": 818,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Magic Damage",
+    "id": 654,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Magic Damage Reduced by",
+    "id": 414,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Magic Resist",
+    "id": 936,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Mal Rune",
+    "id": 914,
+    "format": null
+  },
+  {
+    "name": "*mana",
+    "id": 709,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Mana stolen per hit",
+    "id": 463,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Maximum Damage (Based on Character Level)",
+    "id": 714,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Maximum Stamina",
+    "id": 452,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Maximum Stamina (Based on Character Level)",
+    "id": 771,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Mode",
+    "id": 799,
+    "format": {
+      "default": true,
+      "preferred": true,
+      "skipOffer": true,
+      "globalDefault": true,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Needed Roles",
+    "id": 1119,
+    "format": null
+  },
+  {
+    "name": "Nef Rune",
+    "id": 915,
+    "format": null
+  },
+  {
+    "name": "Normal Damage",
+    "id": 576,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Ohm Rune",
+    "id": 916,
+    "format": null
+  },
+  {
+    "name": "Ort Rune",
+    "id": 917,
+    "format": null
+  },
+  {
+    "name": "Piercing Attack",
+    "id": 608,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Platform",
+    "id": 798,
+    "format": {
+      "values": {
+        "PC": {
+          "color": "white"
+        },
+        "xbox": {
+          "img": "https://cdn.nookazon.com/icons/xbox.svg",
+          "color": "#117b11"
+        },
+        "switch": {
+          "img": "https://cdn.nookazon.com/icons/switch.svg",
+          "color": "#ff000a"
+        },
+        "playstation": {
+          "img": "https://cdn.nookazon.com/icons/playstation.svg",
+          "color": "#006cca"
+        }
+      },
+      "default": true,
+      "preferred": true,
+      "skipOffer": true,
+      "globalDefault": true,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Poison Damage",
+    "id": 589,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Poison Length Reduced by",
+    "id": 419,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Poison Resist",
+    "id": 401,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Prevent Monster Heal",
+    "id": 531,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Pul Rune",
+    "id": 919,
+    "format": null
+  },
+  {
+    "name": "Ral Rune",
+    "id": 920,
+    "format": null
+  },
+  {
+    "name": "Rarity",
+    "id": 797,
+    "format": {
+      "default": true,
+      "globalDefault": true,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Reanimate as:",
+    "id": 722,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Reduces all Vendor Prices",
+    "id": 764,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Regenerate Mana",
+    "id": 569,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Region",
+    "id": 933,
+    "format": {
+      "default": true,
+      "preferred": true,
+      "skipOffer": true,
+      "globalDefault": true
+    }
+  },
+  {
+    "name": "Repairs durability per second",
+    "id": 431,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Replenishes Quantity",
+    "id": 563,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Replenish Life",
+    "id": 417,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Requirements",
+    "id": 420,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "res-all-max",
+    "id": 614,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Shael Rune",
+    "id": 921,
+    "format": null
+  },
+  {
+    "name": "Slain Monsters Rest in Peace",
+    "id": 724,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Slower Stamina Drain",
+    "id": 481,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Slows Target by",
+    "id": 584,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Socketed",
+    "id": 402,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Sockets",
+    "id": 934,
+    "format": {
+      "allowMultiple": true
+    }
+  },
+  {
+    "name": "Sol Rune",
+    "id": 922,
+    "format": null
+  },
+  {
+    "name": "Sur Rune",
+    "id": 923,
+    "format": null
+  },
+  {
+    "name": "Tal Rune",
+    "id": 924,
+    "format": null
+  },
+  {
+    "name": "Target Defense",
+    "id": 593,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Thul Rune",
+    "id": 925,
+    "format": null
+  },
+  {
+    "name": "Tir Rune",
+    "id": 926,
+    "format": null
+  },
+  {
+    "name": "to All Attributes",
+    "id": 727,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to All Resistances",
+    "id": 441,
+    "format": {
+      "default": false,
+      "globalDefault": false,
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "to All Skills",
+    "id": 587,
+    "format": {
+      "globalDefault": false,
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Amazon Skill",
+    "id": 453,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Amplify Damage (Necromancer Only)",
+    "id": 1002,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Arctic Blast (Druid Only)",
+    "id": 957,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Armageddon (Druid Only)",
+    "id": 976,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Assassin Skill Levels",
+    "id": 519,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Assassin Skills",
+    "id": 407,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Attack Rating",
+    "id": 423,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Attack Rating against Demons",
+    "id": 512,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Attack Rating against Demons (Based on Character Level)",
+    "id": 692,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Attack Rating against Undead",
+    "id": 537,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Attack Rating against Undead (Based on Character Level)",
+    "id": 629,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Attack Rating (Based on Character Level)",
+    "id": 536,
+    "format": {
+      "decimal": true,
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Attract (Necromancer Only)",
+    "id": 1018,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Avoid (Amazon Only)",
+    "id": 1143,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Axe Mastery (Barbarian Only)",
+    "id": 980,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Barbarian Skill",
+    "id": 403,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Bash (Barbarian Only)",
+    "id": 978,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Battle Command (Any Class)",
+    "id": 1201,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Battle Command (Barbarian Only)",
+    "id": 1001,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Battle Cry (Any Class)",
+    "id": 1202,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Battle Cry (Barbarian Only)",
+    "id": 931,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Battle Orders (Any Class)",
+    "id": 1203,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Battle Orders (Barbarian Only)",
+    "id": 765,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Berserk (Any Class)",
+    "id": 1212,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Berserk (Barbarian Only)",
+    "id": 998,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blade Fury (Assassin Only)",
+    "id": 1068,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blade Sentinel (Assassin Only)",
+    "id": 1060,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blade Shield (Assassin Only)",
+    "id": 1078,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blades of Ice (Assassin Only)",
+    "id": 1075,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blaze (Sorceress Only)",
+    "id": 604,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blessed Aim (Paladin Only)",
+    "id": 1036,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blessed Hammer (Paladin Only)",
+    "id": 1039,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blizzard (Sorceress Only)",
+    "id": 703,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Blood Golem (Necromancer Only)",
+    "id": 1017,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Bone Armor (Necromancer Only)",
+    "id": 755,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Bone Prison (Necromancer Only)",
+    "id": 1020,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Bone Spear (Necromancer Only)",
+    "id": 756,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Bone Spirit (Necromancer Only)",
+    "id": 757,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Bone Wall (Necromancer Only)",
+    "id": 758,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Bow and Crossbow Skills (Amazon Only)",
+    "id": 454,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Burst of Speed (Assassin Only)",
+    "id": 1061,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Chain Lightning (Sorceress Only)",
+    "id": 598,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Charged Bolt Sentry (Assassin Only)",
+    "id": 1064,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Charged Bolt (Sorceress Only)",
+    "id": 946,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Charged Strike (Amazon Only)",
+    "id": 1137,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Charge (Paladin Only)",
+    "id": 1035,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Chilling Armor (Sorceress Only)",
+    "id": 705,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Claw Mastery (Assassin Only)",
+    "id": 1055,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Claws of Thunder (Assassin Only)",
+    "id": 1071,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Clay Golem (Necromancer Only)",
+    "id": 1010,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cleansing (Paladin Only)",
+    "id": 1037,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cloak of Shadows (Assassin Only)",
+    "id": 1066,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cobra Strike (Assassin Only)",
+    "id": 1067,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cold Arrow (Amazon Only)",
+    "id": 1134,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cold Mastery (Sorceress Only)",
+    "id": 1053,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cold Skill Damage",
+    "id": 747,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cold Skills (Sorceress Only)",
+    "id": 517,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Combat Skills (Barbarian Only)",
+    "id": 404,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Combat Skills (Paladin Only)",
+    "id": 443,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Concentrate (Barbarian Only)",
+    "id": 995,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Concentration (Paladin Only)",
+    "id": 1040,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Confuse (Necromancer Only)",
+    "id": 1014,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Conversion (Paladin Only)",
+    "id": 1041,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Conviction (Any Class)",
+    "id": 1218,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Conviction (Paladin Only)",
+    "id": 1046,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Corpse Explosion (Necromancer Only)",
+    "id": 1009,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Critical Strike (Amazon Only)",
+    "id": 858,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Critical Strike (Any Class)",
+    "id": 1210,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Curses (Necromancer Only)",
+    "id": 499,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cycle of Life (Druid Only)",
+    "id": 958,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Cyclone Armor (Druid Only)",
+    "id": 962,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Death Sentry (Assassin Only)",
+    "id": 1077,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Decoy (Amazon Only)",
+    "id": 1145,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Decrepify (Necromancer Only)",
+    "id": 1019,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Defensive Auras (Paladin Only)",
+    "id": 445,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Defiance (Paladin Only)",
+    "id": 1033,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dexterity",
+    "id": 429,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dexterity (Based on Character Level)",
+    "id": 710,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dim Vision (Necromancer Only)",
+    "id": 1006,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dire Wolf (Druid Only)",
+    "id": 964,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dodge (Amazon Only)",
+    "id": 1141,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Double Swing (Barbarian Only)",
+    "id": 984,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Double Throw (Barbarian Only)",
+    "id": 991,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dragon Claw (Assassin Only)",
+    "id": 1063,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dragon Flight (Assassin Only)",
+    "id": 1076,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dragon Tail (Assassin Only)",
+    "id": 1072,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Dragon Talon (Assassin Only)",
+    "id": 1058,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Druid Skill Levels",
+    "id": 488,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Druid Skills",
+    "id": 484,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Elemental Skills (Druid Only)",
+    "id": 487,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Enchant (Sorceress Only)",
+    "id": 944,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Enemy Cold Resistance",
+    "id": 609,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Enemy Fire Resistance",
+    "id": 735,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Enemy Lightning Resistance",
+    "id": 736,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Enemy Poison Resistance",
+    "id": 723,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Energy",
+    "id": 421,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Energy Shield (Sorceress Only)",
+    "id": 679,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Eruption (Druid Only)",
+    "id": 961,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Evade (Amazon Only)",
+    "id": 1146,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Experience Gained",
+    "id": 776,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Exploding Arrow (Amazon Only)",
+    "id": 610,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fade (Assassin Only)",
+    "id": 1069,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fanaticism (Any Class)",
+    "id": 1217,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fanaticism (Paladin Only)",
+    "id": 1045,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fend (Amazon Only)",
+    "id": 1139,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Feral Rage",
+    "id": 1162,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Feral Rage (Druid Only)",
+    "id": 959,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Find Item (Barbarian Only)",
+    "id": 993,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Find Potion (Barbarian Only)",
+    "id": 983,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Arrow (Amazon Only)",
+    "id": 1149,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Ball (Sorceress Only)",
+    "id": 602,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Blast (Assassin Only)",
+    "id": 1054,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Bolt (Sorceress Only)",
+    "id": 596,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Claws (Druid Only)",
+    "id": 966,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Golem (Necromancer Only)",
+    "id": 1025,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Mastery (Sorceress Only)",
+    "id": 1050,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Skill Damage",
+    "id": 750,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Skills",
+    "id": 586,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Skills (Sorceress Only)",
+    "id": 515,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Firestorm (Druid Only)",
+    "id": 953,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fire Wall (Sorceress Only)",
+    "id": 601,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fissure (Druid Only)",
+    "id": 1121,
+    "format": {
+      "globalDefault": false,
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fist of the Heavens (Paladin Only)",
+    "id": 581,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fists of Fire (Assassin Only)",
+    "id": 1062,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Freezing Arrow (Amazon Only)",
+    "id": 1152,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Frenzy (Barbarian Only)",
+    "id": 845,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Frost Nova (Sorceress Only)",
+    "id": 605,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Frozen Armor (Sorceress Only)",
+    "id": 940,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Frozen Orb (Sorceress Only)",
+    "id": 1052,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Fury (Druid Only)",
+    "id": 975,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Glacial Spike (Sorceress Only)",
+    "id": 704,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Golem Mastery (Necromancer Only)",
+    "id": 1012,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Grim Ward (Barbarian Only)",
+    "id": 664,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Guided Arrow (Amazon Only)",
+    "id": 1104,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Heart of Wolverine (Druid Only)",
+    "id": 963,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Holy Bolt (Paladin Only)",
+    "id": 642,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Holy Fire (Paladin Only)",
+    "id": 588,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Holy Freeze (Paladin Only)",
+    "id": 639,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Holy Shield (Paladin Only)",
+    "id": 1042,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Holy Shock (Any Class)",
+    "id": 1209,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Holy Shock (Paladin Only)",
+    "id": 580,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Howl (Barbarian Only)",
+    "id": 982,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Hunger (Druid Only)",
+    "id": 969,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Hurricane (Druid Only)",
+    "id": 977,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Hydra (Sorceress Only)",
+    "id": 749,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Ice Arrow (Amazon Only)",
+    "id": 1151,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Ice Blast (Sorceress Only)",
+    "id": 941,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Ice Bolt (Sorceress Only)",
+    "id": 939,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Immolation Arrow (Amazon Only)",
+    "id": 682,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Impale (Amazon Only)",
+    "id": 669,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Increased Speed (Barbarian Only)",
+    "id": 997,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Increased Stamina (Barbarian Only)",
+    "id": 992,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Inferno Sentry (Assassin Only)",
+    "id": 770,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Inferno (Sorceress Only)",
+    "id": 759,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Inner Sight (Amazon Only)",
+    "id": 1140,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Iron Golem (Necromancer Only)",
+    "id": 1022,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Iron Maiden (Necromancer Only)",
+    "id": 574,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Iron Skin (Barbarian Only)",
+    "id": 996,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Jab (Amazon Only)",
+    "id": 1135,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Javelin and Spear Skills",
+    "id": 632,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "to Javelin and Spear Skills (Amazon Only)",
+    "id": 456,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Leap Attack (Barbarian Only)",
+    "id": 994,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Leap (Barbarian Only)",
+    "id": 618,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Life",
+    "id": 418,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Life (Based on Character Level)",
+    "id": 438,
+    "format": {
+      "decimal": true,
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Life Tap (Necromancer Only)",
+    "id": 1015,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lightning Bolt (Amazon Only)",
+    "id": 745,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lightning Fury (Amazon Only)",
+    "id": 708,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lightning Mastery (Sorceress Only)",
+    "id": 1051,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lightning Sentry (Assassin Only)",
+    "id": 1073,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lightning Skill Damage",
+    "id": 743,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lightning Skills (Sorceress Only)",
+    "id": 516,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lightning (Sorceress Only)",
+    "id": 1049,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lightning Strike (Amazon Only)",
+    "id": 707,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Light Radius",
+    "id": 422,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lower Resist (Necromancer Only)",
+    "id": 1023,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lycanthropy (Any Class)",
+    "id": 1200,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Lycanthropy (Druid Only)",
+    "id": 1118,
+    "format": {
+      "default": false,
+      "globalDefault": false,
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Mace Mastery (Barbarian Only)",
+    "id": 981,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Magic Arrow (Amazon Only)",
+    "id": 1148,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Mana",
+    "id": 400,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Mana after each Kill",
+    "id": 511,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Mana (Based on Character Level)",
+    "id": 412,
+    "format": {
+      "decimal": true,
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Martial Arts (Assassin Only)",
+    "id": 410,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Masteries (Barbarian Only)",
+    "id": 405,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maul (Druid Only)",
+    "id": 960,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Cold Damage",
+    "id": 483,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Cold Resist",
+    "id": 616,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Damage",
+    "id": 448,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Damage (Based on Character Level)",
+    "id": 535,
+    "format": {
+      "decimal": true,
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Fire Damage",
+    "id": 459,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Fire Resist",
+    "id": 594,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Lightning Damage",
+    "id": 479,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Lightning Resist",
+    "id": 658,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Poison Damage",
+    "id": 540,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Maximum Poison Resist",
+    "id": 592,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Meditation (Paladin Only)",
+    "id": 1044,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Meteor (Sorceress Only)",
+    "id": 943,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Might (Paladin Only)",
+    "id": 1029,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Mind Blast (Assassin Only)",
+    "id": 1074,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Minimum Cold Damage",
+    "id": 482,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Minimum Damage",
+    "id": 416,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Minimum Fire Damage",
+    "id": 458,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Minimum Lightning Damage",
+    "id": 478,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Minimum Poison Damage",
+    "id": 539,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Molten Boulder (Druid Only)",
+    "id": 956,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Monster Defense Per Hit",
+    "id": 530,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Multiple Shot (Amazon Only)",
+    "id": 1150,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Natural Resistance (Barbarian Only)",
+    "id": 999,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Necromancer Skill",
+    "id": 498,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Nova (Sorceress Only)",
+    "id": 948,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Oak Sage (Druid Only)",
+    "id": 954,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Offensive Auras (Paladin Only)",
+    "id": 444,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Paladin Skill",
+    "id": 442,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Passive and Magic Skills (Amazon Only)",
+    "id": 455,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Penetrate (Amazon Only)",
+    "id": 1144,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Phoenix Strike (Assassin Only)",
+    "id": 1122,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Pierce (Amazon Only)",
+    "id": 1147,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Plague Javelin (Amazon Only)",
+    "id": 1138,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Plague Poppy (Druid Only)",
+    "id": 951,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Poison and Bone Skills (Necromancer Only)",
+    "id": 500,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Poison Dagger (Necromancer Only)",
+    "id": 1008,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Poison Explosion (Necromancer Only)",
+    "id": 1016,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Poison Javelin (Amazon Only)",
+    "id": 1136,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Poison Nova (Necromancer Only)",
+    "id": 1024,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Poison Skill Damage",
+    "id": 783,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Pole Arm Mastery (Barbarian Only)",
+    "id": 985,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Power Strike (Amazon Only)",
+    "id": 670,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Prayer (Paladin Only)",
+    "id": 1030,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Psychic Hammer (Assassin Only)",
+    "id": 1056,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Rabies (Druid Only)",
+    "id": 965,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Raise Skeletal Mage (Necromancer Only)",
+    "id": 1013,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Raise Skeleton (Necromancer Only)",
+    "id": 1005,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Raven (Druid Only)",
+    "id": 950,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Redemption (Paladin Only)",
+    "id": 1047,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Resist Cold (Paladin Only)",
+    "id": 1034,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Resist Fire (Paladin Only)",
+    "id": 1031,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Resist Lightning (Paladin Only)",
+    "id": 1038,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Revive (Necromancer Only)",
+    "id": 1026,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Royal Strike (Assassin Only)",
+    "id": 1081,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Sacrifice (Paladin Only)",
+    "id": 1027,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Salvation (Paladin Only)",
+    "id": 1048,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Sanctuary (Paladin Only)",
+    "id": 1043,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shadow Disciplines (Assassin Only)",
+    "id": 409,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shadow Master (Assassin Only)",
+    "id": 1080,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shadow Warrior (Assassin Only)",
+    "id": 1070,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shape Shifting (Druid Only)",
+    "id": 952,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shape Shifting Skills (Druid Only)",
+    "id": 486,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shiver Armor (Sorceress Only)",
+    "id": 942,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shock Wave (Druid Only)",
+    "id": 970,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shock Web (Assassin Only)",
+    "id": 1059,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Shout (Barbarian Only)",
+    "id": 989,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Skeleton Mastery (Necromancer Only)",
+    "id": 1004,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Slow Missiles (Amazon Only)",
+    "id": 1142,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Smite (Paladin Only)",
+    "id": 1028,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Sorceress Skill",
+    "id": 514,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Spear Mastery (Barbarian Only)",
+    "id": 987,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Spirit of Barbs (Druid Only)",
+    "id": 973,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Static Field (Sorceress Only)",
+    "id": 949,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Strafe (Amazon Only)",
+    "id": 683,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Strength",
+    "id": 437,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Strength (Based on Character Level)",
+    "id": 713,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Stun (Barbarian Only)",
+    "id": 990,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summon Carrion Vine (Druid Only)",
+    "id": 1153,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summon Dire Wolf",
+    "id": 1156,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summon Dire Wolf (Druid Only)",
+    "id": 1157,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summon Grizzly (Druid Only)",
+    "id": 974,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summoning Skills (Druid Only)",
+    "id": 485,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summoning Skills (Necromancer Only)",
+    "id": 501,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summon Resist (Necromancer Only)",
+    "id": 1021,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summon Solar Creeper (Druid Only)",
+    "id": 1155,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Summon Spirit Wolf (Druid Only)",
+    "id": 955,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Sword Mastery (Barbarian Only)",
+    "id": 979,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Taunt (Barbarian Only)",
+    "id": 988,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Teeth (Necromancer Only)",
+    "id": 1003,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Telekinesis (Sorceress Only)",
+    "id": 678,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Teleport (Any Class)",
+    "id": 1205,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Teleport (Sorceress Only)",
+    "id": 677,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Terror (Necromancer Only)",
+    "id": 1011,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Thorns (Paladin Only)",
+    "id": 1032,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Throwing Mastery (Barbarian Only)",
+    "id": 986,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Thunder Storm (Sorceress Only)",
+    "id": 945,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Tiger Strike (Assassin Only)",
+    "id": 1057,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Tornado (Druid Only)",
+    "id": 972,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Traps (Assassin Only)",
+    "id": 408,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Twister (Druid Only)",
+    "id": 967,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Valkyrie (Amazon Only)",
+    "id": 849,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Valkyrie (Any Class)",
+    "id": 1208,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Vengeance (Any Class)",
+    "id": 1211,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Vengeance (Paladin Only)",
+    "id": 577,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Venom (Assassin Only)",
+    "id": 1079,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Vigor (Paladin Only)",
+    "id": 619,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Vines (Druid Only)",
+    "id": 968,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Vitality",
+    "id": 582,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Vitality (Based on Character Level)",
+    "id": 625,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Volcano (Druid Only)",
+    "id": 971,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Wake of Fire (Assassin Only)",
+    "id": 1116,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Wake of Inferno (Assassin Only)",
+    "id": 769,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Warcries (Barbarian Only)",
+    "id": 406,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to War Cry (Barbarian Only)",
+    "id": 1000,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Warmth (Any Class)",
+    "id": 1206,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Warmth (Sorceress Only)",
+    "id": 597,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Weaken (Necromancer Only)",
+    "id": 1007,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Weapon Block (Assassin Only)",
+    "id": 1065,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Werebear (Any Class)",
+    "id": 1199,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Werebear (Druid Only)",
+    "id": 805,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Werewolf",
+    "id": 1163,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Werewolf (Druid Only)",
+    "id": 760,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Whirlwind (Any Class)",
+    "id": 1204,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Whirlwind (Barbarian Only)",
+    "id": 650,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Zeal (Any Class)",
+    "id": 1213,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "to Zeal (Paladin Only)",
+    "id": 875,
+    "format": {
+      "input_position": "left"
+    }
+  },
+  {
+    "name": "Two-Hand Damage",
+    "id": 551,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Um Rune",
+    "id": 927,
+    "format": null
+  },
+  {
+    "name": "Unidentified",
+    "id": 932,
+    "format": {
+      "default": true,
+      "globalDefault": true
+    }
+  },
+  {
+    "name": "Upgraded",
+    "id": 1216,
+    "format": {
+      "default": true,
+      "skipOffer": false,
+      "globalDefault": true
+    }
+  },
+  {
+    "name": "Vex Rune",
+    "id": 928,
+    "format": null
+  },
+  {
+    "name": "*vit",
+    "id": 691,
+    "format": {
+      "input_position": "right"
+    }
+  },
+  {
+    "name": "Zod Rune",
+    "id": 929,
+    "format": null
+  }
+]
