@@ -2,7 +2,7 @@ from fastapi import APIRouter,HTTPException,FastAPI
 from fastapi.responses import JSONResponse
 from fastapi import Query  # 상단에 추가 필요
 import asyncio,logging,shutil,random
-
+from fastapi.middleware.cors import CORSMiddleware
 import json , os,re
 from schemas.item import ItemRequest,ItemListRequest
 from services.url_builder import TraderieUrlBuilder
@@ -14,7 +14,14 @@ from youtube.CrawlYoutube import CrawlYoutube
 app = FastAPI()
 router = APIRouter()
 
-# 필터 정의
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:8000","https://diuno88.github.io"],  # 또는 ["http://localhost:8000"] 만 허용
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+# 필터 정의 healthchekd 로그는 제외시킴 
 class IgnorePingFilter(logging.Filter):
     def filter(self, record):
         return '/ping' not in record.getMessage()
@@ -176,7 +183,7 @@ async def item_list(req: ItemListRequest):
     if kind_key not in kind_map or kind_map[kind_key]["json_file"] is None:
         return {"items": []}
 
-    base_path = os.path.dirname(os.path.abspath(__file__))
+    base_path = "/app/CrawlResult"
     json_path = os.path.join(base_path, kind_map[kind_key]["json_file"])
     ctg_json_path = os.path.join(base_path, "..", "jsons", "item-category.json")
     

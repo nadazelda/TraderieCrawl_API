@@ -43,7 +43,7 @@ def run_all_crawlers():
         TraRunWordsCrawl()
         ItemNameRunWords()
         CrawlResultRunWords()
-         print("▶ 유투브 관련 수집")
+        print("▶ 유투브 관련 수집")
         CrawlYoutube()
 
         finalize_crawl_result()

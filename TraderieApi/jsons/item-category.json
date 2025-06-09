@@ -1,0 +1,33 @@
+{
+
+  "javelin": { "kor": "재벌린", "group": "etc" },
+  "club": { "kor": "클럽", "group": "etc" },
+  "shield": { "kor": "쉴드", "group": "etc" },
+  "polearm": { "kor": "폴암", "group": "etc" },
+  "helmet": { "kor": "헬름", "group": "etc" },
+  "sword": { "kor": "소드", "group": "weapon" },
+  "axe": { "kor": "액스", "group": "weapon" },
+  "belt": { "kor": "벨트", "group": "etc" },
+  "boot": { "kor": "부츠", "group": "etc" },
+  "h2h": { "kor": "탤런", "group": "etc" },
+  "knife": { "kor": "나이프", "group": "etc" },
+  "glove": { "kor": "글러브", "group": "etc" },
+  "hammer": { "kor": "마울", "group": "weapon" },
+  "staff": { "kor": "스태프", "group": "etc" },
+  "bow": { "kor": "보우", "group": "weapon" },
+  "Crossbow": { "kor": "크로스보우", "group": "weapon" },
+  "voodoo_head": { "kor": "트로피", "group": "etc" },
+  "pelt": { "kor": "스피리트", "group": "etc" },
+  "wand": { "kor": "원드", "group": "etc" },
+  "armor": { "kor": "갑옷", "group": "body armor" },
+  "spear": { "kor": "스피어", "group": "weapon" },
+  "scepter": { "kor": "셉터", "group": "weapon" },
+  "potion": { "kor": "물약", "group": "etc" },
+  "circlet": { "kor": "써클릿", "group": "etc" },
+  "orb": { "kor": "오브", "group": "etc" },
+  "mace": { "kor": "메이스", "group": "etc" },
+  "ring": { "kor": "반지", "group": "etc" },
+  "amulet": { "kor": "목걸이", "group": "etc" }
+
+}
+
