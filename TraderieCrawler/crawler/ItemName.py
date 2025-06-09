@@ -2,7 +2,12 @@ import pandas as pd
 import re
 
 class ItemName:
-    excluded_keywords = ['Per Char Level', 'Based On Char Level', 'Based On Character Level','sec Duration','Duration','H damage']
+    excluded_keywords = ['Per Char Level', 'Based On Char Level', 'Based On Character Level','sec Duration','Duration','H damage','Durability'
+    ,'To Maximum Damage'
+    ,'Paladin smite dmg'
+    ,'Assassin kick dmg'
+    ,'Fire Damage'
+    ]
     #pattern = re.compile(r'\(?\+?(\d+)[-~](\d+)%?\)?\s*(.*)') #독사마술사 날라감;;
     pattern = re.compile(r'(.*?)(\d+)[-~](\d+)', re.IGNORECASE)
 

@@ -993,5 +993,11 @@
   "Lightning": "번개",
   "Resist": "저항",
   "When Equipped":"장착시",
-  "Aura":"오라"
+  "Aura":"오라",
+  "All Resistances":"모든저항",
+  "Cold":"냉기",
+  "Fire":"화염",
+  "Poison":"독",
+  "Light":"번개",
+  "Absorb":"흡수"
 }
