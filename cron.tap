@@ -1,0 +1,26 @@
+sudo yum install cronie -y
+sudo systemctl enable crond
+sudo systemctl start crond
+
+# EC2에서 크론탭 편집
+#crontab -e
+#매일 새벽 4시에 크롤러 실행
+#$0 4 * * * docker run --rm -v /home/ec2-user/shared:/app/CrawlResult traderie_crawler_image >> /var/log/crawler.log 2>&1
+#--rm: 실행 후 컨테이너 자동 삭제
+#-v: 결과 공유를 위한 볼륨 매핑
+#traderie_crawler_image: 빌드된 크롤러 이미지 이름
+#>>: 표준출력 로그 저장
+#2>&1: 에러까지 포함해서 저장
+#크론확인
+$crontab -l
+
+
+crontab -e
+#매일 새벽 7시에 크롤러 실행
+#0 7 * * * docker run --rm -v /home/ec2-user/shared:/app/CrawlResult traderie_crawler_image >> /var/log/crawler.log 2>&1
+#매일오후 2시 30분 크롤러 실행
+#30 14 * * * docker run --rm -v /home/ec2-user/shared:/app/CrawlResult traderie_crawler_image >> /var/log/crawler.log 2>&1
+#수동실행
+#docker run --rm -v /home/ec2-user/shared:/app/CrawlResult traderie_crawler_img
+
+crontab -l
