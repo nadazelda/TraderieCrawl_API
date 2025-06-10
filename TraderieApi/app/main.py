@@ -11,8 +11,8 @@ from schemas.item import ItemRequest,ItemListRequest
 from services.url_builder import TraderieUrlBuilder
 from app.kind_map import kind_map  # 같은 폴더에 있으면 이렇게 import
 from services.Crawler import Crawler  # 필요 시 상단으로 옮겨도 됨
-from scheduler import start_scheduler
-from youtube.CrawlYoutube import CrawlYoutube
+from services.notifier import start_scheduler
+
 # ✅ FastAPI 앱 인스턴스 생성
 app = FastAPI()
 router = APIRouter()
