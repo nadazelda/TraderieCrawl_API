@@ -156,7 +156,8 @@ async def select_categories(
         raise HTTPException(status_code=400, detail="유효하지 않은 kind입니다.")
 
     try:
-        base_path = os.path.dirname(os.path.abspath(__file__))
+        #base_path = os.path.dirname(os.path.abspath(__file__))
+        base_path = os.path.join(os.path.dirname(__file__), "..", "CrawlResult")
         json_path = os.path.join(base_path, kind_map[kind_key]["json_file"])
 
         with open(json_path, encoding="utf-8") as f:
@@ -194,7 +195,8 @@ async def item_list(req: ItemListRequest):
     if kind_key not in kind_map or kind_map[kind_key]["json_file"] is None:
         return {"items": []}
 
-    base_path = "/app/CrawlResult"
+    base_path = os.path.join(os.path.dirname(__file__), "..", "CrawlResult")
+
     json_path = os.path.join(base_path, kind_map[kind_key]["json_file"])
     ctg_json_path = os.path.join(base_path, "..", "jsons", "item-category.json")
     
