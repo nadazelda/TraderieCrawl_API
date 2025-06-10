@@ -88,10 +88,7 @@ class LoggingMiddleware(BaseHTTPMiddleware):
             "body": body_text,
         }
         self._log(access_log)
-        # 기존 self._log(alert_log, alert=True) 뒤에 추가
-        await notify_slack(
-            f"🚨 *의심 요청 탐지!*\n📍IP: {client_ip}\n📄경로: {path}\n🕒시간: {alert_log['timestamp']}"
-        )
+       
         return response
 
     def _detect_attack(self, text: str) -> bool:
