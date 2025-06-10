@@ -6,6 +6,7 @@ from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 from starlette.types import Message
 from fastapi.responses import JSONResponse
+from slcak.slack_webhook import notify_slack
 
 
 class LoggingMiddleware(BaseHTTPMiddleware):
