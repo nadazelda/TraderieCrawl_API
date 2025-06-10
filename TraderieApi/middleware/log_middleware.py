@@ -1,77 +1,111 @@
-import time, os, json
-from datetime import datetime
-from fastapi.responses import JSONResponse
+import os
+import time
+import json
+import re
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
-from services.notifier import notify_admin
+from starlette.types import Message
+from fastapi.responses import JSONResponse
+
 
 class LoggingMiddleware(BaseHTTPMiddleware):
-    
-    def __init__(self, app, log_dir="logs"):
+    def __init__(self, app):
         super().__init__(app)
-        self.log_dir = log_dir
+        self.log_dir = "server_logs"
         os.makedirs(self.log_dir, exist_ok=True)
+        self.log_file_path = os.path.join(self.log_dir, "access.log")
 
-    def _get_log_filepath(self):
-        today = datetime.utcnow().strftime("%Y-%m-%d")
-        return os.path.join(self.log_dir, f"server_log_{today}.jsonl")
+        # 공격 패턴 예시 (확장 가능)
+        self.suspicious_patterns = [
+            r"(?:\bselect\b|\binsert\b|\bupdate\b|\bdelete\b).*?\bfrom\b",  # SQL 인젝션
+            r"<script.*?>.*?</script>",  # XSS
+            r"\b(or|and)\b\s+\d+=\d+",   # 조건문 인젝션
+            r"\bUNION\b.*\bSELECT\b",    # UNION SQL
+        ]
+
+        # 민감 경로 감시
+        self.restricted_paths = ["/admin", "/env", "/.git", "/config"]
 
     async def dispatch(self, request: Request, call_next):
         start_time = time.time()
-        ip = request.client.host
-        method = request.method
-        path = request.url.path
-        user_agent = request.headers.get("user-agent", "")
-        suspicious = False
-        reason = None
+
+
         try:
-            body = await request.body()
-            body_str = body.decode('utf-8') if body else ""
-        except:
-            body_str = ""
+            body_bytes = await request.body()
+        except Exception:
+            body_bytes = b''
+
+        async def receive() -> Message:
+            return {"type": "http.request", "body": body_bytes}
+
+        request = Request(request.scope, receive)
+        path = request.url.path
+        method = request.method
+        client_ip = request.client.host if request.client else None
+        query_string = request.url.query
+        body_text = body_bytes.decode("utf-8", errors="ignore")
+        suspicious = self._detect_attack(query_string + body_text)
+        restricted_access = path in self.restricted_paths
+
+        # 의심 행위가 탐지되거나 접근 제한 경로 접근 시
+        if suspicious or restricted_access:
+            alert_log = {
+                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                "client_ip": client_ip,
+                "method": method,
+                "path": path,
+                "query": query_string,
+                "body": body_text,
+                "suspicious": suspicious,
+                "restricted_access": restricted_access,
+            }
+            self._log(alert_log, alert=True)
+            # 기존 self._log(alert_log, alert=True) 뒤에 추가
+            await notify_slack(
+                f"🚨 *의심 요청 탐지!*\n📍IP: {client_ip}\n📄경로: {path}\n🕒시간: {log_data['timestamp']}"
+            )
+
+
+            # 차단 응답도 가능 (선택 사항)
+            return JSONResponse(status_code=403, content={"detail": "Forbidden"})
 
         try:
             response = await call_next(request)
-        except Exception as e:
-            response = JSONResponse(content={"detail": "Internal Server Error"}, status_code=500)
-            reason = "서버 내부 에러"
-            suspicious = True
-        duration = round((time.time() - start_time) * 1000, 2)
+        except Exception:
+            return JSONResponse(status_code=500, content={"detail": "Internal Server Error"})
 
+        process_time = round((time.time() - start_time) * 1000, 2)
 
-
-        # 비정상 파라미터 및 공격 시도 탐지
-        suspicious_keywords = ["drop ", "union ", "<script", "1=1", "alert(", "onerror=", "document.cookie"]
-        if any(word in body_str.lower() for word in suspicious_keywords):
-            suspicious = True
-            reason = "SQL/스크립트 공격 의심"
-
-        # 특정 경로에 대한 접근 제한 및 감시
-        if path.startswith("/admin") or path.startswith("/internal"):
-            suspicious = True
-            reason = "비허용 경로 접근 시도"
-
-        log_data = {
-            "timestamp": datetime.utcnow().isoformat(),
-            "ip": ip,
+        access_log = {
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+            "client_ip": client_ip,
             "method": method,
-            "path": path,
-            "query": str(request.query_params),
-            "body": body_str,
+            "url": str(request.url),
             "status_code": response.status_code,
-            "user_agent": user_agent,
-            "duration_ms": duration,
-            "suspicious": suspicious
+            "process_time_ms": process_time,
+            "headers": dict(request.headers),
+            "body": body_text,
         }
-
-        if suspicious and reason:
-            log_data["reason"] = reason
-
-        with open(self._get_log_filepath(), "a", encoding="utf-8") as f:
-            f.write(json.dumps(log_data, ensure_ascii=False) + "\n")
-
-        if suspicious:
-            notify_admin(log_data)
-
+        self._log(access_log)
+        # 기존 self._log(alert_log, alert=True) 뒤에 추가
+        await notify_slack(
+            f"🚨 *의심 요청 탐지!*\n📍IP: {client_ip}\n📄경로: {path}\n🕒시간: {log_data['timestamp']}"
+        )
         return response
 
+    def _detect_attack(self, text: str) -> bool:
+        """의심스러운 패턴 탐지"""
+        text = text.lower()
+        return any(re.search(pattern, text) for pattern in self.suspicious_patterns)
+
+    def _log(self, data: dict, alert=False):
+        """로그 파일 저장 (공격 탐지 여부 구분 가능)"""
+        try:
+            filename = "alerts.log" if alert else "access.log"
+            path = os.path.join(self.log_dir, filename)
+            with open(path, "a", encoding="utf-8") as f:
+                f.write(json.dumps(data, ensure_ascii=False) + "\n")
+        except Exception as e:
+            print(f"[LoggingMiddleware Error] 로그 저장 실패: {e}")
+
+    

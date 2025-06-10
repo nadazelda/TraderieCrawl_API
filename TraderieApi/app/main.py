@@ -1,5 +1,5 @@
 from datetime import datetime
-from fastapi import APIRouter,HTTPException,FastAPI
+from fastapi import APIRouter,HTTPException,FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi import Query  # 상단에 추가 필요
 import asyncio,logging,random
@@ -11,16 +11,18 @@ from schemas.item import ItemRequest,ItemListRequest
 from services.url_builder import TraderieUrlBuilder
 from .kind_map import kind_map  # 같은 폴더에 있으면 이렇게 import
 from services.Crawler import Crawler  # 필요 시 상단으로 옮겨도 됨
-from services.notifier import start_scheduler
+# main.py 또는 app.py에서
+from slack.APScheduler import start_scheduler  # 적절히 import
+from fastapi.responses import HTMLResponse
 
 # ✅ FastAPI 앱 인스턴스 생성
 app = FastAPI()
+start_scheduler(app)
 router = APIRouter()
 
 # 서버 관리 로그를 위해 미들웨어 로그 서비스 등록
 # 로그 관련이기 때문에 가장먼저 등록한다. 
 app.add_middleware(LoggingMiddleware)
-
 
 
 app.add_middleware(
@@ -190,15 +192,19 @@ async def item_kinds():
 
 @router.post("/ItemList")
 async def item_list(req: ItemListRequest):
-
+    print("1")
     kind_key = req.kind.lower()
+    print("2")
     if kind_key not in kind_map or kind_map[kind_key]["json_file"] is None:
+        print("3")
         return {"items": []}
-
+    print("4")
     base_path = os.path.join(os.path.dirname(__file__), "..", "CrawlResult")
-
+    print("base_path===",base_path)
     json_path = os.path.join(base_path, kind_map[kind_key]["json_file"])
+    print("bjson_path===",json_path)
     CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))  # 현재 파일 기준 절대경로
+    print("CURRENT_DIR===",CURRENT_DIR)
     ctg_json_path = os.path.join(CURRENT_DIR, "..", "jsons", "item-category.json")
     
     print('base_path===',base_path)
@@ -263,8 +269,9 @@ async def item_list(req: ItemListRequest):
         raise HTTPException(status_code=500, detail=f"파일 로드 실패: {e}")
 
 #관리자 로그 페이지 
-@router.get("/logs/inspect")
-async def inspect_logs(date: str = None, suspicious_only: bool = False):
+
+@admin_router.get("/admin/logs", response_class=HTMLResponse)
+async def view_logs_page(date: str = None, suspicious_only: bool = False):
     pattern = f"logs/server_log_{date}.jsonl" if date else "logs/server_log_*.jsonl"
     files = sorted(glob.glob(pattern))
     logs = []
@@ -275,11 +282,18 @@ async def inspect_logs(date: str = None, suspicious_only: bool = False):
                 if suspicious_only and not log.get("suspicious"):
                     continue
                 logs.append(log)
-    return JSONResponse(content=logs[-200:])
+
+    html = "<h1>📜 로그 목록 (최대 200개)</h1>"
+    html += f"<p>날짜: {date or '전체'}, 의심 요청만: {suspicious_only}</p><ul>"
+    for log in logs[-200:]:
+        html += f"<li><b>{log['timestamp']}</b> | {log['method']} {log['url']} | IP: {log['client_ip']} {'🚨' if log.get('suspicious') else ''}</li>"
+    html += "</ul>"
+
+    return HTMLResponse(content=html)
 
 
-@router.get("/logs/stats")
-async def get_log_stats(date: str = None):
+@admin_router.get("/admin/stats", response_class=HTMLResponse)
+async def view_log_stats_page(date: str = None):
     today = date or datetime.utcnow().strftime("%Y-%m-%d")
     file_path = f"logs/server_log_{today}.jsonl"
 
@@ -306,19 +320,18 @@ async def get_log_stats(date: str = None):
                     if "reason" in log:
                         reasons[log["reason"]] += 1
     except FileNotFoundError:
-        return JSONResponse(content={"message": "해당 날짜 로그 없음"}, status_code=404)
+        return HTMLResponse(content=f"<h1>❌ 로그 파일 없음: {file_path}</h1>", status_code=404)
 
-    return {
-        "date": today,
-        "total_requests": total_count,
-        "unique_users": len(unique_ips),
-        "top_ips": ips.most_common(5),
-        "suspicious_requests": suspicious_count,
-        "methods": methods,
-        "top_paths": paths.most_common(5),
-        "suspicious_reasons": reasons.most_common()
-    }
+    html = f"""
+    <h1>📊 로그 통계 ({today})</h1>
+    <p>총 요청: {total_count}</p>
+    <p>고유 IP: {len(unique_ips)}</p>
+    <p>의심 요청: {suspicious_count}</p>
+    <h2>📌 요청 방식</h2><ul>{"".join([f"<li>{m}: {c}</li>" for m, c in methods.items()])}</ul>
+    <h2>📍 가장 많이 호출된 경로</h2><ul>{"".join([f"<li>{p}: {c}</li>" for p, c in paths.most_common(5)])}</ul>
+    <h2>👥 Top IP</h2><ul>{"".join([f"<li>{ip}: {c}</li>" for ip, c in ips.most_common(5)])}</ul>
+    <h2>🚨 의심 사유</h2><ul>{"".join([f"<li>{r}: {c}</li>" for r, c in reasons.items()])}</ul>
+    """
 
-
-start_scheduler()
+    return HTMLResponse(content=html)
 app.include_router(router)
