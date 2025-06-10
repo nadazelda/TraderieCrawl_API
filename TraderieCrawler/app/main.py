@@ -9,6 +9,7 @@ from crawler.TraRunWordsCrawl import TraRunWordsCrawl
 from crawler.ItemNameRunWords import ItemNameRunWords
 from crawler.CrawlResultRunWords import CrawlResultRunWords
 from youtube.CrawlYoutube import CrawlYoutube
+from crawler_logger import log_crawler_event
 import shutil, os
 
 def finalize_crawl_result():
@@ -21,31 +22,36 @@ def finalize_crawl_result():
 
 def run_all_crawlers():
     try:
-        print("▶ 옵션 크롤 시작")
+        log_crawler_event("start", "전체 크롤러 시작", notify=True)
+
+        log_crawler_event("info", "옵션 크롤 시작", notify=True)
         TraOptionCrawl("", "")
 
-        print("▶ 유니크 아이템 크롤 시작")
+        log_crawler_event("info", "유니크 아이템 크롤 시작", notify=True)
         TraUniqueCrawl("", "")
 
-        print("▶ 일반 아이템 크롤 시작")
+        log_crawler_event("info", "일반 아이템 크롤 시작", notify=True)
         TraBaseItemCrawl("", "")
 
-        print("▶ 아이템 이름 매핑")
+        log_crawler_event("info", "아이템 이름 매핑")
         ItemName()
 
-        print("▶ 옵션 한글 매핑")
+        log_crawler_event("info", "옵션 한글 매핑")
         ItemOption()
 
-        print("▶ 유니크 옵션 ID/한글 매핑")
+        log_crawler_event("info", "유니크 옵션 ID/한글 매핑")
         CrawlerResult()
 
-        print("▶ 룬워드 관련 수집")
+        log_crawler_event("info", "룬워드 관련 수집", notify=True)
         TraRunWordsCrawl()
         ItemNameRunWords()
         CrawlResultRunWords()
-        print("▶ 유투브 관련 수집")
+
+        log_crawler_event("info", "유투브 관련 수집", notify=True)
         CrawlYoutube()
 
         finalize_crawl_result()
+        log_crawler_event("end", "전체 크롤러 완료", notify=True)
     except Exception as e:
-        print(f"❌ 크롤러 오류: {e}") 
+        log_crawler_event("error", "크롤러 실행 중 오류 발생", {"error": str(e)})
+        print(f"❌ 크롤러 오류: {e}")
