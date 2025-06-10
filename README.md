@@ -28,19 +28,7 @@
 
 ### 📘 시스템 흐름도
 
-```mermaid
-flowchart TD
-    F[Frontend<br>index.html<br>script.js<br>config.js] -->|API 호출| A[FastAPI<br>/app/main.py]
-    F --> B[API Base URL<br>(cloudflared)]
-    A -->|크롤링 요청| C[크롤러들<br>(/crawler/*.py)<br>Selenium 기반]
-    C -->|결과 저장| D[/crawlResult/*.json]
-    subgraph Docker Containers
-      A
-      C
-      B
-    end
-    A -- 공유 볼륨 --> D
-    C -- 공유 볼륨 --> D
+
 
 
 
