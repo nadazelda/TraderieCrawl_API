@@ -3,7 +3,7 @@ from apscheduler.triggers.cron import CronTrigger
 from datetime import datetime
 from collections import Counter
 import json, os
-from slack import send_slack_message  # 슬랙 전송 함수 임포트
+from slack.slack_util import send_slack_message  # 슬랙 전송 함수 임포트
 
 def start_scheduler():
     scheduler = AsyncIOScheduler()
