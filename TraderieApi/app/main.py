@@ -270,7 +270,7 @@ async def item_list(req: ItemListRequest):
 
 #관리자 로그 페이지 
 
-@admin_router.get("/admin/logs", response_class=HTMLResponse)
+@router.get("/admin/logs", response_class=HTMLResponse)
 async def view_logs_page(date: str = None, suspicious_only: bool = False):
     pattern = f"logs/server_log_{date}.jsonl" if date else "logs/server_log_*.jsonl"
     files = sorted(glob.glob(pattern))
@@ -292,7 +292,7 @@ async def view_logs_page(date: str = None, suspicious_only: bool = False):
     return HTMLResponse(content=html)
 
 
-@admin_router.get("/admin/stats", response_class=HTMLResponse)
+@router.get("/admin/stats", response_class=HTMLResponse)
 async def view_log_stats_page(date: str = None):
     today = date or datetime.utcnow().strftime("%Y-%m-%d")
     file_path = f"logs/server_log_{today}.jsonl"
