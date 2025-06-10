@@ -1,6 +1,6 @@
 # services/notifier.py
 from apscheduler.schedulers.background import BackgroundScheduler
-from utils.slack import send_slack_message
+from services.slack import send_slack_message
 from services.daily_report import run_daily_log_summary
 
 
