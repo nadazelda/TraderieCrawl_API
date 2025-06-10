@@ -198,7 +198,8 @@ async def item_list(req: ItemListRequest):
     base_path = os.path.join(os.path.dirname(__file__), "..", "CrawlResult")
 
     json_path = os.path.join(base_path, kind_map[kind_key]["json_file"])
-    ctg_json_path = os.path.join(base_path, "..", "jsons", "item-category.json")
+    CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))  # 현재 파일 기준 절대경로
+    ctg_json_path = os.path.join(CURRENT_DIR, "..", "jsons", "item-category.json")
     
     print('base_path===',base_path)
     print('json_path===',json_path)
