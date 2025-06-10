@@ -17,7 +17,7 @@ from fastapi.responses import HTMLResponse
 
 # ✅ FastAPI 앱 인스턴스 생성
 app = FastAPI()
-start_scheduler(app)
+start_scheduler()
 router = APIRouter()
 
 # 서버 관리 로그를 위해 미들웨어 로그 서비스 등록

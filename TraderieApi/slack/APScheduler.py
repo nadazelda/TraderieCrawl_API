@@ -3,7 +3,7 @@ from apscheduler.triggers.cron import CronTrigger
 from datetime import datetime
 from collections import Counter
 import json, os
-from slack.slack_util import send_slack_message  # 슬랙 전송 함수 임포트
+from slack.slack_webhook import notify_slack  # 슬랙 전송 함수 임포트
 
 def start_scheduler():
     scheduler = AsyncIOScheduler()
@@ -36,11 +36,11 @@ def start_scheduler():
                 f"👥 고유 IP 수: {len(ips)}\n"
                 f"🏆 Top IP: {', '.join([f'{ip}({cnt})' for ip, cnt in ips.most_common(3)])}"
             )
-            await send_slack_message(summary)
+            await notify_slack(summary)
 
         except FileNotFoundError:
-            await send_slack_message(f"📂 {today} 로그 파일이 존재하지 않습니다.")
+            await notify_slack(f"📂 {today} 로그 파일이 존재하지 않습니다.")
         except Exception as e:
-            await send_slack_message(f"⚠️ 슬랙 통계 전송 실패: {e}")
+            await notify_slack(f"⚠️ 슬랙 통계 전송 실패: {e}")
 
     scheduler.start()
