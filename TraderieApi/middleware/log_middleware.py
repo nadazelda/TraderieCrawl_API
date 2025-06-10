@@ -63,7 +63,7 @@ class LoggingMiddleware(BaseHTTPMiddleware):
             self._log(alert_log, alert=True)
             # 기존 self._log(alert_log, alert=True) 뒤에 추가
             await notify_slack(
-                f"🚨 *의심 요청 탐지!*\n📍IP: {client_ip}\n📄경로: {path}\n🕒시간: {log_data['timestamp']}"
+                f"🚨 *의심 요청 탐지!*\n📍IP: {client_ip}\n📄경로: {path}\n🕒시간: {alert_log['timestamp']}"
             )
 
 
@@ -90,7 +90,7 @@ class LoggingMiddleware(BaseHTTPMiddleware):
         self._log(access_log)
         # 기존 self._log(alert_log, alert=True) 뒤에 추가
         await notify_slack(
-            f"🚨 *의심 요청 탐지!*\n📍IP: {client_ip}\n📄경로: {path}\n🕒시간: {log_data['timestamp']}"
+            f"🚨 *의심 요청 탐지!*\n📍IP: {client_ip}\n📄경로: {path}\n🕒시간: {alert_log['timestamp']}"
         )
         return response
 
