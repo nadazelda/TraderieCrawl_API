@@ -9,7 +9,7 @@ from crawler.TraRunWordsCrawl import TraRunWordsCrawl
 from crawler.ItemNameRunWords import ItemNameRunWords
 from crawler.CrawlResultRunWords import CrawlResultRunWords
 from youtube.CrawlYoutube import CrawlYoutube
-from crawler_logger import log_crawler_event
+from .crawler_logger import log_crawler_event
 import shutil, os
 
 def finalize_crawl_result():
