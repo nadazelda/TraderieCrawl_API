@@ -1,18 +1,27 @@
+from datetime import datetime
 from fastapi import APIRouter,HTTPException,FastAPI
 from fastapi.responses import JSONResponse
 from fastapi import Query  # 상단에 추가 필요
-import asyncio,logging,shutil,random
+import asyncio,logging,random
 from fastapi.middleware.cors import CORSMiddleware
-import json , os,re
+from middleware.log_middleware import LoggingMiddleware
+from collections import Counter
+import json , os,re, glob
 from schemas.item import ItemRequest,ItemListRequest
 from services.url_builder import TraderieUrlBuilder
 from app.kind_map import kind_map  # 같은 폴더에 있으면 이렇게 import
 from services.Crawler import Crawler  # 필요 시 상단으로 옮겨도 됨
-
+from scheduler import start_scheduler
 from youtube.CrawlYoutube import CrawlYoutube
 # ✅ FastAPI 앱 인스턴스 생성
 app = FastAPI()
 router = APIRouter()
+
+# 서버 관리 로그를 위해 미들웨어 로그 서비스 등록
+# 로그 관련이기 때문에 가장먼저 등록한다. 
+app.add_middleware(LoggingMiddleware)
+
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -21,6 +30,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
 # 필터 정의 healthchekd 로그는 제외시킴 
 class IgnorePingFilter(logging.Filter):
     def filter(self, record):
@@ -248,4 +259,63 @@ async def item_list(req: ItemListRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"파일 로드 실패: {e}")
 
+#관리자 로그 페이지 
+@router.get("/logs/inspect")
+async def inspect_logs(date: str = None, suspicious_only: bool = False):
+    pattern = f"logs/server_log_{date}.jsonl" if date else "logs/server_log_*.jsonl"
+    files = sorted(glob.glob(pattern))
+    logs = []
+    for file in files:
+        with open(file, encoding="utf-8") as f:
+            for line in f:
+                log = json.loads(line)
+                if suspicious_only and not log.get("suspicious"):
+                    continue
+                logs.append(log)
+    return JSONResponse(content=logs[-200:])
+
+
+@router.get("/logs/stats")
+async def get_log_stats(date: str = None):
+    today = date or datetime.utcnow().strftime("%Y-%m-%d")
+    file_path = f"logs/server_log_{today}.jsonl"
+
+    suspicious_count = 0
+    total_count = 0
+    reasons = Counter()
+    methods = Counter()
+    paths = Counter()
+    ips = Counter()
+    unique_ips = set()
+
+    try:
+        with open(file_path, encoding="utf-8") as f:
+            for line in f:
+                log = json.loads(line)
+                total_count += 1
+                methods[log["method"]] += 1
+                paths[log["path"]] += 1
+                ip = log["ip"]
+                unique_ips.add(ip)
+                ips[ip] += 1
+                if log.get("suspicious"):
+                    suspicious_count += 1
+                    if "reason" in log:
+                        reasons[log["reason"]] += 1
+    except FileNotFoundError:
+        return JSONResponse(content={"message": "해당 날짜 로그 없음"}, status_code=404)
+
+    return {
+        "date": today,
+        "total_requests": total_count,
+        "unique_users": len(unique_ips),
+        "top_ips": ips.most_common(5),
+        "suspicious_requests": suspicious_count,
+        "methods": methods,
+        "top_paths": paths.most_common(5),
+        "suspicious_reasons": reasons.most_common()
+    }
+
+
+start_scheduler()
 app.include_router(router)
