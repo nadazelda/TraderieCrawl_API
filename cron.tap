@@ -24,3 +24,15 @@ crontab -e
 #docker run --rm -v /home/ec2-user/shared:/app/CrawlResult traderie_crawler_img
 
 crontab -l
+
+
+sudo rm -rf TraderieCrawl_API
+git clone git@github.com:nadazelda/TraderieCrawl_API.git
+
+cd TraderieCrawl_API
+docker stop traderie_api_app
+docker rm traderie_api_app, traderie_crawler_app
+docker rmi traderie_api_img, traderie_crawler_img
+docker-compose up -d --build fastapi crawler
+docker logs traderie_cloudflare
+docker logs -f traderie_api_app

@@ -19,7 +19,7 @@ class ItemRequest(BaseModel):
     Options: Optional[List[Option]] = None
     items: Optional[List[ItemEntry]] = None
     options: Optional[List[Option]] = None
-    prop_Ladder: bool
+    prop_Ladder: str
     prop_Mode: str
     prop_Ethereal: bool
     prop_Rarity: Optional[str] = None
