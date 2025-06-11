@@ -7,7 +7,10 @@ class ItemName:
     ,'Paladin smite dmg'
     ,'Assassin kick dmg'
     ,'Fire Damage'
+    ,'Defense (Based on Character Level)'
+    
     ]
+    remove_same_keyword=['Damage']
     #pattern = re.compile(r'\(?\+?(\d+)[-~](\d+)%?\)?\s*(.*)') #독사마술사 날라감;;
     pattern = re.compile(r'(.*?)(\d+)[-~](\d+)', re.IGNORECASE)
 
@@ -21,11 +24,16 @@ class ItemName:
     def parse_description(self, desc_list):
         parsed = []
         for line in desc_list:
+            # 특정 키워드 포함된 옵션제거 
             if any(keyword in line for keyword in self.excluded_keywords):
                 #print(f"❌ excluded: {line}")
                 continue
-
+            
             line = line.strip()
+            
+            # 완전 일치 제거# 특정 키워드 동일한 옵션제거       
+            if line in self.remove_same_keyword:
+                continue
 
             # (1) 범위가 앞에 있는 경우
             m = re.search(r'[-+]?[\(]?(\d+)[-~](\d+)[\)%\s]*([a-zA-Z ].*)$', line)
@@ -109,6 +117,7 @@ class ItemName:
         result_df = merged_df[['id', 'name','img', 'korName', 'description_filtered']]
         
         # 저장
-        result_df = result_df.sort_values(by='korName', ascending=True)
+        #한글 기준 ㄱ >ㅎ 
+        result_df = result_df.sort_values(by='korName', ascending=False)
         
         result_df.to_json('jsons/uniqueItemList.json',orient='records', force_ascii=False, indent=2)

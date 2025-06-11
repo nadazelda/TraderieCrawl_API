@@ -6,8 +6,8 @@ class TraderieUrlBuilder:
         self.item_key = item_key
         self.params = {"item": item_key}
 
-    def set_common_props(self, ladder: bool, mode: str, ethereal: bool):
-        self.params["prop_Ladder"] = str(ladder).lower()
+    def set_common_props(self, ladder: str, mode: str, ethereal: bool):
+        self.params["prop_Ladder"] = str(ladder)
         self.params["prop_Mode"] = mode
         self.params["prop_Ethereal"] = str(ethereal).lower()
         
