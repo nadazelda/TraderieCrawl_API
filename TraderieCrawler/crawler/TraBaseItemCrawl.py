@@ -55,8 +55,10 @@ class TraBaseItemCrawl:
                         category_info = self._categoryMap[ctg_category]
                         if isinstance(category_info, dict):
                             group = category_info.get("group")
-                            
-                            
+                            ##동의어가 잇을땐 표준용어로교체
+                            #Claws 류가 h2h로 돼있음 
+                            if "same" in category_info:
+                                ctg_category = category_info["same"]
                     results.append({
                         "id": item["id"],
                         "ctg": ctg_category,
