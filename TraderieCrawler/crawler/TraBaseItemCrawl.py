@@ -73,7 +73,8 @@ class TraBaseItemCrawl:
             except Exception as e:
                 print(f"❌ Page {page} failed — {e}")
         # ✅ 외부 JSON 파일에서 추가 아이템 불러오기
-        extra_path = "routes/addBaseItem.json"
+        # 반지, 목걸이의 경우 없어서 강제로 추가합니다
+        extra_path = "jsons/addBaseItem.json"
         if os.path.exists(extra_path):
             try:
                 with open(extra_path, "r", encoding="utf-8") as f:
