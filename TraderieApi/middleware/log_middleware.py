@@ -97,9 +97,10 @@ class LoggingMiddleware(BaseHTTPMiddleware):
         return any(re.search(pattern, text) for pattern in self.suspicious_patterns)
 
     def _log(self, data: dict, alert=False):
-        """로그 파일 저장 (공격 탐지 여부 구분 가능)"""
+        """날짜별 jsonl 로그 저장 (alerts 포함)"""
         try:
-            filename = "alerts.log" if alert else "access.log"
+            today = time.strftime("%Y-%m-%d", time.localtime())
+            filename = f"server_log_{today}.jsonl" if not alert else f"alerts_{today}.jsonl"
             path = os.path.join(self.log_dir, filename)
             with open(path, "a", encoding="utf-8") as f:
                 f.write(json.dumps(data, ensure_ascii=False) + "\n")
