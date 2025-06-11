@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Extra
-from typing import List, Optional
+from typing import List, Optional, Union
 
 class Option(BaseModel):
     key: int
@@ -19,7 +19,7 @@ class ItemRequest(BaseModel):
     Options: Optional[List[Option]] = None
     items: Optional[List[ItemEntry]] = None
     options: Optional[List[Option]] = None
-    prop_Ladder: str
+    prop_Ladder: Union[bool, str]
     prop_Mode: str
     prop_Ethereal: bool
     prop_Rarity: Optional[str] = None

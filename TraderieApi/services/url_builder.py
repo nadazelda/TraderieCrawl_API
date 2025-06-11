@@ -7,7 +7,14 @@ class TraderieUrlBuilder:
         self.params = {"item": item_key}
 
     def set_common_props(self, ladder: str, mode: str, ethereal: bool):
-        self.params["prop_Ladder"] = str(ladder)
+        if ladder == "Ladder":
+            self.params["prop_Ladder"] = "true"
+        elif ladder == "Non Ladder":
+            self.params["prop_Ladder"] = "false"
+        elif "Ladder" in ladder and "Non Ladder" in ladder:
+            self.params["prop_Ladder"] = "Ladder,Non Ladder"
+        else:
+            self.params["prop_Ladder"] = ladder  # fallback (필요시 제거 가능)
         self.params["prop_Mode"] = mode
         self.params["prop_Ethereal"] = str(ethereal).lower()
         
