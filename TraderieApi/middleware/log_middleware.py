@@ -14,7 +14,7 @@ class LoggingMiddleware(BaseHTTPMiddleware):
         super().__init__(app)
         self.log_dir = "server_logs"
         os.makedirs(self.log_dir, exist_ok=True)
-        self.log_file_path = os.path.join(self.log_dir, "access.log")
+        #self.log_file_path = os.path.join(self.log_dir, "access.log")
 
         # 공격 패턴 예시 (확장 가능)
         self.suspicious_patterns = [
@@ -28,9 +28,10 @@ class LoggingMiddleware(BaseHTTPMiddleware):
         self.restricted_paths = ["/admin", "/env", "/.git", "/config"]
 
     async def dispatch(self, request: Request, call_next):
+
+    
         start_time = time.time()
-
-
+        
         try:
             body_bytes = await request.body()
         except Exception:
@@ -42,6 +43,11 @@ class LoggingMiddleware(BaseHTTPMiddleware):
         request = Request(request.scope, receive)
         path = request.url.path
         method = request.method
+        #health chek 로그는 빼버림         
+        # 불필요한 경로는 로그에서 제외
+        excluded_paths = ["/ping", "/favicon.ico", "/docs", "/redoc", "/openapi.json"]
+        if path in excluded_paths:
+            return await call_next(request)
         client_ip = request.client.host if request.client else None
         query_string = request.url.query
         body_text = body_bytes.decode("utf-8", errors="ignore")
