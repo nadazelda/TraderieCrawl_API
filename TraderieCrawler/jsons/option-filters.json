@@ -1,4 +1,5 @@
-[
+{
+  "remove": [
     "Based on Character Level",
     "per character level",
     "X/X Charges",
@@ -22,6 +23,12 @@
     "res-all-max",
     "Amount",
     "*"
-
+  ],
+  "remain": [
+    "Chance to cast level Amplify Damage on striking",
+    "to Attack Rating (Based on Character Level)",
+    "Maximum Damage (Based on Character Level)",
+    "Bonus to Attack Rating (Based on Character Level)",
+    "to Life (Based on Character Level)"
   ]
-  
+}

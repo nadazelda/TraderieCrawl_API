@@ -7,7 +7,9 @@ class ItemOption:
     
     def __init__(self) -> None:
         with open('jsons/option-filters.json', encoding='utf-8') as f:
-            self.removal_keywords = json.load(f)
+            filters = json.load(f)
+            self.removal_keywords = filters["remove"]
+            self.remain_keywords = filters["remain"]
 
         with open('jsons/option_replacements.json', encoding='utf-8') as f:
             self.replacement_dict = {k.lower(): v for k, v in json.load(f).items()}
@@ -24,9 +26,29 @@ class ItemOption:
         self.results = []
         self.process_options()
 
+    # def apply_removal_filter(self, text: str) -> bool:
+    #     return any(keyword.lower() in text.lower() for keyword in self.removal_keywords)
+    
+    # 키워드 포함 무조건 제거하는방법에서, remove는 기존대로 제거
+    # remain은 포함시킵니다 
     def apply_removal_filter(self, text: str) -> bool:
-        return any(keyword.lower() in text.lower() for keyword in self.removal_keywords)
+        lower_text = text.lower()
 
+        # remain 키워드가 포함되어 있다면 필터링하지 않음
+        for keep in self.remain_keywords:
+            if keep.lower() in lower_text:
+                return False
+
+        # remove 키워드 중 하나라도 포함되어 있으면 필터링
+        for keyword in self.removal_keywords:
+            if keyword.startswith("*"):
+                # 특수 접두 필터: 키워드 끝이 일치하면 제거
+                if lower_text.endswith(keyword[1:].lower()):
+                    return True
+            elif keyword.lower() in lower_text:
+                return True
+
+        return False
     def apply_fixed_replacements(self, text: str) -> str:
         for eng, kor in sorted(self.replacement_dict.items(), key=lambda x: -len(x[0])):
             pattern = re.compile(re.escape(eng), re.IGNORECASE)

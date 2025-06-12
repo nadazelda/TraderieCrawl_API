@@ -999,5 +999,16 @@
   "Fire":"화염",
   "Poison":"독",
   "Light":"번개",
-  "Absorb":"흡수"
+  "Absorb":"흡수",
+  "On Striking":"타격 시",
+  "when struck":"피격 시",
+  "to Maximun":"최대",
+  "to Minimun":"최소",
+  "Reduced by":"감소",
+  "Goes To Mana":"마나로",
+  "Chance to cast level Amplify Damage on striking" :"타격시 피해증폭저주",
+  "to Attack Rating (Based on Character Level)":"렙당어레(풀스옵)",
+  "Maximum Damage (Based on Character Level)":"렙당최대데미지(풀스옵)",
+  "Bonus to Attack Rating (Based on Character Level)":"렙당어레보너스",
+  "to Life (Based on Character Level)":"렙당생명력력"
 }
