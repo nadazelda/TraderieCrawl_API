@@ -21,8 +21,7 @@
     "Rarity",
     "Platform",
     "res-all-max",
-    "Amount",
-    "*"
+    "Amount"
   ],
   "remain": [
     "Chance to cast level Amplify Damage on striking",
