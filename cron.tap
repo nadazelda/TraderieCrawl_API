@@ -36,3 +36,44 @@ docker rmi traderie_api_img, traderie_crawler_img
 docker-compose up -d --build fastapi crawler
 docker logs traderie_cloudflare
 docker logs -f traderie_api_app
+
+#기존 폴더 제거 및 git 복사 후 폴더 진입
+sudo rm -rf TraderieCrawl_API
+git clone git@github.com:nadazelda/TraderieCrawl_API.git
+cd TraderieCrawl_API
+
+docker stop traderie_api_app
+docker rm traderie_api_app
+docker rmi traderie_api_img
+docker-compose up --build -d fastapi 
+
+docker logs -f traderie_api_app
+
+
+
+#기존 폴더 제거 및 git 복사 후 폴더 진입
+sudo rm -rf TraderieCrawl_API
+git clone git@github.com:nadazelda/TraderieCrawl_API.git
+cd TraderieCrawl_API
+
+docker rm traderie_crawler_app
+docker rmi traderie_crawler_img
+docker-compose up --build -d crawler
+
+
+
+
+#기존 폴더 제거 및 git 복사 후 폴더 진입
+sudo rm -rf TraderieCrawl_API
+git clone git@github.com:nadazelda/TraderieCrawl_API.git
+cd TraderieCrawl_API
+
+docker stop traderie_api_app
+docker rm traderie_api_app traderie_crawler_app
+docker rmi traderie_api_img traderie_crawler_img
+docker-compose up --build -d fastapi crawler
+docker cp /home/ec2-user/server_logs/. traderie_api_app:/app/logs
+docker logs -f traderie_api_app
+
+
+

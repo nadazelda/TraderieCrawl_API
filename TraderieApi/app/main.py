@@ -310,9 +310,9 @@ async def view_log_stats_page(date: str = None):
             for line in f:
                 log = json.loads(line)
                 total_count += 1
-                methods[log["method"]] += 1
-                paths[log["path"]] += 1
-                ip = log["ip"]
+                methods[log.get("method", "UNKNOWN")] += 1
+                paths[log.get("url", "UNKNOWN")] += 1  # 수정
+                ip = log.get("client_ip", "UNKNOWN")   # 수정
                 unique_ips.add(ip)
                 ips[ip] += 1
                 if log.get("suspicious"):
@@ -321,17 +321,30 @@ async def view_log_stats_page(date: str = None):
                         reasons[log["reason"]] += 1
     except FileNotFoundError:
         return HTMLResponse(content=f"<h1>❌ 로그 파일 없음: {file_path}</h1>", status_code=404)
+    except Exception as e:
+        return HTMLResponse(content=f"<h1>⚠️ 예외 발생:</h1><pre>{e}</pre>", status_code=500)
+
 
     html = f"""
     <h1>📊 로그 통계 ({today})</h1>
     <p>총 요청: {total_count}</p>
     <p>고유 IP: {len(unique_ips)}</p>
     <p>의심 요청: {suspicious_count}</p>
-    <h2>📌 요청 방식</h2><ul>{"".join([f"<li>{m}: {c}</li>" for m, c in methods.items()])}</ul>
-    <h2>📍 가장 많이 호출된 경로</h2><ul>{"".join([f"<li>{p}: {c}</li>" for p, c in paths.most_common(5)])}</ul>
-    <h2>👥 Top IP</h2><ul>{"".join([f"<li>{ip}: {c}</li>" for ip, c in ips.most_common(5)])}</ul>
-    <h2>🚨 의심 사유</h2><ul>{"".join([f"<li>{r}: {c}</li>" for r, c in reasons.items()])}</ul>
+
+    <h2>📌 요청 방식</h2>
+    <ul>{"".join([f"<li>{m}: {c}</li>" for m, c in methods.items()])}</ul>
+
+    <h2>📍 가장 많이 호출된 URL</h2>
+    <ul>{"".join([f"<li>{p}: {c}</li>" for p, c in paths.most_common(5)])}</ul>
+
+    <h2>👥 Top IP</h2>
+    <ul>{"".join([f"<li>{ip}: {c}</li>" for ip, c in ips.most_common(5)])}</ul>
+
+    <h2>🚨 의심 사유</h2>
+    <ul>{"".join([f"<li>{r}: {c}</li>" for r, c in reasons.items()])}</ul>
     """
 
+
     return HTMLResponse(content=html)
+
 app.include_router(router)
