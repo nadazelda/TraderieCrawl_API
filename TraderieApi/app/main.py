@@ -9,6 +9,7 @@ from collections import Counter
 import json , os,re, glob
 from schemas.item import ItemRequest,ItemListRequest
 from services.url_builder import TraderieUrlBuilder
+from services.TerrorZoneFromD2Emu import TerrorZoneFromD2Emu
 from .kind_map import kind_map  # 같은 폴더에 있으면 이렇게 import
 from services.Crawler import Crawler  # 필요 시 상단으로 옮겨도 됨
 # main.py 또는 app.py에서
@@ -184,9 +185,12 @@ async def item_kinds():
 
     if videos:
         random_video = random.choice(videos)
+
+    # 테러존 정보 클래스 실행 후 딕셔너리만 추출
+    terror_zone_info = TerrorZoneFromD2Emu().result
         
     kinds = [{"key": k, "name": v} for k, v in kind_map.items()]
-    return {"kinds": kinds, "random_video":random_video}
+    return {"kinds": kinds, "random_video":random_video, "terror_zone_info":terror_zone_info}
 
 
 
