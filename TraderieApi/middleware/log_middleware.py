@@ -12,7 +12,7 @@ from slack.slack_webhook import notify_slack
 class LoggingMiddleware(BaseHTTPMiddleware):
     def __init__(self, app):
         super().__init__(app)
-        self.log_dir = "server_logs"
+        self.log_dir = "logs"
         os.makedirs(self.log_dir, exist_ok=True)
         #self.log_file_path = os.path.join(self.log_dir, "access.log")
 
