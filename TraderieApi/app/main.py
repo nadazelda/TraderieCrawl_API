@@ -73,6 +73,9 @@ async def make_urls(payload: ItemRequest):
                     k: v for k, v in payload_dict.items()
                     if k.startswith("prop_") and k not in {"prop_Ladder", "prop_Mode", "prop_Ethereal"}
                 }
+                print("🔍 global_props 추출됨:---------------")
+                for k, v in global_props.items():
+                    print(f"  {k} = {v}")
                 print("🧪 global_props 확인:", global_props)
                 builder.set_global_props(global_props)
 
