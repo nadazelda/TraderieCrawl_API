@@ -272,7 +272,7 @@ async def item_list(req: ItemListRequest):
                  category = json.load(f)
             
             ctg_list = sorted(
-                [{"eng": eng, "kor": val["kor"], "group": val["group"]} for eng, val in category.items()],
+                [{"eng": val["same"] if "same" in val else eng, "kor": val["kor"], "group": val["group"]} for eng, val in category.items()],
                 key=lambda x: x["kor"]
             )
             print(" before return")
