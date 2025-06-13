@@ -11,6 +11,7 @@ services:
       - app-network
     volumes:
       - ./CrawlResult:/app/CrawlResult  # 공유 폴더
+      - ./logs:/app/logs   # ✅ 로그 영속 볼륨 마운트
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/ping"]
       interval: 10s
