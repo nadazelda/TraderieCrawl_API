@@ -9,8 +9,9 @@ _last_fetch_hour = -1
 CACHE_DURATION = 60*28  #28분
 
 def get_terror_zone_cached():
+    
     global _cached_terror_data, _last_fetch_time, _last_fetch_hour
-
+    print("get_terror_zone_cached start ")
     now = datetime.now()
     current_hour = now.hour
     now_timestamp = time.time()

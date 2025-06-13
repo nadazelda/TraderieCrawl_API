@@ -9,7 +9,7 @@
   "axe": { "kor": "액스", "group": "weapon" },
   "belt": { "kor": "벨트", "group": "etc" },
   "boot": { "kor": "부츠", "group": "etc" },
-  "h2h": { "kor": "탤런", "group": "etc" ,"same":"Claws"},
+  "h2h": { "kor": "탤런", "group": "etc" ,"same":"Claw"},
   "knife": { "kor": "나이프", "group": "etc" },
   "glove": { "kor": "글러브", "group": "etc" },
   "hammer": { "kor": "마울", "group": "weapon" },
