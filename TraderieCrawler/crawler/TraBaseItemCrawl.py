@@ -47,9 +47,12 @@ class TraBaseItemCrawl:
                     # ✅ korName 설정: name이 key에 있다면 koKR로, 없으면 빈 문자열
                     kor_name = self._itemNameMap.get(item["name"], "")
                     # 소켓수 추출                     
-                    desc = item.get("description", "")
+
+                    desc = item.get("description") or ""
                     socket_match = re.search(r"Max sockets:\s*(\d+)", desc)
                     max_sockets = int(socket_match.group(1)) if socket_match else None
+
+
                     # ✅ ctg_category 기반 group 추출 (bow → weapon 등)
                     
                     # 그룹 정보 추출
