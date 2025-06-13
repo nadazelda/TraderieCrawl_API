@@ -1,6 +1,6 @@
 from datetime import datetime
 from pathlib import Path
-from TraderieApi.services.util import get_terror_zone_cached
+from services.util import get_terror_zone_cached
 from fastapi import APIRouter,HTTPException,FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi import Query  # 상단에 추가 필요
