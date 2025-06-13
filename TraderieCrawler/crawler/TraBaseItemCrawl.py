@@ -24,7 +24,7 @@ class TraBaseItemCrawl:
         results = []
         
         for page in range(1, 20):
-            baseUrl = f"https://traderie.com/api/diablo2resurrected/items?type=base&page={page}"
+            baseUrl = f"https://traderie.com/api/diablo2resurrected/items?type=base&tags=true&page={page}"
             self._driver.get(baseUrl)
             
             try:
@@ -40,7 +40,10 @@ class TraBaseItemCrawl:
                     ctg_match = re.search(r'https://cdn\.nookazon\.com/diablo2resurrected/([a-zA-Z0-9_-]+)', item["img"])
                     
                     ctg_category = ctg_match.group(1) if ctg_match else "unknown"
-                    
+                    item_tier = next(
+                        (tag["tag"] for tag in item["tags"] if tag["category"] == "Tier"),
+                        None  # ← 없을 경우 None 반환
+                    )
                     # ✅ korName 설정: name이 key에 있다면 koKR로, 없으면 빈 문자열
                     kor_name = self._itemNameMap.get(item["name"], "")
                     # 소켓수 추출                     
@@ -66,7 +69,8 @@ class TraBaseItemCrawl:
                         "name": item["name"],
                         "maxSockets":max_sockets,
                         "korName": kor_name,
-                        "group":group
+                        "group":group,
+                        "tier":item_tier
                     })
                 #print(results)
                 print(f"✅ Page {page} fetched")
