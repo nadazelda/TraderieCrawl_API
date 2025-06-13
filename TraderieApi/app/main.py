@@ -185,13 +185,13 @@ async def select_categories(
 
 @router.get("/ItemKinds")
 async def item_kinds():
-
+    print("itemkinds start")
     with open("CrawlResult/youtube_videos.json", "r", encoding="utf-8") as f:
         videos = json.load(f)
-    random_video = None
+    print("youtube start ")
     if videos:
-        random_video = random.choice(videos)
-
+        random_video = random.choice(videos) if videos else None
+    print("terror zone start ")
     # 테러존 정보 클래스 실행 후 딕셔너리만 추출
     terror_zone_info = get_terror_zone_cached()  # 🔁 캐싱된 데이터 사용
         

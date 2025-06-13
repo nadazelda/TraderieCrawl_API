@@ -26,18 +26,21 @@ class TerrorZoneFromD2Emu:
     def _normalize(self, text: str) -> str:
         return re.sub(r"[^a-zA-Z0-9]", "", text).lower()
     def _fuzzy_translate(self, zone: str, translation_dict: dict) -> str:
-        print('start _fuzzy_translate')
-        print('zone',zone)
+        
         norm_zone = self._normalize(zone)
-        print('norm zone',norm_zone)
+        
         norm_dict  = {self._normalize(k): v for k, v in translation_dict.items()}
+        print(f"\n🟡 원본 zone: '{zone}' → 정규화: '{norm_zone}'")
         
         # 정확히 일치하면 바로 반환
         if norm_zone in norm_dict:
+            print(f"✅ 정확 일치: '{zone}' → '{norm_dict[norm_zone]}'")
             return norm_dict[norm_zone]
         # 비슷한 키 중 가장 유사한 항목 찾기 (유사도 0.8 이상)
         close_matches = get_close_matches(norm_zone, norm_dict.keys(), n=1, cutoff=0.8)
         if close_matches:
+            match = close_matches[0]
+            print(f"🧩 유사 일치: '{zone}' ≈ '{match}' → '{norm_dict[match]}'")
             return norm_dict[close_matches[0]]
         print(f"❌ 번역 실패: {zone}")
         return zone  # 번역 실패 시 원문 그대로
