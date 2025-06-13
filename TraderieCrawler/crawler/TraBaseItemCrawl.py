@@ -23,7 +23,7 @@ class TraBaseItemCrawl:
     def _getBaseItemList(self):
         results = []
         
-        for page in range(1, 20):
+        for page in range(0, 21):
             baseUrl = f"https://traderie.com/api/diablo2resurrected/items?type=base&tags=true&page={page}"
             self._driver.get(baseUrl)
             
