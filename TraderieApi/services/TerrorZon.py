@@ -15,6 +15,7 @@ class TerrorZoneFromD2Emu:
         print("📦 결과:", self.result)
 
     def translate_zone(self, zone_str: str, translation_dict: dict) -> str:
+        print('start translate_zone')
         parts = re.split(r"\s*(?:and|,|&)\s*", zone_str)
         translated_parts = [self._fuzzy_translate(p.strip(), translation_dict) for p in parts]
         separators = re.findall(r"\s*(?:and|,|&)\s*", zone_str)
@@ -22,9 +23,13 @@ class TerrorZoneFromD2Emu:
         for sep, part in zip(separators, translated_parts[1:]):
             result += sep + part
         return result
-
+    def _normalize(self, text: str) -> str:
+        return re.sub(r"[^a-zA-Z0-9]", "", text).lower()
     def _fuzzy_translate(self, zone: str, translation_dict: dict) -> str:
+        print('start _fuzzy_translate')
+        print('zone',zone)
         norm_zone = self._normalize(zone)
+        print('norm zone',norm_zone)
         norm_dict  = {self._normalize(k): v for k, v in translation_dict.items()}
         
         # 정확히 일치하면 바로 반환
@@ -46,6 +51,7 @@ class TerrorZoneFromD2Emu:
             AREA_TRANSLATIONS = {}
 
         url = "https://d2runewizard.com/api/terror-zone"
+        print('terrorzon url',url)
         try:
             res = requests.get(url, timeout=5)
             res.raise_for_status()
