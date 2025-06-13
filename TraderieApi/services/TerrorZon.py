@@ -31,6 +31,7 @@ class TerrorZoneFromD2Emu:
         close_matches = get_close_matches(zone, translation_dict.keys(), n=1, cutoff=0.8)
         if close_matches:
             return translation_dict[close_matches[0]]
+        print(f"❌ 번역 실패: {zone}")
         return zone  # 번역 실패 시 원문 그대로
 
     def get_terror_zone(self):
