@@ -20,14 +20,8 @@ from fastapi.responses import HTMLResponse
 
 
 
-
-
-
-
-
-
 # ✅ FastAPI 앱 인스턴스 생성
-app = FastAPI()
+app = FastAPI(debug=True)
 start_scheduler()
 router = APIRouter()
 
@@ -194,7 +188,7 @@ async def item_kinds():
 
     with open("CrawlResult/youtube_videos.json", "r", encoding="utf-8") as f:
         videos = json.load(f)
-
+    random_video = None
     if videos:
         random_video = random.choice(videos)
 
@@ -202,6 +196,13 @@ async def item_kinds():
     terror_zone_info = get_terror_zone_cached()  # 🔁 캐싱된 데이터 사용
         
     kinds = [{"key": k, "name": v} for k, v in kind_map.items()]
+    
+    print("🔎 terror_zone_info:", terror_zone_info)
+    print("🔎 타입:", type(terror_zone_info))
+    print("🔎 kinds:", kinds)
+    print("🔎 타입:", type(kinds))
+    print("🔎 random_video:", random_video)
+    print("🔎 타입:", type(random_video))
     return {"kinds": kinds, "random_video":random_video, "terror_zone_info":terror_zone_info}
 
 

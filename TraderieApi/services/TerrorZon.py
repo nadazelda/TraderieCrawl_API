@@ -57,8 +57,8 @@ class TerrorZoneFromD2Emu:
             next_act = self.ACT_TRANSLATIONS.get(next_.get("act", "").lower(), next_.get("act", "Unknown"))
 
             return {
-                "현재 테러존": f"{current_act}({current_zone})",
-                "다음 테러존": f"{next_act}({next_zone})"
+                "currTerror": f"{current_act}({current_zone})",
+                "nextTerror": f"{next_act}({next_zone})"
             }
 
         except requests.RequestException as e:
