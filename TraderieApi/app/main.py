@@ -43,6 +43,11 @@ class IgnorePingFilter(logging.Filter):
 # Uvicorn access log에 필터 적용
 logging.getLogger("uvicorn.access").addFilter(IgnorePingFilter())
 
+# 캐시 관련 전역 변수
+_cached_terror_data = None
+_last_fetch_time = 0
+CACHE_DURATION = 300  # 초 (5분)
+
 @router.get("/ping")
 def ping():
     return {"status": "ok"}
@@ -187,7 +192,7 @@ async def item_kinds():
         random_video = random.choice(videos)
 
     # 테러존 정보 클래스 실행 후 딕셔너리만 추출
-    terror_zone_info = TerrorZoneFromD2Emu().result
+    terror_zone_info = get_terror_zone_cached()  # 🔁 캐싱된 데이터 사용
         
     kinds = [{"key": k, "name": v} for k, v in kind_map.items()]
     return {"kinds": kinds, "random_video":random_video, "terror_zone_info":terror_zone_info}

@@ -34,7 +34,7 @@ class TerrorZoneFromD2Emu:
         return zone  # 번역 실패 시 원문 그대로
 
     def get_terror_zone(self):
-        TRANSLATION_FILE = "/content/drive/MyDrive/TerrorZoneCrawl/diablo_areaName.json"
+        TRANSLATION_FILE = "json/diablo_areaName.json"
         if os.path.exists(TRANSLATION_FILE):
             with open(TRANSLATION_FILE, "r", encoding="utf-8") as f:
                 AREA_TRANSLATIONS = json.load(f)
