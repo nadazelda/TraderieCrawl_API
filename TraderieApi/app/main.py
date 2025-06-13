@@ -277,7 +277,18 @@ async def item_list(req: ItemListRequest):
                 key=lambda x: x["kor"]
             )
             print(" before return")
-            data.sort(key=lambda x: x.get("korName", ""), reverse=False)    
+            
+            # tier 정렬 우선순위 지정
+            tier_order = {
+                "Normal": 0,
+                "Exceptional": 1,
+                "Elite": 2
+            }
+
+            data.sort(key=lambda x: (
+                                        tier_order.get(x.get("tier"), 99),  # tier 없으면 맨 뒤로
+                                        x.get("korName", "")
+                                    ), reverse=False)   
             ctg_list.sort(key=lambda x: x.get("kor", ""), reverse=False)    
             optionData.sort(key=lambda x: x.get("koKR", ""), reverse=False)   
              
