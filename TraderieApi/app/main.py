@@ -1,4 +1,6 @@
 from datetime import datetime
+from pathlib import Path
+from TraderieApi.services.util import get_terror_zone_cached
 from fastapi import APIRouter,HTTPException,FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi import Query  # 상단에 추가 필요
@@ -9,12 +11,20 @@ from collections import Counter
 import json , os,re, glob
 from schemas.item import ItemRequest,ItemListRequest
 from services.url_builder import TraderieUrlBuilder
-from services.TerrorZon import TerrorZoneFromD2Emu
+
 from .kind_map import kind_map  # 같은 폴더에 있으면 이렇게 import
 from services.Crawler import Crawler  # 필요 시 상단으로 옮겨도 됨
 # main.py 또는 app.py에서
 from slack.APScheduler import start_scheduler  # 적절히 import
 from fastapi.responses import HTMLResponse
+
+
+
+
+
+
+
+
 
 # ✅ FastAPI 앱 인스턴스 생성
 app = FastAPI()
@@ -43,10 +53,7 @@ class IgnorePingFilter(logging.Filter):
 # Uvicorn access log에 필터 적용
 logging.getLogger("uvicorn.access").addFilter(IgnorePingFilter())
 
-# 캐시 관련 전역 변수
-_cached_terror_data = None
-_last_fetch_time = 0
-CACHE_DURATION = 300  # 초 (5분)
+
 
 @router.get("/ping")
 def ping():
@@ -276,36 +283,16 @@ async def item_list(req: ItemListRequest):
             
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"파일 로드 실패: {e}")
-
-#관리자 로그 페이지 
-
-@router.get("/admin/logs", response_class=HTMLResponse)
-async def view_logs_page(date: str = None, suspicious_only: bool = False):
-    pattern = f"logs/server_log_{date}.jsonl" if date else "logs/server_log_*.jsonl"
-    files = sorted(glob.glob(pattern))
-    logs = []
-    for file in files:
-        with open(file, encoding="utf-8") as f:
-            for line in f:
-                log = json.loads(line)
-                if suspicious_only and not log.get("suspicious"):
-                    continue
-                logs.append(log)
-
-    html = "<h1>📜 로그 목록 (최대 200개)</h1>"
-    html += f"<p>날짜: {date or '전체'}, 의심 요청만: {suspicious_only}</p><ul>"
-    for log in logs[-200:]:
-        html += f"<li><b>{log['timestamp']}</b> | {log['method']} {log['url']} | IP: {log['client_ip']} {'🚨' if log.get('suspicious') else ''}</li>"
-    html += "</ul>"
-
-    return HTMLResponse(content=html)
-
-
 @router.get("/admin/stats", response_class=HTMLResponse)
 async def view_log_stats_page(date: str = None):
-    today = date or datetime.utcnow().strftime("%Y-%m-%d")
-    file_path = f"logs/server_log_{today}.jsonl"
+    date_files = sorted(Path("logs").glob("server_log_*.jsonl"))
+    available_dates = [f.stem.replace("server_log_", "") for f in date_files]
+    today = date or (available_dates[-1] if available_dates else None)
 
+    if not today:
+        return HTMLResponse(content=f"<h1>❌ 로그 파일 없음</h1>", status_code=404)
+
+    file_path = f"logs/server_log_{today}.jsonl"
     suspicious_count = 0
     total_count = 0
     reasons = Counter()
@@ -320,8 +307,8 @@ async def view_log_stats_page(date: str = None):
                 log = json.loads(line)
                 total_count += 1
                 methods[log.get("method", "UNKNOWN")] += 1
-                paths[log.get("url", "UNKNOWN")] += 1  # 수정
-                ip = log.get("client_ip", "UNKNOWN")   # 수정
+                paths[log.get("url", "UNKNOWN")] += 1
+                ip = log.get("client_ip", "UNKNOWN")
                 unique_ips.add(ip)
                 ips[ip] += 1
                 if log.get("suspicious"):
@@ -330,12 +317,18 @@ async def view_log_stats_page(date: str = None):
                         reasons[log["reason"]] += 1
     except FileNotFoundError:
         return HTMLResponse(content=f"<h1>❌ 로그 파일 없음: {file_path}</h1>", status_code=404)
-    except Exception as e:
-        return HTMLResponse(content=f"<h1>⚠️ 예외 발생:</h1><pre>{e}</pre>", status_code=500)
-
 
     html = f"""
     <h1>📊 로그 통계 ({today})</h1>
+    <form method="get">
+        <label>날짜 선택:
+            <select name="date">
+                {''.join([f'<option value="{d}" {"selected" if d == today else ""}>{d}</option>' for d in available_dates])}
+            </select>
+        </label>
+        <button type="submit">조회</button>
+    </form>
+
     <p>총 요청: {total_count}</p>
     <p>고유 IP: {len(unique_ips)}</p>
     <p>의심 요청: {suspicious_count}</p>
@@ -353,7 +346,94 @@ async def view_log_stats_page(date: str = None):
     <ul>{"".join([f"<li>{r}: {c}</li>" for r, c in reasons.items()])}</ul>
     """
 
+    return HTMLResponse(content=html)
+
+@router.get("/admin/logs", response_class=HTMLResponse)
+async def view_logs_page(
+    date: str = None,
+    suspicious_only: bool = False,
+    page: int = 1,
+    ip: str = None,
+    url: str = None,
+    reason: str = None,
+    order: str = "desc",  # ✅ 최신순 기본
+):
+    # 날짜 리스트
+    date_files = sorted(Path("logs").glob("server_log_*.jsonl"))
+    available_dates = [f.stem.replace("server_log_", "") for f in date_files]
+
+    if not date and available_dates:
+        date = available_dates[-1]
+
+    file_path = f"logs/server_log_{date}.jsonl"
+    logs = []
+
+    try:
+        with open(file_path, encoding="utf-8") as f:
+            for line in f:
+                log = json.loads(line)
+                if suspicious_only and not log.get("suspicious"):
+                    continue
+                if ip and log.get("client_ip") != ip:
+                    continue
+                if url and log.get("url") != url:
+                    continue
+                if reason and log.get("reason") != reason:
+                    continue
+                logs.append(log)
+    except FileNotFoundError:
+        return HTMLResponse(f"<h1>❌ 로그 파일 없음: {file_path}</h1>", status_code=404)
+
+    # ✅ 정렬 적용 (timestamp 기준)
+    try:
+        logs.sort(key=lambda x: x.get("timestamp", ""), reverse=(order == "desc"))
+    except Exception as e:
+        print("⚠️ 정렬 실패:", e)
+
+    # 페이지네이션
+    logs_per_page = 50
+    total_pages = (len(logs) + logs_per_page - 1) // logs_per_page
+    page = max(1, min(page, total_pages))
+    paginated_logs = logs[(page - 1) * logs_per_page : page * logs_per_page]
+
+    # ✅ HTML 생성
+    html = f"""
+    <h1>📜 관리자 로그 (페이지 {page}/{total_pages})</h1>
+    <form method="get">
+        <label>날짜:
+            <select name="date">
+                {''.join([f'<option value="{d}" {"selected" if d == date else ""}>{d}</option>' for d in available_dates])}
+            </select>
+        </label>
+        <label><input type="checkbox" name="suspicious_only" {'checked' if suspicious_only else ''}> 의심만</label>
+        <label>IP: <input name="ip" value="{ip or ''}"></label>
+        <label>URL: <input name="url" value="{url or ''}"></label>
+        <label>Reason: <input name="reason" value="{reason or ''}"></label>
+        <label>정렬:
+            <select name="order">
+                <option value="desc" {"selected" if order == "desc" else ""}>최신순</option>
+                <option value="asc" {"selected" if order == "asc" else ""}>오래된순</option>
+            </select>
+        </label>
+        <button type="submit">조회</button>
+    </form>
+    <ul>
+    """
+
+    for log in paginated_logs:
+        ip_link = f'<a href="?date={date}&ip={log["client_ip"]}">{log["client_ip"]}</a>'
+        url_link = f'<a href="?date={date}&url={log["url"]}">{log["url"]}</a>'
+        reason_text = log.get("reason", "")
+        reason_link = f'<a href="?date={date}&reason={reason_text}">{reason_text}</a>' if reason_text else ''
+        html += f"<li><b>{log['timestamp']}</b> | {log['method']} {url_link} | IP: {ip_link} {'🚨' if log.get('suspicious') else ''} {reason_link}</li>"
+
+    # 페이지네이션 링크
+    html += "</ul><div>"
+    for i in range(1, total_pages + 1):
+        html += f'<a href="?date={date}&page={i}&order={order}{"&suspicious_only=true" if suspicious_only else ""}">[{i}]</a> '
+    html += "</div>"
 
     return HTMLResponse(content=html)
 
+    
 app.include_router(router)
