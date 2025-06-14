@@ -6,7 +6,7 @@ import time
 _cached_terror_data = None
 _last_fetch_time = 0
 _last_fetch_hour = -1
-CACHE_DURATION = 60*28  #28분
+CACHE_DURATION = 60*5  #28분
 
 def get_terror_zone_cached():
     
