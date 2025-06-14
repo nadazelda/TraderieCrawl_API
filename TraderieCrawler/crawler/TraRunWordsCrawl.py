@@ -46,6 +46,7 @@ class TraRunWordsCrawl:
                   # 설명
                   desc_text = item["description"] if "description" in item and item["description"] else ""
                   desc_text = desc_text.replace("(Varies)", "") # 필요없는 문자열제거
+                  desc_text = desc_text.replace("(varies)", "") # 필요없는 문자열제거
                   desc_lines = desc_text.split("\n")
                   desc_cleaned = [line.strip() for line in desc_lines if line.strip()]
 
