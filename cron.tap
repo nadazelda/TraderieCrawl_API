@@ -77,3 +77,12 @@ docker logs -f traderie_api_app
 
 
 
+
+sudo rm -rf TraderieCrawl_API
+git clone git@github.com:nadazelda/TraderieCrawl_API.git
+
+cd TraderieCrawl_API
+docker stop traderie_crawler_app
+docker rm  traderie_crawler_app
+docker rmi  traderie_crawler_img
+docker-compose up -d --build crawler
