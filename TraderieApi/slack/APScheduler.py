@@ -15,14 +15,14 @@ def start_scheduler():
     # KST 시간대 지정
     kst = timezone("Asia/Seoul")
 
-    @scheduler.scheduled_job(CronTrigger(hour='*', minute=30, timezone=kst)) # 매일 00:00 실행
+    @scheduler.scheduled_job(CronTrigger(hour='10,15,21', minute=00, timezone=kst)) # 매일 00:00 실행
     async def send_daily_log_stats():
-        # today = datetime.utcnow().strftime("%Y-%m-%d")
-        # file_path = f"logs/server_log_{today}.jsonl"
+        today = datetime.utcnow().strftime("%Y-%m-%d")
+        file_path = f"logs/server_log_{today}.jsonl"
         
-        yesterday_utc = datetime.utcnow() - timedelta(days=1)
-        date_str = yesterday_utc.strftime("%Y-%m-%d")
-        file_path = f"logs/server_log_{date_str}.jsonl"
+        # yesterday_utc = datetime.utcnow() - timedelta(days=1)
+        # date_str = yesterday_utc.strftime("%Y-%m-%d")
+        # file_path = f"logs/server_log_{date_str}.jsonl"
 
         suspicious_count = 0
         total_count = 0
