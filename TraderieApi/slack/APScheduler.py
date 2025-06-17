@@ -17,8 +17,8 @@ def start_scheduler():
 
     @scheduler.scheduled_job(CronTrigger(hour='10,15,21', minute=00, timezone=kst)) # 매일 00:00 실행
     async def send_daily_log_stats():
-        today = datetime.utcnow().strftime("%Y-%m-%d")
-        file_path = f"logs/server_log_{today}.jsonl"
+        date_str = datetime.utcnow().strftime("%Y-%m-%d")
+        file_path = f"logs/server_log_{date_str}.jsonl"
         
         # yesterday_utc = datetime.utcnow() - timedelta(days=1)
         # date_str = yesterday_utc.strftime("%Y-%m-%d")
