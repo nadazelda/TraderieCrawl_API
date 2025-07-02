@@ -1,7 +1,7 @@
 import httpx
 import os
 
-SLACK_WEBHOOK_URL="https://hooks.slack.com/services/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"
+SLACK_WEBHOOK_URL=""
 
 async def notify_slack(message: str):
     if not SLACK_WEBHOOK_URL:

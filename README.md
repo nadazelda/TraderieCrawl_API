@@ -1,5 +1,9 @@
 
 트레더리 Diablo2 아이템 일괄 검색 시스템의 전체 아키텍처입니다.
+- **화면 UI는 github diuno88 에 존재합니다**  
+- **소스는 구글 및 Chat gpt를 통해 수집된 코드를 사용했습니다**  
+
+
 
 - **Frontend**  
   - GitHub Pages에서 호스팅  

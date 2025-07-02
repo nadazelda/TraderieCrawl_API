@@ -75,7 +75,8 @@ cd /home/ec2-user/TraderieCrawl_API
 docker-compose up --build -d fastapi 
 docker restart traderie_cloudflare
 docker logs traderie_cloudflare
-
+sudo cp /home/ec2-user/logs/* /home/ec2-user/TraderieCrawl_API/logs/
+sudo cp /home/ec2-user/CrawlResult/* /home/ec2-user/TraderieCrawl_API/CrawlResult/
 
 
 

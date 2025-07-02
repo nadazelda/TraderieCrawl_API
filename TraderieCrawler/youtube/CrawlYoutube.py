@@ -2,7 +2,9 @@ import json, requests
 
 class CrawlYoutube:
     API_KEY = ""  # 🔑 유튜브 API 키
-    CHANNEL_ID = "UCl0YCW4hlxBHy1p-n0ucJLQ"    # 📺 대상 채널 ID
+    
+    CHANNEL_ID = ""    # 📺 대상 채널 ID
+
     def __init__(self) -> None:
         self.make_uploads_playListJson()  #
         
